@@ -1,0 +1,279 @@
+---
+title: "Module3"
+author: "Tung"
+date: "13/04/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Start with the map library and a map
+
+```{r}
+library(maps) 
+map("nz")# what a cute country
+```
+
+
+## Location, location, location
+
+Here, we are going to introduce 3 different ways to define a location in ggmap.
+
+
+```{r}
+library(ggmap)# load ggmap
+
+# Define location 3 ways
+# 1. location/address
+myLocation1 <- "Melbourne"
+myLocation1
+```
+```{r}
+# 2. lat/long
+myLocation2 <- c(lon=-95.3632715, lat=29.7632836)# not "Melbourne"
+myLocation2
+```
+
+```{r}
+# 3. an area or bounding box (4 points), lower left lon, 
+# lower left lat, upper right lon, upper right lat
+# (a little glitchy for google maps)
+myLocation3 <- c(-130, 30, -105, 50)
+myLocation3
+```
+
+
+
+## Latitude & longitude
+
+One important geo-feature for geo-related applications is getting latitude and longitude of a given address (country, city, suburb, street and etc.).
+As once you have the location, you will know where to place your visualisation for this data.
+
+Previously, we can use the geocode from ggmap conveniently with Google Map API. However, Google Map changed its policy. To use its API, you now have to register and use your personal API key, for more deatils, type ?register_google.
+
+To make your life easier, we introduce you another package tmaptools:
+
+
+```{r}
+library(tmaptools)
+# Convert location/address to its lat/long coordinates:
+geocode_OSM("Melbourne")
+# Yes, Melbourne is where it's supposed to be in, in Australia
+# longitude 144.96316
+# latitude -37.81422
+```
+
+So now let’s see a map based on location. There are 4 map sources (online services), with multiple map types:
+
+    - stamen: e.g. “terrain”, “toner”, “watercolor” etc.
+    - google (API key required): “roadmap”, “terrain”, “satellite”, “hybrid”
+    - osm: open street map
+    - cloudmade: 1000s of maps, but you need an api key
+
+In R, try:
+
+```{r}
+# or help(get_stamenmap) 
+# also try ?get_googlemap, ?get_openstreetmap and ?get_cloudmademap
+?get_stamenmap 
+```
+
+
+The `get_stamenmap` function provides a general approach for quickly obtaining maps from multiple sources. It requires a bbox to define to locations, we can use the results from geocode_OSM.
+
+```{r}
+myLocation4 <- geocode_OSM("Melbourne")
+bboxVector <- as.vector(myLocation4$bbox)
+bboxVector
+```
+
+```{r}
+bbox1 <- c(
+  left = bboxVector[1], 
+  bottom = bboxVector[2], 
+  right = bboxVector[3], 
+  top = bboxVector[4]
+)
+
+myMap <- get_stamenmap(
+  bbox = bbox1, 
+  maptype = "watercolor",
+  zoom = 13
+)
+ggmap(myMap)
+```
+
+## Try some projections
+
+mercator: equally spaced straight meridians, conformal, straight compass courses
+
+then compare with e.g. albers (named after Heinrich C. Albers), is a conic, equal-area map projection that uses two standard parallels https://en.wikipedia.org/wiki/Albers_projection
+
+```{r}
+require(mapproj)
+# get map data (lat &amp;amp; lon for boundaries in this case)
+m <- map("usa", plot = FALSE) 
+ 
+map(m, project = "mercator") # try mercator first
+map.grid(m) # draw graticules
+```
+## ‘X’ marker on the map
+```{r}
+# change the projection to albers
+map(m, project = "albers", par=c(39,45))
+map.grid(m) # draw graticules to compare more easily
+```
+Let’s move on to the whole world.
+```{r}
+# get unprojected world limits
+m <- map('world', plot = FALSE)
+# center on Melb
+map(m, proj = 'azequalarea', orient = c(-37,144,0))
+map.grid(m, col = 2) # draw graticules
+```
+
+```{r}
+map(m, proj = 'orth', orient = c(-37,144,0))
+map.grid(m, col = 2, nx = 6, ny = 5, label = FALSE, lty = 2)
+points(
+  mapproject(
+    list(y = 41, x = -74)
+  ),
+  col = 3,
+  pch = "x",
+  cex = 2
+)# centre on MELB
+```
+## Label the map
+
+```{r}
+map("state", proj='bonne', param=45)
+data(state)
+text(
+  mapproject(
+    state.center
+  ),
+  state.abb
+)
+```
+## Data on a map using a quick map plot
+
+Let’s look at the data first. We are going to use the ggmap built-in data set crime.
+
+```{r}
+help(crime)
+head(crime)
+```
+
+
+This data set is pretty large, here, we will choose a subset from it and plot.
+
+```{r}
+murder <- subset(crime, offense == "murder")
+qmplot(lon, lat, 
+  data = murder, 
+  colour = I('red'),
+  size = I(3),
+  darken = .3
+)
+```
+
+
+## Choropleth Map
+
+We are going to create a choropleth map of the unemployed rate of US.
+
+Two data sets will be used here unemp and county.fips.
+
+Data always should go first, have a look at data sets first.
+
+```{r}
+help(unemp)
+head(unemp)
+ 
+help(county.fips)
+head(county.fips)
+```
+
+
+Let’s pre-processing the data.
+
+We want to split the unemployed rate into 7 intervals (“<2%”,”2-4%”,”4-6%”,”6-8%”,”8-10%”,”>10%”).
+
+```{r}
+# use the version installed with maps library!
+data(unemp)
+ 
+# set up intervals
+Intervals <-as.numeric(
+  cut(
+    unemp$unemp,
+    c(0,2,4,6,8,10,100)
+  )
+)
+```
+
+
+Then we need to match unemployment data to map regions by fips codes.
+
+```{r}
+data(county.fips)
+Matches <- Intervals[
+  match(
+    county.fips$fips,
+    unemp$fips
+  )
+]
+```
+
+
+After that, we can prepare the colour schema and plot the map.
+
+```{r}
+colors <- c("#ffffd4","#fee391","#fec44f","#fe9929","#d95f0e","#993404")
+# draw map
+map("county", 
+  col = colors[Matches], 
+  fill = TRUE,
+  resolution = 0,
+  lty = 0,
+  projection = "polyconic"
+)
+```
+
+
+State boundaries will make it better.
+
+```{r}
+# draw state boundaries
+plot.new()
+map("county", 
+  col = colors[Matches], 
+  fill = TRUE,
+  resolution = 0,
+  lty = 0,
+  projection = "polyconic"
+)
+# repeat
+map("state",
+  col = "purple",
+  fill = FALSE,
+  add = TRUE,
+  lty = 1,
+  lwd = 0.3,
+  projection = "polyconic"
+)
+
+# add title and legend
+title("Unemployment by county, 2009")
+ 
+Legend <- c("<2%","2-4%","4-6%","6-8%","8-10%",">10%")
+legend("topright", Legend, horiz = TRUE, fill = colors)
+```
+
+
+
+
+Your turn!

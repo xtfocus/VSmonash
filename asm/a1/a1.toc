@@ -1,0 +1,8 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Data Wrangling.}{2}
+\contentsline {section}{\numberline {2}Data Exploration.}{2}
+\contentsline {subsection}{Error 2: The percentage in some entries}{2}
+\contentsline {subsection}{Error 1: The location of site 2}{3}
+\contentsline {section}{\numberline {3}Answering Questions.}{4}
+\contentsline {subsection}{Q1}{4}
+\contentsline {subsection}{Q2}{4}

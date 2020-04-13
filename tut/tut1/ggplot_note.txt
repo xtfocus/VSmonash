@@ -1,0 +1,58 @@
+To create a scatter plot:
+    ggplot(data, aes(x_data, y_data)) + geom_point(aes(shape='cat',
+                                                       color='cat',
+                                                       size='num/cat'))
+Notice that what we pass to parameters in aes is a data column.
+Use + facet_wrap('Cat') To split into graphs according to Cat
+Example:
+    ggplot(myData, aes(Year, Number)) + 
+     geom_point(aes(shape = Sex)) +
+      facet_wrap(~State, nrow = 1)
+
+    ggplot(myData, aes(Year, Number)) + 
+      geom_point() +
+        facet_grid(Sex~State)
+        
+
+Sometimes we want to add name of entries on the scatter, this example show how
+to do it with geom_text:
+    ```r
+    plot1 <- ggplot(dat, aes(x = CPI, y = HDI, color = Region)) 
+# now we're saving the stages, and reusing them, plot1, plot2 etc.
+plot1 <- plot1 + geom_point(shape = 1) 
+plot1
+
+#Add labels
+
+labels <- c("Congo", "Sudan", "Afghanistan", "Greece", "China",
+                            "India", "Rwanda", "Spain", "France", 
+                       "United States", "Japan", "Norway", "Singapore")
+plot2 <- plot1 +
+    geom_text(aes(label = Country),
+                        color = "black", size = 3, hjust = 'inward',
+                        data = dat[dat$Country %in% labels, ])
+    plot2
+
+```
+If your text is cut off to the left of right, adjust hjust. If it is cutoff
+up/down, adjust vjust. I think 'inward' will automatically fit it.
+
+Notice that the parameter in data is actually just the entries of the labelled
+countries.
+
+Regression line:
+    plot3 <- plot2 +
+       geom_smooth(aes(group = 1),
+                                 method = "lm",
+                                 color = "black",
+                                 formula = y~ poly(x, 2),
+                                 se = FALSE)
+    plot3
+
+Add theme,custom xlabel and y label, adjust legend:
+    plot4 <- plot3 + theme_bw() +
+      scale_x_continuous("Corruption Perceptions Index, 2011\n(10 = least
+                                                               corrupt)") +
+        scale_y_continuous("Human Development Index, 2011\n(1 = best)") +
+          theme(legend.position = "top", legend.direction = "horizontal")
+    plot4

@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt,twoside]{article}
+
+\title{Initial Project Proposal\\The importance of physique in NBA}
+\author{Tung X. Nguyen\\ID: 30555418\\Tutor: Nicholas Spyrison}
+\date{\today}
+
+\setcounter{tocdepth}{3}
+
+
+\usepackage{apacite}
+\usepackage{url}
+\usepackage{indentfirst}
+\usepackage{amssymb}
+\usepackage[showframe=false]{geometry}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt} 
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{Tung X. Nguyen}
+\fancyhead[RE,LO]{Initial Project Proposal}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[CE,CO]{\leftmark}
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\thispagestyle{empty}
+
+\oddsidemargin = 22pt
+\evensidemargin = 22pt
+\marginparsep = 10pt
+\marginparwidth = 35pt
+
+
+\section{Questions.}
+
+1.1 What is the most common physique type in the NBA (2019-2020) by position, by height, by weight, wing size ...? 
+
+1.2 How physique can affect the draft number of a player? For instance: do bigger players get more chance of being picked in the first round (scope: all draft in history, so I think the size is good enough)?
+
+1.3 How physique and Player Efficiency Rating correlated (scope: regular season for all seasons)?
+
+1.4 Compare the physique of non-US players to US players (scope: regular season for all seasons)
+ 
+
+
+\section{Data source.}
+\addcontentsline{toc}{subsection}{}
+Player Bios Regular Season
+
+\section{Description of data source}
+There are about 450 players in the league in any season.
+
+Tabular data in HTML 514 rows x 20 columns. The data is formatted well for display but not for data explorationi, hence should be wrangled.\\
+https://stats.nba.com/players/bio/
+
+Draft Combine Anthro in HTML format
+\\https://stats.nba.com/draft/combine-anthro/
+
+Player Efficiency Rating\\http://insider.espn.com/nba/hollinger/statistics
+ 
+\bibliographystyle{apacite}
+\bibliography{a2bib}
+\end{document}
