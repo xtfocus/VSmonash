@@ -9,7 +9,7 @@ str(dat)
 
 # Sort the latitudes
 site.lat <- unique(dat[c('location', 'latitude')])
-site_order <- order(site.lat$latitude)
+site_order <- order(site.lat$latitude, decreasing = T)
 site.lat <- site.lat[site_order,]
 
 dat$location <- factor(dat$location, levels = site.lat$location)
@@ -21,10 +21,12 @@ plot2 <- plot1 + geom_smooth(aes(group = 1),
                              size = 0.6,
                              se = FALSE)
 
+# labels for x and y
 plot3 <- plot2 + theme_bw() +
   scale_x_continuous("Year") +
   scale_y_continuous("Bleaching percentage") +
   theme(legend.position = "top", legend.direction = "horizontal")
+
 plot3
 
 
