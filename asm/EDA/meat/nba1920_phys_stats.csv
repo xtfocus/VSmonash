@@ -1,0 +1,515 @@
+Player,Team,Age,Height,Weight,College,Country,Draft Year,Draft Round,Draft Number,GP,PTS,REB,AST,NetRtg,OREB%,DREB%,USG%,TS%,AST%
+Aaron Gordon,ORL,24,6-8,235,Arizona,USA,2014,1,4,58,14.4,7.6,3.7,-2.0,5.1%,17.5%,20.3%,51.1%,16.4%
+Aaron Holiday,IND,23,6-0,185,UCLA,USA,2018,1,23,58,9.4,2.3,3.3,1.9,1.5%,7.6%,18.8%,51.7%,19.1%
+Abdel Nader,OKC,26,6-5,225,Iowa State,Egypt,2016,2,58,48,6.0,1.9,0.7,-3.4,1.8%,9.5%,16.0%,58.0%,7.0%
+Adam Mokoka,CHI,21,6-5,190,None,France,Undrafted,Undrafted,Undrafted,11,2.9,0.9,0.4,17.1,5.7%,2.9%,11.0%,53.8%,4.3%
+Admiral Schofield,WAS,23,6-5,241,Tennessee,United Kingdo...,2019,2,42,27,3.1,1.3,0.5,-4.9,1.8%,9.2%,12.3%,51.4%,6.8%
+Al Horford,PHI,33,6-9,240,Florida,Dominican Rep...,2007,1,3,60,12.0,6.9,4.1,3.5,5.0%,17.0%,17.4%,52.6%,18.5%
+Al-Farouq Aminu,ORL,29,6-8,220,Wake Forest,USA,2010,1,8,18,4.3,4.8,1.2,-5.4,5.3%,15.8%,12.7%,39.5%,8.8%
+Alec Burks,PHI,28,6-6,214,Colorado,USA,2011,1,12,59,15.1,4.4,2.9,-8.3,2.5%,13.4%,23.0%,54.9%,17.8%
+Alen Smailagic,GSW,19,6-10,215,None,Serbia,2019,2,39,14,4.2,1.9,0.9,-3.0,7.7%,11.0%,17.5%,61.0%,13.3%
+Alex Caruso,LAL,26,6-5,186,Texas A&M,USA,Undrafted,Undrafted,Undrafted,58,5.4,1.9,1.8,10.3,1.4%,8.8%,13.6%,53.8%,12.8%
+Alex Len,SAC,26,7-0,250,Maryland,Ukraine,2013,1,5,49,8.3,6.0,1.0,-5.6,9.6%,19.5%,17.8%,59.6%,8.5%
+Alfonzo McKinnie,CLE,27,6-7,215,None,USA,Undrafted,Undrafted,Undrafted,40,4.6,2.8,0.4,-7.4,6.1%,13.1%,14.7%,49.3%,3.2%
+Alize Johnson,IND,23,6-7,212,Missouri State,USA,2018,2,50,13,1.4,1.4,0.2,4.7,11.9%,20.4%,14.2%,51.0%,4.5%
+Allen Crabbe,MIN,28,6-5,212,California,USA,2013,2,31,37,4.6,2.1,0.9,-15.0,1.4%,9.8%,12.2%,47.0%,7.3%
+Allonzo Trier,NYK,24,6-4,200,Arizona,USA,Undrafted,Undrafted,Undrafted,24,6.5,1.2,1.2,-11.1,1.8%,7.8%,20.8%,62.0%,16.4%
+Amile Jefferson,ORL,26,6-9,222,Duke,USA,Undrafted,Undrafted,Undrafted,18,0.8,1.3,0.2,8.5,11.2%,16.3%,12.9%,37.2%,7.8%
+Amir Coffey,LAC,22,6-7,210,None,USA,Undrafted,Undrafted,Undrafted,13,2.2,1.1,0.7,-3.2,4.1%,9.6%,15.4%,40.8%,13.2%
+Andre Drummond,CLE,26,6-10,279,Connecticut,USA,2012,1,9,57,17.7,15.2,2.7,-5.0,12.9%,33.6%,25.3%,55.3%,13.3%
+Andre Iguodala,MIA,36,6-6,215,Arizona,USA,2004,1,9,14,4.4,3.8,2.0,-3.1,3.7%,14.2%,11.4%,55.9%,16.6%
+Andrew Wiggins,GSW,25,6-7,197,Kansas,Canada,2014,1,1,54,21.8,5.1,3.7,-5.1,3.3%,11.0%,26.9%,53.6%,18.0%
+Anfernee Simons,POR,20,6-3,181,None,USA,2018,1,24,65,8.8,2.3,1.5,-8.6,1.6%,7.9%,18.3%,50.6%,10.0%
+Ante Zizic,CLE,23,6-10,266,None,Croatia,2016,1,23,22,4.4,3.0,0.3,1.3,8.4%,21.1%,16.8%,59.7%,3.8%
+Anthony Davis,LAL,27,6-10,253,Kentucky,USA,2012,1,1,55,26.7,9.4,3.1,6.7,6.4%,19.7%,28.7%,61.4%,14.8%
+Anthony Tolliver,MEM,34,6-8,240,Creighton,USA,Undrafted,Undrafted,Undrafted,47,3.5,2.8,0.7,-7.2,3.7%,13.3%,11.0%,49.7%,6.0%
+Antonius Cleveland,DAL,26,6-5,195,S.E. Missouri,USA,Undrafted,Undrafted,Undrafted,6,0.8,0.5,0.0,-26.0,0.0%,25.0%,14.3%,36.3%,0.0%
+Anzejs Pasecniks,WAS,24,7-2,229,None,Latvia,2017,1,25,24,6.0,4.1,0.7,0.4,8.5%,15.1%,15.1%,55.5%,5.9%
+Aron Baynes,PHX,33,6-10,260,Washington State,Australia,Undrafted,Undrafted,Undrafted,42,11.5,5.6,1.6,-1.5,7.5%,17.8%,20.5%,58.1%,10.8%
+Austin Rivers,HOU,27,6-3,200,Duke,USA,2012,1,10,60,8.5,2.4,1.6,4.1,1.6%,7.9%,14.6%,53.8%,9.3%
+Avery Bradley,LAL,29,6-3,180,Texas,USA,2010,1,19,49,8.6,2.3,1.3,7.4,1.5%,7.7%,15.3%,53.7%,7.0%
+BJ Johnson,ORL,24,6-7,200,None,USA,Undrafted,Undrafted,Undrafted,8,1.6,0.8,0.3,-24.3,1.7%,9.3%,18.2%,34.4%,9.5%
+Bam Adebayo,MIA,22,6-9,255,Kentucky,USA,2017,1,14,65,16.2,10.5,5.1,4.6,7.8%,22.4%,20.8%,60.6%,23.2%
+Ben McLemore,HOU,27,6-3,195,Kansas,USA,2013,1,7,63,9.8,2.2,0.9,6.7,1.3%,7.7%,15.4%,62.2%,5.1%
+Ben Simmons,PHI,23,6-10,240,Louisiana State,Australia,2016,1,1,54,16.7,7.8,8.2,2.2,5.4%,15.8%,20.5%,60.8%,34.0%
+Bismack Biyombo,CHA,27,6-8,255,None,Democratic Re...,2011,1,7,53,7.4,5.8,0.9,-6.6,11.2%,17.8%,16.8%,57.0%,7.9%
+Blake Griffin,DET,31,6-9,250,Oklahoma,USA,2009,1,1,18,15.5,4.7,3.3,-2.6,3.2%,12.8%,27.7%,47.6%,18.4%
+Boban Marjanovic,DAL,31,7-4,290,None,Serbia,Undrafted,Undrafted,Undrafted,37,6.3,4.1,0.4,8.6,15.6%,28.4%,26.4%,59.9%,5.9%
+Bobby Portis,NYK,25,6-10,250,Arkansas,USA,2015,1,22,66,10.1,5.1,1.5,-7.9,5.3%,18.0%,20.7%,53.0%,11.2%
+Bogdan Bogdanovic,SAC,27,6-6,220,None,Serbia,2014,1,27,53,14.5,3.2,3.2,-2.2,1.1%,10.3%,22.0%,56.0%,18.0%
+Bojan Bogdanovic,UTA,30,6-8,226,None,Croatia,2011,2,31,63,20.2,4.1,2.1,5.5,2.0%,10.0%,25.2%,60.3%,9.9%
+Brad Wanamaker,BOS,30,6-3,210,Pittsburgh,USA,Undrafted,Undrafted,Undrafted,63,6.6,2.0,2.5,2.9,1.5%,7.9%,15.2%,56.0%,18.4%
+Bradley Beal,WAS,26,6-3,207,Florida,USA,2012,1,3,57,30.5,4.2,6.1,-4.5,2.4%,9.5%,33.8%,57.9%,28.5%
+Brandon Clarke,MEM,23,6-8,215,Gonzaga,Canada,2019,1,21,50,12.0,5.8,1.4,1.1,6.9%,17.7%,18.3%,67.0%,9.7%
+Brandon Goodwin,ATL,24,6-0,180,None,USA,Undrafted,Undrafted,Undrafted,34,6.1,2.1,1.5,-13.8,2.3%,13.2%,22.0%,50.7%,20.8%
+Brandon Ingram,NOP,22,6-7,190,Duke,USA,2016,1,2,56,24.3,6.3,4.3,-0.3,2.4%,14.4%,27.6%,59.0%,19.5%
+Brandon Knight,DET,28,6-2,182,Kentucky,USA,2011,1,8,25,7.3,1.6,2.8,-7.6,0.9%,9.3%,20.7%,50.3%,21.6%
+Brian Bowen II,IND,21,6-6,190,None,USA,Undrafted,Undrafted,Undrafted,5,0.8,1.4,0.0,18.6,3.3%,18.2%,13.9%,22.2%,0.0%
+Brook Lopez,MIL,32,7-0,282,Stanford,USA,2008,1,10,61,11.0,4.5,1.6,12.4,2.5%,11.9%,17.3%,53.7%,7.6%
+Bruce Brown,DET,23,6-4,202,Miami,USA,2018,2,42,58,8.9,4.7,4.0,-4.3,3.8%,13.1%,15.9%,51.8%,20.8%
+Bruno Caboclo,HOU,24,6-9,218,None,Brazil,2014,1,20,27,2.7,2.0,0.4,-2.8,8.6%,13.5%,15.7%,45.5%,8.2%
+Bruno Fernando,ATL,21,6-9,240,Maryland,Angola,2019,2,34,56,4.3,3.5,0.9,-5.6,8.5%,17.9%,14.7%,54.2%,10.1%
+Bryn Forbes,SAS,26,6-2,205,Michigan State,USA,Undrafted,Undrafted,Undrafted,63,11.2,2.0,1.7,-6.8,0.7%,7.1%,18.5%,57.0%,9.7%
+Buddy Hield,SAC,27,6-4,220,Oklahoma,Bahamas,2016,1,6,64,19.8,4.8,3.1,-2.0,2.7%,12.4%,26.1%,56.6%,15.4%
+CJ McCollum,POR,28,6-3,190,Lehigh,USA,2013,1,10,62,22.5,4.1,4.3,0.8,1.7%,8.6%,26.3%,54.3%,18.6%
+CJ Miles,WAS,33,6-6,220,None,USA,2005,2,34,10,6.4,1.2,1.2,-1.3,2.1%,5.0%,16.9%,47.2%,9.1%
+Caleb Martin,CHA,24,6-5,205,None,USA,Undrafted,Undrafted,Undrafted,18,6.2,2.1,1.3,0.8,3.0%,8.6%,15.2%,59.5%,12.2%
+Caleb Swanigan,POR,22,6-9,260,Purdue,USA,2017,1,26,27,2.4,3.7,1.1,-6.5,9.9%,24.8%,13.2%,59.7%,13.8%
+Cam Reddish,ATL,20,6-8,218,Duke,USA,2019,1,10,58,10.5,3.7,1.5,-6.3,2.1%,11.0%,18.5%,50.0%,7.9%
+Cameron Johnson,PHX,24,6-8,210,North Carolina,USA,2019,1,11,49,8.1,2.9,1.1,-2.7,3.7%,10.1%,15.4%,57.6%,7.8%
+Caris LeVert,BKN,25,6-6,205,Michigan,USA,2016,1,20,39,17.7,4.1,4.1,-0.1,3.2%,9.5%,27.7%,50.9%,22.9%
+Carmelo Anthony,POR,35,6-8,238,Syracuse,USA,2003,1,3,50,15.3,6.3,1.6,0.3,3.7%,14.2%,21.8%,51.7%,6.9%
+Carsen Edwards,BOS,22,5-11,200,Purdue,USA,2019,2,33,35,3.0,1.2,0.6,-6.4,1.6%,10.8%,16.8%,44.6%,11.6%
+Cedi Osman,CLE,25,6-7,230,None,Turkey,2015,2,31,65,11.0,3.6,2.4,-9.0,2.0%,10.3%,16.2%,55.2%,11.5%
+Chandler Hutchison,CHI,23,6-7,210,Boise State,USA,2018,1,22,28,7.8,3.9,0.9,-11.9,3.2%,18.0%,18.3%,52.1%,7.7%
+Chandler Parsons,ATL,31,6-9,230,Florida,USA,2011,2,38,5,2.8,1.4,0.6,-29.0,1.5%,12.0%,15.0%,38.9%,10.0%
+Charles Brown Jr.,ATL,23,6-6,199,None,USA,Undrafted,Undrafted,Undrafted,10,2.0,0.4,0.2,33.9,4.0%,4.8%,23.1%,47.2%,7.7%
+Chasson Randle,GSW,27,6-2,185,Stanford,USA,Undrafted,Undrafted,Undrafted,3,1.7,0.7,1.7,-2.0,0.0%,5.3%,8.0%,37.7%,16.1%
+Cheick Diallo,PHX,23,6-8,219,Kansas,Mali,2016,2,33,44,4.8,2.9,0.5,-4.6,6.0%,21.2%,16.6%,68.8%,7.7%
+Chimezie Metu,SAS,23,6-9,225,USC,USA,2018,2,49,16,2.9,1.6,0.4,2.5,12.5%,21.6%,23.8%,59.7%,14.0%
+Chris Boucher,TOR,27,6-9,200,Oregon,Canada,Undrafted,Undrafted,Undrafted,55,6.3,4.4,0.4,5.4,12.0%,18.2%,18.3%,57.0%,4.9%
+Chris Chiozza,BKN,24,5-11,175,None,USA,Undrafted,Undrafted,Undrafted,21,4.0,1.7,2.3,10.2,2.1%,11.1%,15.7%,52.6%,28.9%
+Chris Clemons,HOU,22,5-9,180,None,USA,Undrafted,Undrafted,Undrafted,29,4.9,0.8,0.8,-6.8,1.1%,7.1%,23.9%,54.6%,15.0%
+Chris Paul,OKC,34,6-1,175,Wake Forest,USA,2005,1,4,63,17.7,4.9,6.8,6.8,1.1%,14.1%,22.6%,60.9%,31.8%
+Chris Silva,MIA,23,6-8,234,South Carolina,Gabon,Undrafted,Undrafted,Undrafted,41,2.9,2.7,0.5,-3.4,17.1%,17.4%,15.9%,66.3%,10.4%
+Christian Wood,DET,24,6-10,214,UNLV,USA,Undrafted,Undrafted,Undrafted,62,13.1,6.3,1.0,2.0,7.9%,21.4%,22.3%,65.9%,7.4%
+Clint Capela,ATL,25,6-10,240,None,Switzerland,2014,1,25,39,13.9,13.8,1.2,2.5,11.8%,26.5%,15.6%,62.6%,5.6%
+Coby White,CHI,20,6-4,195,North Carolina,USA,2019,1,7,65,13.2,3.5,2.7,-4.4,1.5%,12.8%,23.5%,50.6%,16.2%
+Cody Martin,CHA,24,6-5,205,Nevada-Reno,USA,2019,2,36,48,5.0,3.3,2.0,-3.2,3.9%,14.0%,13.1%,50.5%,15.4%
+Cody Zeller,CHA,27,7-0,240,Indiana,USA,2013,1,4,58,11.1,7.1,1.5,-8.3,11.0%,19.7%,20.1%,57.6%,11.1%
+Collin Sexton,CLE,21,6-1,190,Alabama,USA,2018,1,8,65,20.8,3.1,3.0,-9.2,2.8%,6.9%,26.4%,56.0%,14.6%
+Cory Joseph,SAC,28,6-3,200,Texas,Canada,2011,1,29,64,6.3,2.5,3.4,-0.4,2.4%,8.3%,12.8%,51.3%,19.9%
+Courtney Lee,DAL,34,6-5,215,Western Kentucky,USA,2008,1,22,24,4.5,1.3,0.5,6.7,1.9%,7.0%,11.6%,62.9%,4.4%
+Cristiano Felicio,CHI,27,6-10,270,None,Brazil,Undrafted,Undrafted,Undrafted,22,3.9,4.6,0.7,-7.7,14.4%,13.9%,8.8%,67.1%,5.3%
+D'Angelo Russell,MIN,24,6-4,193,Ohio State,USA,2015,1,2,45,23.1,3.9,6.3,-8.1,1.1%,10.7%,30.5%,55.6%,32.7%
+D.J. Augustin,ORL,32,5-11,183,Texas,USA,2008,1,9,49,10.4,2.2,4.6,2.0,1.4%,7.1%,18.4%,54.8%,28.0%
+D.J. Wilson,MIL,24,6-10,231,Michigan,USA,2017,1,17,31,3.2,2.2,0.7,-6.5,3.5%,16.9%,17.2%,47.6%,12.0%
+DaQuan Jeffries,SAC,22,6-5,230,None,USA,Undrafted,Undrafted,Undrafted,6,1.2,0.2,0.2,5.7,3.6%,0.0%,13.7%,50.0%,6.7%
+Damian Jones,ATL,24,6-11,245,Vanderbilt,USA,2016,1,30,55,5.6,3.7,0.6,-12.6,8.0%,15.3%,11.3%,71.2%,5.7%
+Damian Lillard,POR,29,6-2,195,Weber State,USA,2012,1,6,58,28.9,4.3,7.8,1.3,1.3%,9.1%,29.3%,61.9%,33.2%
+Damion Lee,GSW,27,6-5,210,Louisville,USA,Undrafted,Undrafted,Undrafted,49,12.7,4.9,2.7,-4.1,2.1%,14.4%,18.4%,54.8%,13.9%
+Damyean Dotson,NYK,25,6-5,210,Houston,USA,2017,2,44,48,6.7,1.9,1.2,-5.3,1.1%,9.1%,15.8%,52.7%,10.5%
+Daniel Gafford,CHI,21,6-10,234,Arkansas,USA,2019,2,38,43,5.1,2.5,0.5,-1.9,8.1%,9.2%,13.1%,68.6%,5.1%
+Daniel Theis,BOS,28,6-8,245,None,Germany,Undrafted,Undrafted,Undrafted,58,9.3,6.6,1.6,7.7,9.0%,17.2%,14.6%,62.9%,10.0%
+Danilo Gallinari,OKC,31,6-10,233,None,Italy,2008,1,6,55,19.2,5.5,2.1,5.1,2.0%,16.0%,24.0%,61.1%,10.1%
+Danny Green,LAL,32,6-6,215,North Carolina,USA,2009,2,46,61,8.2,3.4,1.4,8.7,2.9%,10.0%,13.3%,56.4%,7.0%
+Dante Exum,CLE,24,6-5,214,None,Australia,2014,1,5,35,4.5,1.9,1.1,-8.8,2.4%,10.9%,14.5%,57.6%,12.4%
+Danuel House Jr.,HOU,26,6-6,220,Texas A&M,USA,Undrafted,Undrafted,Undrafted,58,10.2,4.2,1.3,2.9,2.9%,10.2%,13.3%,57.1%,6.1%
+Dario Saric,PHX,26,6-10,225,None,Croatia,2014,1,12,58,10.1,5.9,1.9,-1.9,6.0%,17.8%,16.8%,57.2%,10.5%
+Darius Bazley,OKC,19,6-8,208,None,USA,2019,1,23,53,4.5,3.7,0.5,-3.3,2.2%,17.3%,13.7%,47.5%,4.6%
+Darius Garland,CLE,20,6-1,192,Vanderbilt,USA,2019,1,5,59,12.3,1.9,3.9,-8.7,1.4%,4.6%,20.1%,49.8%,18.2%
+Daryl Macon,MIA,24,6-2,185,Arkansas,USA,Undrafted,Undrafted,Undrafted,4,0.8,0.0,0.3,7.6,0.0%,0.0%,16.7%,50.0%,14.3%
+David Nwaba,BKN,27,6-5,219,None,USA,Undrafted,Undrafted,Undrafted,20,5.2,2.3,0.4,7.2,2.7%,10.9%,13.9%,62.7%,4.6%
+Davis Bertans,WAS,27,6-10,225,None,Latvia,2011,2,42,54,15.4,4.5,1.7,-0.3,2.1%,13.0%,18.3%,62.8%,8.1%
+De'Aaron Fox,SAC,22,6-3,185,Kentucky,USA,2017,1,5,45,20.4,4.0,6.8,-2.9,2.0%,10.6%,28.7%,55.6%,33.3%
+De'Andre Hunter,ATL,22,6-7,225,Virginia,USA,2019,1,4,63,12.3,4.5,1.8,-5.5,2.1%,11.6%,17.3%,52.1%,7.9%
+De'Anthony Melton,MEM,21,6-2,200,USC,USA,2018,2,46,52,8.1,3.7,3.0,6.2,3.5%,13.9%,18.9%,52.5%,20.1%
+DeAndre Jordan,BKN,31,6-11,265,Texas A&M,USA,2008,2,35,56,8.3,10.0,1.9,-1.8,10.5%,29.3%,13.6%,68.2%,13.2%
+DeAndre' Bembry,ATL,25,6-5,210,None,USA,2016,1,21,43,5.8,3.5,1.9,-11.8,3.4%,12.3%,13.7%,50.0%,13.0%
+DeMar DeRozan,SAS,30,6-6,220,USC,USA,2009,1,9,61,22.2,5.6,5.6,-2.7,1.9%,14.2%,26.4%,59.7%,26.1%
+DeMarre Carroll,HOU,33,6-6,215,Missouri,USA,2009,1,27,21,3.5,2.2,0.9,7.7,5.1%,14.3%,15.8%,52.3%,9.9%
+Dean Wade,CLE,23,6-9,228,Kansas State,USA,Undrafted,Undrafted,Undrafted,12,1.7,1.6,0.2,-6.5,3.8%,21.3%,9.1%,74.4%,3.9%
+Deandre Ayton,PHX,21,6-11,250,Arizona,Bahamas,2018,1,1,30,19.0,12.0,1.9,2.2,12.4%,22.9%,23.7%,57.1%,9.3%
+Dejounte Murray,SAS,23,6-4,180,Washington,USA,2016,1,29,58,10.7,5.8,4.1,-5.1,4.5%,18.4%,20.5%,53.5%,23.8%
+Delon Wright,DAL,27,6-5,185,Utah,USA,2015,1,20,65,7.3,4.0,3.4,1.9,4.2%,12.6%,14.3%,56.3%,21.7%
+Dennis Schroder,OKC,26,6-1,172,None,Germany,2013,1,17,63,19.0,3.7,4.1,6.0,1.0%,10.0%,26.2%,57.3%,22.0%
+Dennis Smith Jr.,NYK,22,6-2,205,North Carolina State,USA,2017,1,9,34,5.5,2.3,2.9,-17.1,3.4%,10.2%,22.3%,39.9%,29.7%
+Denzel Valentine,CHI,26,6-4,220,Michigan State,USA,2016,1,14,36,6.8,2.1,1.2,-5.0,1.6%,13.8%,22.9%,51.1%,14.7%
+Deonte Burton,OKC,26,6-4,240,Iowa State,USA,Undrafted,Undrafted,Undrafted,34,2.8,1.4,0.3,-12.0,2.0%,12.4%,18.4%,42.6%,6.3%
+Derrick Favors,NOP,28,6-9,265,Georgia Tech,USA,2010,1,3,45,9.2,9.9,1.7,5.8,12.4%,24.8%,13.9%,62.4%,9.1%
+Derrick Jones Jr.,MIA,23,6-6,210,UNLV,USA,Undrafted,Undrafted,Undrafted,51,8.9,4.2,1.1,-0.9,4.6%,11.8%,13.7%,60.9%,6.9%
+Derrick Rose,DET,31,6-2,200,Memphis,USA,2008,1,1,50,18.1,2.4,5.6,-3.4,2.1%,7.1%,30.3%,55.5%,37.3%
+Derrick Walton Jr.,DET,25,6-0,185,Michigan,USA,Undrafted,Undrafted,Undrafted,26,2.0,0.6,1.0,-0.9,0.7%,5.4%,7.9%,61.7%,15.5%
+Derrick White,SAS,25,6-4,190,Colorado,USA,2017,1,29,61,10.4,3.2,3.4,-0.3,2.0%,10.4%,17.5%,58.5%,19.9%
+Devin Booker,PHX,23,6-5,206,Kentucky,USA,2015,1,13,62,26.1,4.2,6.6,1.2,1.2%,10.3%,28.9%,61.7%,29.0%
+Devon Hall,OKC,24,6-2,215,Virginia,USA,2018,2,53,5,1.0,0.2,0.6,46.5,0.0%,4.3%,16.7%,37.0%,17.6%
+Devonte' Graham,CHA,25,6-1,195,Kansas,USA,2018,2,34,63,18.2,3.4,7.5,-4.5,1.8%,7.8%,24.3%,53.7%,34.5%
+Dewan Hernandez,TOR,23,6-10,235,Miami,USA,2019,2,59,4,1.0,1.8,0.0,-0.3,20.0%,33.3%,23.3%,34.0%,0.0%
+Dewayne Dedmon,ATL,30,7-0,245,USC,USA,Undrafted,Undrafted,Undrafted,44,5.8,5.7,0.5,-0.7,7.5%,24.1%,17.9%,47.3%,4.1%
+Dillon Brooks,MEM,24,6-7,225,Oregon,Canada,2017,2,45,65,15.7,3.3,2.0,-0.3,3.1%,7.5%,24.5%,50.8%,10.0%
+Dion Waiters,LAL,28,6-3,210,Syracuse,USA,2012,1,4,3,9.3,3.7,1.0,13.5,0.0%,20.8%,29.6%,53.0%,12.5%
+Domantas Sabonis,IND,23,6-11,240,Gonzaga,Lithuania,2016,1,11,62,18.5,12.4,5.0,3.1,8.9%,26.2%,22.9%,58.6%,21.5%
+Donovan Mitchell,UTA,23,6-1,215,Louisville,USA,2017,1,13,63,24.2,4.4,4.2,2.5,2.1%,10.2%,30.5%,56.0%,21.0%
+Donta Hall,DET,22,6-9,229,None,USA,Undrafted,Undrafted,Undrafted,4,1.5,3.8,0.5,-30.1,10.5%,25.7%,7.8%,45.2%,7.1%
+Donte DiVincenzo,MIL,23,6-4,203,Villanova,USA,2018,1,17,59,9.4,4.9,2.3,13.9,4.1%,14.3%,16.5%,57.0%,13.2%
+Dorian Finney-Smith,DAL,26,6-7,220,Florida,USA,Undrafted,Undrafted,Undrafted,64,9.3,5.5,1.5,7.1,6.4%,11.0%,12.6%,59.7%,6.9%
+Doug McDermott,IND,28,6-7,225,Creighton,USA,2014,1,11,62,10.4,2.5,1.1,4.0,1.8%,9.8%,18.6%,62.6%,8.0%
+Dragan Bender,GSW,22,7-0,249,None,Croatia,2016,1,4,16,6.7,4.6,1.8,1.1,6.0%,18.3%,18.0%,54.5%,14.2%
+Draymond Green,GSW,30,6-6,230,Michigan State,USA,2012,2,35,43,8.0,6.2,6.2,-7.2,1.8%,19.2%,15.6%,48.9%,31.0%
+Drew Eubanks,SAS,23,6-9,245,None,USA,Undrafted,Undrafted,Undrafted,14,3.6,2.5,0.4,-15.1,6.3%,20.9%,14.0%,77.6%,6.0%
+Duncan Robinson,MIA,25,6-7,215,Michigan,USA,Undrafted,Undrafted,Undrafted,65,13.3,3.3,1.4,7.7,0.5%,10.1%,15.4%,67.8%,6.7%
+Dusty Hannahs,MEM,26,6-3,210,Arkansas,USA,Undrafted,Undrafted,Undrafted,2,6.0,0.5,0.0,17.2,0.0%,6.3%,28.6%,60.7%,0.0%
+Dwayne Bacon,CHA,24,6-6,221,Florida State,USA,2017,2,40,39,5.7,2.6,1.3,-8.2,2.0%,12.4%,18.9%,41.9%,12.1%
+Dwight Howard,LAL,34,6-10,265,None,USA,2004,1,1,62,7.5,7.4,0.7,6.8,12.7%,25.0%,14.3%,69.6%,4.8%
+Dwight Powell,DAL,28,6-10,240,Stanford,Canada,2014,2,45,40,9.4,5.7,1.5,8.9,7.1%,13.2%,12.6%,67.7%,7.6%
+Dzanan Musa,BKN,20,6-9,217,None,Bosnia and He...,2018,1,29,35,4.2,2.0,0.9,-5.3,4.2%,11.2%,18.7%,46.7%,11.6%
+E'Twaun Moore,NOP,31,6-3,191,Purdue,USA,2011,2,55,51,8.6,2.4,1.4,-1.9,2.7%,9.5%,19.6%,50.9%,10.9%
+Ed Davis,UTA,30,6-9,218,North Carolina,USA,2010,1,13,25,1.3,3.8,0.3,-13.8,10.2%,24.0%,8.4%,42.5%,4.5%
+Edmond Sumner,IND,24,6-4,196,Xavier,USA,2017,2,52,25,4.6,1.5,1.6,-3.7,2.9%,7.3%,17.1%,48.5%,15.1%
+Elfrid Payton,NYK,26,6-3,195,Louisana-Lafayette,USA,2014,1,10,45,10.0,4.7,7.2,-3.0,3.9%,12.6%,19.0%,47.0%,34.7%
+Elie Okobo,PHX,22,6-3,190,None,France,2018,2,31,54,4.0,1.6,2.1,-3.3,2.2%,10.1%,14.9%,51.1%,22.7%
+Emmanuel Mudiay,UTA,24,6-3,200,None,Democratic Re...,2015,1,7,48,7.3,2.4,2.2,1.3,2.3%,11.7%,21.4%,55.0%,21.7%
+Enes Kanter,BOS,27,6-10,250,,Turkey,2011,1,3,51,8.2,7.7,1.0,8.3,15.0%,26.6%,18.5%,59.4%,8.2%
+Eric Bledsoe,MIL,30,6-1,214,Kentucky,USA,2010,1,18,56,15.4,4.6,5.4,13.3,2.6%,11.9%,23.6%,57.9%,27.4%
+Eric Gordon,HOU,31,6-3,215,Indiana,USA,2008,1,7,34,14.5,1.9,1.5,1.4,0.7%,5.4%,21.1%,51.1%,7.9%
+Eric Mika,SAC,25,6-10,233,None,USA,Undrafted,Undrafted,Undrafted,1,6.0,7.0,0.0,19.5,11.1%,26.3%,8.9%,77.3%,0.0%
+Eric Paschall,GSW,23,6-6,255,Villanova,USA,2019,2,41,60,14.0,4.6,2.1,-10.6,4.7%,11.6%,20.7%,57.1%,12.6%
+Ersan Ilyasova,MIL,32,6-9,235,None,Turkey,2005,2,36,56,6.8,4.9,0.8,6.9,6.3%,21.1%,16.1%,59.1%,6.9%
+Evan Fournier,ORL,27,6-7,205,None,France,2012,1,20,61,18.8,2.6,3.2,-3.0,0.8%,7.3%,23.8%,59.9%,16.1%
+Evan Turner,MIN,31,6-6,220,Ohio State,USA,2010,1,2,19,3.3,2.0,2.0,-11.4,2.8%,10.7%,15.4%,42.4%,23.5%
+Frank Jackson,NOP,21,6-3,205,Duke,USA,2017,2,31,51,5.6,1.4,0.8,-5.9,2.6%,7.2%,19.6%,50.0%,8.6%
+Frank Kaminsky,PHX,27,7-0,240,Wisconsin,USA,2015,1,9,32,11.0,4.9,2.2,-2.3,3.9%,17.7%,20.2%,55.4%,15.1%
+Frank Mason,MIL,26,5-11,190,Kansas,USA,2017,2,34,6,2.3,1.3,1.8,-9.3,4.5%,8.1%,20.1%,33.7%,31.4%
+Frank Ntilikina,NYK,21,6-4,200,None,France,2017,1,8,57,6.3,2.1,3.0,-3.9,1.8%,8.2%,15.2%,49.7%,20.9%
+Fred VanVleet,TOR,26,6-1,197,Wichita State,USA,Undrafted,Undrafted,Undrafted,48,17.6,3.8,6.6,5.1,1.0%,8.7%,22.0%,54.6%,27.5%
+Furkan Korkmaz,PHI,22,6-7,202,None,Turkey,2016,1,26,64,9.7,2.3,1.1,2.9,1.1%,9.0%,17.8%,57.1%,7.3%
+Gabe Vincent,MIA,23,6-3,200,Cal-Santa Barbara,USA,Undrafted,Undrafted,Undrafted,6,2.0,0.5,0.5,-6.9,0.0%,7.0%,19.4%,31.6%,12.5%
+Garrett Temple,BKN,33,6-5,195,Louisiana State,USA,Undrafted,Undrafted,Undrafted,55,10.3,3.5,2.6,-1.6,1.6%,9.1%,16.1%,50.7%,13.5%
+Garrison Mathews,WAS,23,6-5,215,None,USA,Undrafted,Undrafted,Undrafted,18,5.4,1.3,0.6,7.1,2.5%,7.5%,13.7%,69.1%,6.3%
+Gary Clark,ORL,25,6-6,225,None,USA,Undrafted,Undrafted,Undrafted,35,3.2,2.4,0.4,-1.6,5.5%,12.4%,10.3%,53.4%,5.0%
+Gary Harris,DEN,25,6-4,210,Michigan State,USA,2014,1,19,56,10.4,2.9,2.1,3.4,1.5%,7.7%,15.0%,51.9%,9.1%
+Gary Payton II,WAS,27,6-3,195,Oregon State,USA,Undrafted,Undrafted,Undrafted,29,3.9,2.8,1.7,-14.3,5.3%,12.7%,12.9%,47.3%,15.8%
+Gary Trent Jr.,POR,21,6-5,209,None,USA,Undrafted,Undrafted,Undrafted,53,7.7,1.7,0.9,-4.4,1.7%,5.8%,15.1%,55.5%,6.7%
+George Hill,MIL,33,6-3,188,None,USA,2008,1,26,52,9.6,3.0,2.9,11.5,3.9%,8.5%,15.5%,66.8%,18.9%
+Georges Niang,UTA,26,6-7,230,Iowa State,USA,2016,2,50,58,5.8,1.9,0.6,-1.2,1.5%,11.9%,16.2%,61.2%,6.6%
+Giannis Antetokounmpo,MIL,25,6-11,242,None,Greece,2013,1,15,57,29.6,13.7,5.8,16.1,6.9%,30.5%,36.2%,60.8%,33.0%
+Glenn Robinson III,PHI,26,6-6,222,Michigan,USA,2014,2,40,60,11.8,4.3,1.6,-7.9,4.2%,10.4%,16.0%,57.6%,8.3%
+Goga Bitadze,IND,20,6-11,250,None,Georgia,2019,1,18,49,3.1,2.0,0.4,-2.6,5.3%,15.5%,17.3%,53.0%,7.1%
+Goran Dragic,MIA,33,6-3,190,None,Slovenia,2008,2,45,54,16.1,3.1,5.1,2.3,1.7%,8.6%,24.7%,57.1%,29.3%
+Gordon Hayward,BOS,30,6-7,225,Butler,USA,2010,1,9,45,17.3,6.5,4.1,8.0,2.9%,15.6%,20.4%,59.3%,18.0%
+Gorgui Dieng,MEM,30,6-10,252,Louisville,Senegal,2013,1,21,58,7.4,5.8,1.2,-3.9,7.6%,22.7%,17.6%,56.4%,11.5%
+Grant Williams,BOS,21,6-6,236,Tennessee,USA,2019,1,22,62,3.5,2.7,1.0,7.4,5.6%,10.3%,11.0%,50.8%,8.4%
+Grayson Allen,MEM,24,6-4,198,Duke,USA,2018,1,21,30,7.4,2.2,1.4,-6.5,0.9%,11.8%,17.3%,57.7%,11.9%
+Hamidou Diallo,OKC,21,6-5,202,Kentucky,USA,2018,2,45,38,6.1,3.2,0.6,1.9,4.0%,11.9%,16.4%,48.8%,4.5%
+Harrison Barnes,SAC,27,6-8,225,North Carolina,USA,2012,1,7,64,14.7,4.8,2.4,-1.2,2.7%,10.8%,17.2%,57.5%,9.8%
+Harry Giles III,SAC,21,6-11,240,Duke,USA,2017,1,20,38,7.0,4.2,1.3,-7.7,5.8%,24.4%,19.7%,58.6%,12.8%
+Hassan Whiteside,POR,30,7-0,265,Marshall,USA,2010,2,33,61,16.3,14.2,1.2,2.3,12.3%,29.6%,19.5%,64.1%,5.8%
+Henry Ellenson,BKN,23,6-10,240,Marquette,USA,2016,1,18,5,0.4,1.2,0.2,27.3,11.1%,19.0%,15.9%,14.3%,12.5%
+Ian Mahinmi,WAS,33,6-11,262,None,France,2005,1,28,38,7.4,5.7,1.3,-4.5,8.9%,17.6%,15.4%,54.5%,8.4%
+Ignas Brazdeikis,NYK,21,6-6,221,Michigan,Lithuania,2019,2,47,9,1.9,0.6,0.4,-7.1,3.6%,6.8%,21.8%,35.1%,11.4%
+Iman Shumpert,BKN,29,6-5,212,Georgia Tech,USA,2011,1,17,13,4.2,2.6,0.9,-9.0,3.5%,9.2%,13.4%,40.3%,7.8%
+Isaac Bonga,WAS,20,6-8,180,None,Germany,2018,2,39,58,4.6,3.2,1.1,1.9,5.6%,12.1%,10.0%,62.7%,7.6%
+Isaiah Hartenstein,HOU,21,7-0,250,None,Germany,2017,2,43,23,4.7,3.9,0.8,8.7,10.7%,20.0%,14.4%,67.4%,9.5%
+Isaiah Roby,OKC,22,6-8,230,University of Nebraska-Lincoln,USA,2019,2,45,3,0.0,0.7,0.0,-11.5,0.0%,16.7%,7.1%,0.0%,0.0%
+Isaiah Thomas,WAS,31,5-9,185,Washington,USA,2011,2,60,40,12.2,1.7,3.7,-10.4,1.1%,6.3%,23.6%,53.1%,22.4%
+Ish Smith,WAS,31,6-0,175,Wake Forest,USA,Undrafted,Undrafted,Undrafted,60,10.5,3.2,4.8,-3.5,1.6%,10.0%,17.8%,51.2%,25.5%
+Ivica Zubac,LAC,23,7-0,240,None,Croatia,2016,2,32,64,8.0,7.2,1.1,7.9,13.4%,23.3%,16.2%,64.2%,8.8%
+J.J. Barea,DAL,35,5-10,180,Northeastern,Puerto Rico,Undrafted,Undrafted,Undrafted,26,7.5,1.8,3.8,5.5,2.5%,9.8%,24.5%,51.9%,36.7%
+J.P. Macura,CLE,24,6-4,203,Xavier,USA,Undrafted,Undrafted,Undrafted,1,0.0,0.0,0.0,150.0,0.0%,0.0%,0.0%,0.0%,0.0%
+JJ Redick,NOP,35,6-3,200,Duke,USA,2006,1,11,54,14.9,2.6,2.0,-0.2,0.6%,8.6%,19.3%,63.9%,10.6%
+Ja Morant,MEM,20,6-3,174,Murray State,USA,2019,1,2,59,17.6,3.5,6.9,-0.4,2.5%,8.2%,25.8%,56.8%,34.8%
+JaKarr Sampson,IND,27,6-7,214,"St. John's, N.Y.",USA,Undrafted,Undrafted,Undrafted,26,4.2,2.3,0.3,2.1,4.6%,12.7%,12.0%,60.7%,3.3%
+JaMychal Green,LAC,29,6-8,227,Alabama,USA,Undrafted,Undrafted,Undrafted,55,6.5,6.3,0.8,5.3,6.1%,21.0%,12.9%,55.4%,5.1%
+JaVale McGee,LAL,32,7-0,270,Nevada-Reno,USA,2008,1,18,61,6.8,5.8,0.6,8.9,11.0%,21.6%,14.6%,65.5%,4.4%
+Jabari Parker,SAC,25,6-8,245,Duke,USA,2014,1,2,33,14.7,5.9,1.8,-7.7,6.1%,16.9%,23.4%,56.1%,10.8%
+Jacob Evans,MIN,22,6-4,210,Cincinnati,USA,2018,1,28,29,4.4,1.4,1.1,-11.0,1.9%,7.7%,16.7%,43.6%,12.0%
+Jae Crowder,MIA,29,6-6,235,Marquette,USA,2012,2,34,58,10.4,6.1,2.6,-3.7,2.7%,17.1%,15.3%,53.2%,12.0%
+Jahlil Okafor,NOP,24,6-10,270,Duke,USA,2015,1,3,28,7.6,4.3,1.3,-11.8,9.7%,16.4%,19.3%,63.1%,13.0%
+Jake Layman,MIN,26,6-8,209,Maryland,USA,2016,2,47,23,9.1,2.5,0.7,2.0,3.0%,7.5%,16.5%,54.4%,4.1%
+Jakob Poeltl,SAS,24,7-1,245,Utah,Austria,2016,1,9,58,5.3,5.3,1.8,3.9,10.2%,19.8%,12.5%,61.1%,13.6%
+Jalen Brunson,DAL,23,6-1,190,Villanova,USA,2018,2,33,57,8.2,2.4,3.3,7.6,2.1%,10.0%,19.9%,55.3%,26.5%
+Jalen Lecque,PHX,19,6-4,185,None,USA,Undrafted,Undrafted,Undrafted,4,2.5,0.0,0.5,-29.1,0.0%,0.0%,21.4%,46.0%,13.3%
+Jalen McDaniels,CHA,22,6-10,205,San Diego State,USA,2019,2,52,16,5.6,4.1,0.8,-3.6,5.0%,17.2%,13.1%,57.4%,6.9%
+Jamal Murray,DEN,23,6-4,215,Kentucky,Canada,2016,1,7,55,18.8,3.9,4.8,5.9,2.4%,9.7%,24.8%,55.9%,22.5%
+James Ennis III,ORL,29,6-6,215,Cal State-Long Beach,USA,2013,2,50,61,6.0,3.3,0.9,0.0,5.6%,13.1%,14.4%,55.7%,6.8%
+James Harden,HOU,30,6-5,220,Arizona State,USA,2009,1,3,61,34.4,6.4,7.4,5.6,2.6%,13.2%,35.8%,61.6%,35.6%
+James Johnson,MIN,33,6-7,240,Wake Forest,USA,2009,1,16,32,8.4,3.7,2.3,-4.6,3.8%,14.5%,18.6%,57.2%,17.7%
+Jared Dudley,LAL,34,6-6,237,Boston College,USA,2007,1,22,40,1.5,1.1,0.5,2.5,1.6%,11.3%,8.0%,57.0%,8.6%
+Jared Harper,PHX,22,5-10,175,None,USA,Undrafted,Undrafted,Undrafted,3,0.7,0.0,0.0,-61.1,0.0%,0.0%,22.2%,25.0%,0.0%
+Jaren Jackson Jr.,MEM,20,6-11,242,Michigan State,USA,2018,1,4,54,16.9,4.7,1.4,-3.1,3.4%,12.4%,23.7%,59.0%,7.6%
+Jarred Vanderbilt,MIN,21,6-9,214,Kentucky,USA,2018,2,41,11,1.1,0.8,0.2,-23.4,6.5%,14.3%,13.3%,67.6%,5.7%
+Jarrell Brantley,UTA,23,6-5,250,College of Charleston,USA,2019,2,50,5,0.0,1.0,0.2,2.6,0.0%,31.3%,5.7%,0.0%,10.0%
+Jarrett Allen,BKN,21,6-11,243,Texas,USA,2017,1,22,64,10.6,9.5,1.3,0.5,10.9%,22.8%,14.8%,65.8%,7.5%
+Jarrett Culver,MIN,21,6-6,195,Texas Tech,USA,2019,1,6,63,9.2,3.4,1.7,-3.3,4.1%,9.2%,18.7%,46.7%,10.5%
+Jarrod Uthoff,MEM,26,6-9,220,Iowa,USA,Undrafted,Undrafted,Undrafted,4,1.0,0.3,0.0,24.4,7.1%,0.0%,20.5%,25.4%,0.0%
+Javonte Green,BOS,26,6-4,205,Radford University,USA,Undrafted,Undrafted,Undrafted,44,2.9,1.8,0.5,-0.1,4.4%,13.5%,13.3%,55.8%,7.6%
+Jaxson Hayes,NOP,19,6-11,220,Texas,USA,2019,1,8,56,7.5,4.0,0.9,-2.1,8.1%,13.7%,14.8%,67.5%,7.7%
+Jaylen Brown,BOS,23,6-6,223,California,USA,2016,1,3,50,20.4,6.4,2.2,6.5,3.1%,14.8%,24.5%,58.9%,10.0%
+Jaylen Hoard,POR,21,6-8,216,None,France,Undrafted,Undrafted,Undrafted,13,2.9,2.5,0.3,3.0,11.1%,15.8%,15.3%,50.4%,5.4%
+Jaylen Nowell,MIN,20,6-4,201,Washington,USA,2019,2,43,15,3.8,0.9,1.3,1.2,1.6%,6.5%,16.5%,47.1%,19.4%
+Jayson Tatum,BOS,22,6-8,210,Duke,USA,2017,1,3,59,23.6,7.1,2.9,10.3,2.6%,16.8%,27.9%,56.2%,13.8%
+Jeff Green,HOU,33,6-8,235,Georgetown,USA,2007,1,5,40,8.4,2.8,0.8,-2.7,3.0%,11.2%,18.5%,57.5%,6.5%
+Jeff Teague,ATL,31,6-3,195,Wake Forest,USA,2009,1,19,59,10.9,2.4,5.2,-5.7,1.7%,7.4%,19.2%,55.7%,30.6%
+Jerami Grant,DEN,26,6-8,210,Syracuse,USA,2014,2,39,64,11.6,3.5,1.2,-2.1,3.2%,10.2%,17.6%,58.5%,6.9%
+Jeremiah Martin,BKN,23,6-2,185,Memphis,USA,Undrafted,Undrafted,Undrafted,3,0.7,0.7,0.7,5.9,0.0%,10.0%,13.9%,20.0%,15.4%
+Jeremy Lamb,IND,27,6-5,180,Connecticut,USA,2012,1,12,46,12.5,4.3,2.1,-0.9,1.9%,13.5%,19.5%,54.7%,10.7%
+Jeremy Pargo,GSW,34,6-2,219,Gonzaga,USA,Undrafted,Undrafted,Undrafted,3,8.3,1.0,2.7,2.4,2.4%,4.8%,26.8%,55.7%,30.8%
+Jerome Robinson,WAS,23,6-4,190,Boston College,USA,2018,1,13,55,3.7,1.9,1.2,2.2,1.1%,11.5%,13.9%,43.9%,11.7%
+Jevon Carter,PHX,24,6-1,200,West Virginia,USA,2018,2,32,50,4.6,2.0,1.3,-3.8,3.3%,9.5%,13.8%,53.5%,12.9%
+Jimmy Butler,MIA,30,6-7,230,Marquette,USA,2011,1,30,54,20.2,6.6,6.1,4.9,5.4%,13.7%,24.8%,58.3%,28.4%
+Joe Chealey,CHA,24,6-4,190,College of Charleston,USA,Undrafted,Undrafted,Undrafted,4,0.5,0.0,0.3,-23.4,0.0%,0.0%,12.8%,12.7%,6.3%
+Joe Harris,BKN,28,6-6,220,Virginia,USA,2014,2,33,63,13.9,4.3,2.1,1.6,2.8%,10.0%,17.6%,59.2%,9.8%
+Joe Ingles,UTA,32,6-7,220,None,Australia,Undrafted,Undrafted,Undrafted,64,9.8,4.0,5.2,5.8,1.2%,11.4%,14.7%,58.8%,24.0%
+Joel Embiid,PHI,26,7-0,280,Kansas,Cameroon,2014,1,3,44,23.4,11.8,3.1,4.8,8.9%,27.8%,31.3%,59.3%,18.5%
+John Collins,ATL,22,6-9,235,Wake Forest,USA,2017,1,19,41,21.6,10.1,1.5,-5.1,8.0%,20.8%,22.4%,65.9%,7.5%
+John Henson,DET,29,6-9,219,North Carolina,USA,2012,1,14,40,5.5,4.1,1.4,-0.7,7.7%,19.1%,16.0%,57.8%,13.3%
+John Konchar,MEM,24,6-5,210,None,USA,Undrafted,Undrafted,Undrafted,15,3.4,3.1,1.4,4.8,9.9%,16.1%,9.8%,71.1%,16.7%
+Johnathan Motley,LAC,24,6-8,230,Baylor,USA,Undrafted,Undrafted,Undrafted,13,2.2,0.8,0.6,5.7,7.7%,18.9%,23.5%,77.4%,30.8%
+Johnathan Williams,WAS,24,6-9,228,Gonzaga,USA,Undrafted,Undrafted,Undrafted,11,3.2,3.9,0.5,-17.9,9.9%,19.9%,9.2%,64.3%,6.7%
+Jonah Bolden,PHX,24,6-8,225,None,Australia,2017,2,36,7,1.4,1.3,0.0,-3.2,6.4%,14.0%,13.0%,39.2%,0.0%
+Jonas Valanciunas,MEM,27,6-11,265,None,Lithuania,2011,1,5,62,14.9,11.2,1.8,0.4,11.1%,27.7%,21.0%,63.1%,10.2%
+Jonathan Isaac,ORL,22,6-11,230,Florida State,USA,2017,1,6,32,12.0,6.9,1.4,0.3,5.7%,17.4%,18.1%,54.2%,7.0%
+Jordan Bell,MEM,25,6-8,216,Oregon,USA,2017,2,38,29,3.2,2.8,0.6,-1.6,11.0%,18.7%,15.9%,57.7%,9.0%
+Jordan Bone,DET,22,6-3,180,Tennessee,USA,2019,2,57,10,1.2,0.4,0.8,-2.9,0.0%,9.1%,17.1%,30.0%,23.5%
+Jordan Clarkson,UTA,27,6-4,194,Missouri,USA,2014,2,46,63,15.1,2.7,2.0,0.4,3.0%,7.6%,24.6%,58.3%,13.1%
+Jordan McLaughlin,MIN,24,5-11,185,USC,USA,Undrafted,Undrafted,Undrafted,30,7.6,1.6,4.2,-5.8,1.0%,7.9%,15.1%,58.7%,30.3%
+Jordan McRae,DET,29,6-5,179,Tennessee,USA,2014,2,58,37,11.5,3.4,2.5,-4.1,2.2%,13.9%,23.9%,51.5%,17.4%
+Jordan Poole,GSW,20,6-4,194,Michigan,USA,2019,1,28,57,8.8,2.1,2.4,-8.2,0.7%,8.7%,20.0%,45.4%,16.0%
+Josh Gray,NOP,26,6-0,180,None,USA,Undrafted,Undrafted,Undrafted,2,1.0,1.0,1.0,-14.9,5.3%,4.0%,13.7%,50.0%,15.4%
+Josh Hart,NOP,25,6-5,215,Villanova,USA,2017,1,30,57,10.2,6.5,1.6,-2.9,3.1%,19.0%,14.9%,55.6%,8.2%
+Josh Jackson,MEM,23,6-8,207,Kansas,USA,2017,1,4,18,10.4,3.2,1.7,3.3,2.8%,11.7%,21.7%,53.9%,11.8%
+Josh Magette,ORL,30,6-1,160,Alabama Huntsville,USA,Undrafted,Undrafted,Undrafted,8,1.5,0.8,0.6,2.4,2.2%,12.8%,22.6%,37.8%,23.8%
+Josh Okogie,MIN,21,6-4,213,Georgia Institute of Technology,Nigeria,2018,1,20,62,8.6,4.3,1.6,-4.7,5.0%,11.4%,14.8%,55.3%,8.9%
+Josh Reaves,DAL,22,6-4,214,Penn State,USA,Undrafted,Undrafted,Undrafted,2,0.0,0.0,0.0,-100.0,0.0%,0.0%,33.3%,0.0%,0.0%
+Josh Richardson,PHI,26,6-5,200,Tennessee,USA,2015,2,40,48,13.8,3.4,3.1,3.8,2.4%,8.0%,20.5%,52.6%,14.7%
+Jrue Holiday,NOP,29,6-3,205,UCLA,USA,2009,1,17,55,19.6,4.9,6.9,0.6,3.4%,9.6%,24.4%,53.5%,28.9%
+Juan Toscano-Anderson,GSW,27,6-6,209,None,USA,Undrafted,Undrafted,Undrafted,13,5.3,4.0,2.0,-12.0,3.1%,16.3%,12.5%,52.9%,14.4%
+Juancho Hernangomez,MIN,24,6-9,214,None,Spain,2016,1,15,48,6.0,4.1,0.8,-2.3,4.6%,18.4%,14.9%,51.8%,6.3%
+Julius Randle,NYK,25,6-8,250,Kentucky,USA,2014,1,7,64,19.5,9.7,3.1,-5.9,6.7%,22.3%,27.1%,53.8%,15.8%
+Justin Anderson,BKN,26,6-5,231,Virginia,USA,2015,1,21,3,1.0,0.7,0.0,-25.4,0.0%,9.1%,15.9%,21.8%,0.0%
+Justin Holiday,IND,31,6-6,180,Washington,USA,Undrafted,Undrafted,Undrafted,65,8.4,3.2,1.3,1.9,1.8%,10.1%,13.0%,59.8%,7.1%
+Justin Jackson,DAL,25,6-7,220,North Carolina,USA,2017,1,15,58,5.7,2.4,0.8,0.7,2.7%,12.0%,15.3%,49.8%,7.2%
+Justin James,SAC,23,6-7,190,Wyoming,USA,2019,2,40,34,2.5,0.9,0.5,-1.6,2.6%,11.0%,18.4%,48.7%,11.6%
+Justin Patton,OKC,22,6-11,241,Creighton,USA,2017,1,16,5,1.8,1.0,0.4,-32.0,4.2%,17.4%,19.4%,45.0%,11.1%
+Justin Robinson,WAS,22,6-1,195,None,USA,Undrafted,Undrafted,Undrafted,9,1.4,0.6,0.8,29.9,2.2%,9.8%,13.3%,54.2%,19.4%
+Justin Wright-Foreman,UTA,22,6-0,190,Hofstra,USA,2019,2,53,1,0.0,0.0,0.0,66.7,0.0%,0.0%,0.0%,0.0%,0.0%
+Justise Winslow,MEM,24,6-6,222,Duke,USA,2015,1,10,11,11.3,6.6,4.0,6.4,4.3%,15.4%,19.0%,44.0%,18.3%
+Juwan Morgan,UTA,22,6-7,232,Indiana,USA,Undrafted,Undrafted,Undrafted,16,1.2,1.2,0.1,14.4,6.8%,16.1%,10.9%,55.9%,3.2%
+KZ Okpala,MIA,20,6-8,215,Stanford,USA,2019,2,32,5,1.4,1.0,0.2,-31.7,3.8%,16.0%,10.2%,59.5%,7.7%
+Kadeem Allen,NYK,27,6-1,200,Arizona,USA,2017,2,53,10,5.0,0.9,2.1,-10.1,1.6%,6.5%,19.1%,51.2%,25.9%
+Karl-Anthony Towns,MIN,24,6-11,248,Kentucky,USA,2015,1,1,35,26.5,10.8,4.4,-1.5,7.5%,24.0%,27.8%,64.2%,21.0%
+Kawhi Leonard,LAC,28,6-7,225,San Diego State,USA,2011,1,15,51,26.9,7.3,5.0,11.4,3.0%,18.0%,32.8%,58.5%,26.2%
+Keita Bates-Diop,DEN,24,6-8,229,Ohio State,USA,2018,2,48,39,6.6,2.9,0.8,-10.7,2.7%,12.9%,15.5%,54.1%,7.3%
+Kelan Martin,MIN,24,6-5,230,None,USA,Undrafted,Undrafted,Undrafted,31,6.4,3.1,0.7,-1.7,2.1%,15.4%,17.1%,50.6%,7.1%
+Keldon Johnson,SAS,20,6-5,220,Kentucky,USA,2019,1,29,9,4.6,1.9,0.7,13.7,5.5%,12.1%,18.1%,57.9%,9.1%
+Kelly Olynyk,MIA,28,6-11,240,Gonzaga,Canada,2013,1,13,59,7.7,4.4,1.6,2.9,3.4%,19.2%,15.9%,64.0%,13.0%
+Kelly Oubre Jr.,PHX,24,6-7,203,Kansas,USA,2015,1,15,56,18.7,6.4,1.5,0.2,3.4%,15.1%,21.9%,56.0%,6.6%
+Kemba Walker,BOS,29,6-0,184,Connecticut,USA,2011,1,9,50,21.2,4.1,4.9,7.5,2.0%,10.4%,27.3%,56.9%,23.3%
+Kendrick Nunn,MIA,24,6-2,190,Oakland,USA,Undrafted,Undrafted,Undrafted,62,15.6,2.7,3.4,2.4,1.1%,7.9%,23.3%,54.5%,18.2%
+Kenrich Williams,NOP,25,6-6,210,None,USA,Undrafted,Undrafted,Undrafted,35,3.8,5.1,1.5,-2.3,5.6%,15.8%,9.0%,43.0%,8.8%
+Kent Bazemore,SAC,30,6-4,195,Old Dominion,USA,Undrafted,Undrafted,Undrafted,64,8.7,4.3,1.3,1.2,1.4%,14.3%,16.8%,50.0%,7.4%
+Kentavious Caldwell-Pope,LAL,27,6-5,204,Georgia,USA,2013,1,8,63,9.5,2.1,1.7,5.6,2.2%,5.6%,14.3%,59.2%,8.6%
+Kevin Hervey,OKC,23,6-9,230,Texas-Arlington,USA,2018,2,57,7,0.3,0.3,0.1,-13.3,0.0%,10.0%,22.0%,9.1%,10.0%
+Kevin Huerter,ATL,21,6-7,190,Maryland,USA,2018,1,19,56,12.2,4.1,3.8,-6.1,1.9%,10.6%,16.9%,53.6%,17.1%
+Kevin Knox II,NYK,20,6-7,215,Kentucky,USA,2018,1,9,65,6.4,2.8,0.9,-7.3,2.1%,12.8%,17.2%,47.0%,7.6%
+Kevin Love,CLE,31,6-8,251,UCLA,USA,2008,1,5,56,17.6,9.8,3.2,-8.0,3.0%,28.6%,22.5%,59.9%,15.0%
+Kevin Porter Jr.,CLE,19,6-4,203,USC,USA,2019,1,30,50,10.0,3.2,2.2,-11.2,1.8%,12.1%,20.2%,53.5%,14.7%
+Kevon Looney,GSW,24,6-9,222,UCLA,USA,2015,1,30,20,3.4,3.3,1.0,-18.3,9.8%,15.1%,14.7%,40.3%,12.0%
+Khem Birch,ORL,27,6-9,233,UNLV,Canada,Undrafted,Undrafted,Undrafted,40,3.8,4.5,0.9,-6.2,8.1%,14.5%,9.2%,52.9%,6.5%
+Khris Middleton,MIL,28,6-7,222,Texas A&M,USA,2012,2,39,55,21.1,6.2,4.1,13.8,2.3%,15.6%,25.9%,61.9%,20.0%
+Khyri Thomas,DET,23,6-3,210,Creighton,USA,2018,2,38,8,2.1,0.1,0.4,-28.7,1.2%,0.0%,14.9%,45.3%,9.7%
+Kostas Antetokounmpo,LAL,22,6-10,200,University of Dayton,Greece,2018,2,60,3,0.0,0.3,0.3,-16.7,0.0%,33.3%,0.0%,0.0%,16.7%
+Kris Dunn,CHI,26,6-3,205,Providence,USA,2016,1,5,51,7.3,3.6,3.4,-0.1,1.7%,13.2%,14.5%,51.0%,19.8%
+Kristaps Porzingis,DAL,24,7-3,240,None,Latvia,2015,1,4,51,19.2,9.5,1.7,8.6,5.3%,22.2%,25.8%,54.0%,8.6%
+Ky Bowman,GSW,22,6-1,187,None,USA,Undrafted,Undrafted,Undrafted,45,7.4,2.7,2.9,-8.4,2.2%,9.3%,16.8%,49.4%,20.2%
+Kyle Anderson,MEM,26,6-9,230,UCLA,USA,2014,1,30,59,5.7,4.4,2.2,-4.1,4.6%,15.6%,13.2%,54.2%,15.6%
+Kyle Guy,SAC,22,6-1,167,Virginia,USA,2019,2,55,2,1.0,0.0,0.0,-30.0,0.0%,0.0%,20.0%,50.0%,0.0%
+Kyle Korver,MIL,39,6-7,212,Creighton,USA,2003,2,51,50,6.7,2.1,1.2,7.9,1.6%,8.8%,14.7%,61.3%,9.3%
+Kyle Kuzma,LAL,24,6-8,221,Utah,USA,2017,1,27,54,12.5,4.5,1.3,5.3,3.5%,13.4%,22.4%,52.2%,7.5%
+Kyle Lowry,TOR,34,6-0,196,Villanova,USA,2006,1,24,52,19.7,4.8,7.7,6.1,1.5%,10.8%,22.5%,58.9%,30.9%
+Kyle O'Quinn,PHI,30,6-9,250,Norfolk State,USA,2012,2,49,26,3.3,3.8,1.3,-8.9,11.2%,25.9%,15.4%,54.1%,19.2%
+Kyrie Irving,BKN,28,6-2,195,Duke,Australia,2011,1,1,20,27.4,5.2,6.4,-0.4,3.2%,12.0%,31.8%,59.5%,33.1%
+LaMarcus Aldridge,SAS,34,6-11,250,Texas,USA,2006,1,2,53,18.9,7.4,2.4,-3.2,5.8%,16.2%,23.6%,57.1%,11.7%
+Landry Shamet,LAC,23,6-4,190,Wichita State,USA,2018,1,26,47,9.7,1.9,1.9,4.9,0.4%,5.8%,13.1%,59.9%,8.9%
+Langston Galloway,DET,28,6-1,200,None,USA,Undrafted,Undrafted,Undrafted,66,10.3,2.3,1.5,-4.4,1.9%,6.8%,14.9%,58.4%,8.9%
+Larry Nance Jr.,CLE,27,6-7,245,Wyoming,USA,2015,1,27,56,10.1,7.3,2.2,-5.1,6.8%,20.9%,15.0%,60.8%,12.6%
+Lauri Markkanen,CHI,22,7-0,240,Arizona,Finland,2017,1,7,50,14.7,6.3,1.5,-2.0,3.8%,17.4%,20.9%,56.0%,7.7%
+LeBron James,LAL,35,6-9,250,None,USA,2003,1,1,60,25.7,7.9,10.6,10.3,2.8%,18.7%,30.8%,58.2%,48.1%
+Lonnie Walker IV,SAS,21,6-5,204,Miami,USA,2018,1,18,53,5.6,2.2,0.9,-1.5,2.5%,11.8%,17.8%,51.5%,8.7%
+Lonzo Ball,NOP,22,6-6,190,UCLA,USA,2017,1,2,56,12.4,6.2,7.0,0.5,3.2%,14.4%,18.3%,52.9%,29.3%
+Lou Williams,LAC,33,6-1,175,None,USA,2005,2,45,60,18.7,3.1,5.7,4.6,1.5%,7.9%,27.0%,54.6%,29.5%
+Louis King,DET,21,6-7,205,None,USA,Undrafted,Undrafted,Undrafted,10,2.0,1.0,0.5,11.0,1.5%,14.1%,16.3%,44.8%,12.5%
+Luguentz Dort,OKC,20,6-3,215,None,Canada,Undrafted,Undrafted,Undrafted,29,6.2,1.9,0.7,4.6,2.4%,5.8%,12.8%,52.1%,4.4%
+Luka Doncic,DAL,21,6-7,230,None,Slovenia,2018,1,3,54,28.7,9.3,8.7,6.2,3.7%,22.2%,35.8%,58.4%,44.8%
+Luka Samanic,SAS,20,6-10,227,None,Croatia,2019,1,19,1,0.0,2.0,3.0,26.9,0.0%,13.3%,15.4%,0.0%,33.3%
+Luke Kennard,DET,23,6-5,206,Duke,USA,2017,1,12,28,15.8,3.5,4.1,-2.1,1.0%,9.5%,19.3%,58.9%,18.8%
+Luke Kornet,CHI,24,7-2,250,Vanderbilt,USA,Undrafted,Undrafted,Undrafted,36,6.0,2.3,0.9,-3.6,3.7%,11.8%,16.3%,53.9%,8.2%
+Malcolm Brogdon,IND,27,6-5,229,Virginia,USA,2016,2,36,48,16.3,4.7,7.1,2.9,2.8%,12.3%,24.7%,53.7%,35.3%
+Malcolm Miller,TOR,27,6-7,210,Holy Cross,USA,Undrafted,Undrafted,Undrafted,25,0.9,0.6,0.3,16.3,0.8%,9.0%,9.4%,43.2%,8.0%
+Malik Beasley,MIN,23,6-4,187,Florida State,USA,2016,1,19,55,11.2,2.7,1.4,-1.9,1.4%,10.7%,20.8%,54.6%,9.3%
+Malik Monk,CHA,22,6-3,200,Kentucky,USA,2017,1,11,55,10.3,2.9,2.1,-10.5,2.1%,10.8%,22.0%,53.0%,16.8%
+Malik Newman,CLE,23,6-3,190,Kansas,USA,Undrafted,Undrafted,Undrafted,1,2.0,0.0,0.0,-30.4,0.0%,0.0%,57.1%,34.7%,0.0%
+Marc Gasol,TOR,35,6-11,255,None,Spain,2007,2,48,36,7.6,6.3,3.4,10.4,2.9%,18.0%,12.7%,54.6%,16.6%
+Marco Belinelli,SAS,34,6-5,220,None,Italy,2007,1,18,52,5.8,1.7,1.2,1.9,0.5%,10.3%,16.1%,52.1%,10.6%
+Marcus Morris Sr.,LAC,30,6-8,218,Kansas,USA,2011,1,14,55,17.4,5.1,1.4,-0.8,2.9%,12.8%,22.4%,56.7%,6.8%
+Marcus Smart,BOS,26,6-3,220,Oklahoma State,USA,2014,1,6,53,13.5,3.8,4.8,6.7,2.1%,8.9%,18.7%,51.9%,21.4%
+Marial Shayok,PHI,24,6-5,198,Iowa State,Canada,2019,2,54,2,1.5,1.5,0.5,-40.0,0.0%,27.3%,21.4%,30.0%,11.1%
+Mario Hezonja,POR,25,6-8,220,None,Croatia,2015,1,5,47,4.8,3.4,0.9,-9.0,3.1%,15.4%,13.4%,53.2%,7.7%
+Markelle Fultz,ORL,21,6-3,209,Washington,USA,2017,1,1,64,12.1,3.3,5.2,-1.5,1.8%,9.9%,20.5%,52.3%,27.0%
+Markieff Morris,LAL,30,6-8,245,Kansas,USA,2011,1,13,52,10.1,3.8,1.4,-5.5,3.0%,14.4%,20.5%,56.8%,10.2%
+Marko Guduric,MEM,25,6-6,201,None,Serbia,Undrafted,Undrafted,Undrafted,42,4.0,1.7,1.1,-3.3,2.8%,11.4%,16.9%,51.5%,12.9%
+Marques Bolden,CLE,21,6-10,249,None,USA,Undrafted,Undrafted,Undrafted,1,0.0,2.0,0.0,57.1,0.0%,50.0%,0.0%,0.0%,0.0%
+Marquese Chriss,GSW,22,6-9,240,Washington,USA,2016,1,8,59,9.3,6.2,1.9,-9.5,8.9%,21.2%,18.4%,60.4%,15.0%
+Marvin Bagley III,SAC,21,6-11,235,Duke,USA,2018,1,2,13,14.2,7.5,0.8,-12.6,8.2%,20.1%,24.8%,51.2%,5.0%
+Marvin Williams,MIL,33,6-8,237,North Carolina,USA,2005,1,2,52,6.1,2.8,1.1,-3.8,1.9%,12.6%,12.5%,58.5%,8.0%
+Mason Plumlee,DEN,30,6-11,254,Duke,USA,2013,1,22,53,7.2,5.3,2.4,0.8,9.2%,19.9%,17.6%,61.5%,19.8%
+Matisse Thybulle,PHI,23,6-5,201,Washington,USA,2019,1,20,57,4.7,1.5,1.2,1.7,3.0%,4.6%,11.1%,53.0%,8.5%
+Matt Mooney,CLE,23,6-2,199,Texas Tech,USA,Undrafted,Undrafted,Undrafted,4,0.5,0.8,0.3,17.5,0.0%,15.8%,8.0%,25.0%,7.1%
+Matt Thomas,TOR,25,6-4,190,Iowa State,USA,Undrafted,Undrafted,Undrafted,33,4.5,1.5,0.5,-0.2,1.8%,10.8%,15.5%,65.0%,8.5%
+Matthew Dellavedova,CLE,29,6-3,200,St. Mary's (CA),Australia,Undrafted,Undrafted,Undrafted,57,3.1,1.3,3.2,-1.2,2.2%,6.7%,12.8%,46.3%,29.7%
+Maurice Harkless,NYK,26,6-7,220,"St. John's, N.Y.",USA,2012,1,15,62,5.8,3.9,1.1,1.2,3.8%,11.7%,10.5%,57.2%,6.2%
+Max Strus,CHI,24,6-5,215,None,USA,Undrafted,Undrafted,Undrafted,2,2.5,0.5,0.0,105.8,16.7%,0.0%,15.8%,72.7%,0.0%
+Maxi Kleber,DAL,28,6-10,240,None,Germany,Undrafted,Undrafted,Undrafted,66,9.2,5.4,1.2,4.1,5.3%,14.0%,13.4%,60.3%,6.4%
+Melvin Frazier Jr.,ORL,23,6-5,215,Tulane,USA,2018,2,35,15,1.2,0.3,0.1,-2.4,1.8%,5.8%,16.4%,48.0%,3.3%
+Meyers Leonard,MIA,28,7-0,260,Illinois,USA,2012,1,11,49,6.1,5.1,1.1,5.6,2.9%,21.7%,12.0%,64.0%,7.6%
+Mfiondu Kabengele,LAC,22,6-9,250,Florida State,Canada,2019,1,27,12,3.5,0.9,0.2,0.8,1.7%,15.9%,24.2%,61.4%,5.0%
+Michael Carter-Williams,ORL,28,6-5,190,Syracuse,USA,2013,1,11,42,7.2,3.3,2.4,1.4,5.2%,12.4%,17.5%,53.9%,19.5%
+Michael Frazier,HOU,26,6-3,200,Florida,USA,Undrafted,Undrafted,Undrafted,8,1.8,0.4,0.1,-15.5,1.4%,3.6%,10.0%,51.3%,2.4%
+Michael Kidd-Gilchrist,DAL,26,6-6,232,Kentucky,USA,2012,1,2,21,2.5,2.6,0.6,2.7,4.6%,16.3%,14.3%,40.1%,9.0%
+Michael Porter Jr.,DEN,21,6-10,218,Missouri,USA,2018,1,14,48,7.5,4.1,0.7,0.8,7.4%,21.6%,20.4%,58.9%,7.5%
+Mikal Bridges,PHX,23,6-6,209,Villanova,USA,2018,1,10,65,8.7,4.0,1.8,1.7,3.3%,10.9%,12.2%,62.3%,9.0%
+Mike Conley,UTA,32,6-1,175,Ohio State,USA,2007,1,4,41,13.8,3.2,4.3,1.6,2.3%,8.6%,22.2%,52.7%,23.5%
+Mike Muscala,OKC,28,6-10,240,Bucknell,USA,2013,2,44,41,4.6,2.3,0.8,-2.6,2.6%,16.1%,15.8%,56.0%,10.4%
+Mike Scott,PHI,31,6-7,237,Virginia,USA,2012,2,43,63,5.7,3.6,0.8,4.6,5.0%,14.7%,13.0%,53.9%,5.9%
+Miles Bridges,CHA,22,6-6,225,Michigan State,USA,2018,1,12,65,13.0,5.6,1.8,-9.7,4.2%,13.8%,19.6%,52.0%,9.2%
+Mitchell Robinson,NYK,22,7-0,240,None,USA,2018,2,36,61,9.7,7.0,0.6,-2.9,12.2%,16.0%,12.9%,72.6%,3.9%
+Miye Oni,UTA,22,6-5,206,Yale,USA,2019,2,58,5,0.0,0.4,0.0,-68.0,0.0%,15.4%,10.0%,0.0%,0.0%
+Mo Bamba,ORL,21,7-0,231,University of Texas at Austin,USA,2018,1,6,60,5.5,5.0,0.7,1.8,9.9%,21.7%,16.4%,54.9%,7.7%
+Monte Morris,DEN,24,6-2,183,Iowa State,USA,2017,2,51,65,8.4,1.7,3.5,1.7,1.4%,6.3%,16.5%,53.7%,23.2%
+Montrezl Harrell,LAC,26,6-7,240,Louisville,USA,2015,2,32,63,18.6,7.1,1.7,6.5,8.9%,14.1%,24.5%,60.7%,10.2%
+Moritz Wagner,WAS,22,6-11,245,Michigan,Germany,2018,1,25,37,9.5,5.2,1.3,-1.5,6.8%,20.3%,18.1%,66.6%,10.3%
+Moses Brown,POR,20,7-2,245,None,USA,Undrafted,Undrafted,Undrafted,9,1.2,1.6,0.1,-50.9,7.3%,32.4%,20.0%,40.7%,4.8%
+Mychal Mulder,GSW,25,6-3,184,Kentucky,Canada,Undrafted,Undrafted,Undrafted,7,11.0,3.3,1.1,6.2,1.6%,9.3%,16.5%,53.3%,5.3%
+Myles Turner,IND,24,6-11,250,Texas,USA,2015,1,11,55,11.8,6.5,1.1,0.9,4.3%,17.1%,17.4%,56.1%,5.4%
+Nassir Little,POR,20,6-5,220,North Carolina,USA,2019,1,25,48,3.6,2.3,0.5,-3.2,4.8%,12.0%,13.1%,50.5%,5.0%
+Naz Mitrou-Long,IND,26,6-3,218,Iowa State,Canada,Undrafted,Undrafted,Undrafted,3,4.7,2.0,2.3,20.9,0.0%,11.5%,17.3%,43.8%,25.0%
+Naz Reid,MIN,20,6-9,264,None,USA,Undrafted,Undrafted,Undrafted,30,9.0,4.1,1.2,0.7,6.0%,17.6%,23.4%,50.5%,10.6%
+Nemanja Bjelica,SAC,31,6-10,234,None,Serbia,2010,2,35,64,11.9,6.4,2.8,-2.2,5.8%,17.3%,17.1%,59.7%,14.0%
+Nerlens Noel,OKC,26,6-10,220,Kentucky,USA,2013,1,6,55,7.7,4.9,1.0,1.8,8.3%,17.6%,15.2%,71.4%,8.1%
+Nickeil Alexander-Walker,NOP,21,6-5,205,Virginia Tech,Canada,2019,1,17,41,5.1,2.0,1.8,-5.1,1.5%,13.5%,22.7%,44.1%,20.7%
+Nicolas Batum,CHA,31,6-9,230,None,France,2008,1,25,22,3.6,4.5,3.0,-3.3,4.9%,14.6%,9.3%,46.3%,17.3%
+Nicolas Claxton,BKN,20,6-11,215,Georgia,USA,2019,2,31,15,4.4,2.9,1.1,-15.6,9.0%,11.2%,14.4%,57.7%,14.2%
+Nicolo Melli,NOP,29,6-9,236,None,Italy,Undrafted,Undrafted,Undrafted,52,6.8,3.0,1.3,-5.5,3.8%,13.4%,15.9%,58.3%,10.9%
+Nigel Williams-Goss,UTA,25,6-2,190,Gonzaga,USA,2017,2,55,9,0.4,0.6,0.6,15.6,6.5%,8.6%,14.1%,25.4%,23.8%
+Nikola Jokic,DEN,25,7-0,284,None,Serbia,2014,2,41,65,20.2,10.2,6.9,5.2,7.5%,24.4%,26.7%,60.4%,34.3%
+Nikola Vucevic,ORL,29,6-11,260,USC,Montenegro,2011,1,16,54,19.5,11.0,3.7,-0.4,7.1%,27.0%,25.6%,54.0%,18.6%
+Noah Vonleh,DEN,24,6-10,257,Indiana,USA,2014,1,9,33,3.8,3.7,0.8,-5.1,8.7%,20.8%,13.6%,62.1%,11.5%
+Norman Powell,TOR,26,6-3,215,UCLA,USA,2015,2,46,44,16.4,3.7,1.8,6.7,1.8%,9.5%,21.0%,62.9%,9.4%
+Norvel Pelle,PHI,27,6-10,231,None,USA,Undrafted,Undrafted,Undrafted,20,2.1,3.0,0.4,-16.4,8.5%,23.7%,12.6%,52.1%,5.6%
+OG Anunoby,TOR,22,6-7,232,Indiana,United Kingdo...,2017,1,23,63,10.7,5.4,1.6,5.7,3.9%,13.4%,14.3%,59.8%,7.3%
+Omari Spellman,MIN,22,6-8,245,Villanova,USA,2018,1,30,49,7.6,4.5,1.0,-8.5,7.6%,15.5%,17.7%,55.1%,8.6%
+Oshae Brissett,TOR,21,6-7,210,None,Canada,Undrafted,Undrafted,Undrafted,19,1.9,1.4,0.4,11.6,6.3%,10.9%,14.5%,45.8%,7.4%
+Otto Porter Jr.,CHI,26,6-8,198,Georgetown,USA,2013,1,3,14,11.9,3.4,1.8,3.2,3.6%,10.8%,20.1%,55.0%,11.3%
+P.J. Tucker,HOU,34,6-5,245,Texas,USA,2006,2,35,64,7.1,6.9,1.6,3.0,4.2%,14.3%,8.6%,58.0%,6.0%
+P.J. Washington,CHA,21,6-7,230,Kentucky,USA,2019,1,12,58,12.2,5.4,2.1,-6.3,3.2%,14.5%,18.4%,54.7%,11.5%
+PJ Dozier,DEN,23,6-6,205,South Carolina,USA,Undrafted,Undrafted,Undrafted,21,4.1,1.4,1.4,-1.6,1.9%,10.1%,18.4%,44.9%,17.0%
+Pascal Siakam,TOR,26,6-9,230,New Mexico State,Cameroon,2016,1,27,53,23.6,7.5,3.6,8.7,3.0%,16.6%,28.2%,55.9%,16.5%
+Pat Connaughton,MIL,27,6-5,209,Notre Dame,USA,2015,2,41,61,5.1,4.2,1.6,4.3,4.6%,15.3%,11.5%,55.8%,11.2%
+Patrick Beverley,LAC,31,6-1,180,None,USA,2009,2,42,48,7.9,5.4,3.7,9.7,4.1%,14.4%,12.9%,55.4%,18.2%
+Patrick McCaw,TOR,24,6-7,181,UNLV,USA,2016,2,38,37,4.6,2.3,2.1,0.6,2.0%,6.8%,9.3%,50.0%,11.8%
+Patrick Patterson,LAC,31,6-8,235,Kentucky,USA,2010,1,14,51,4.6,2.4,0.6,4.4,4.6%,13.8%,14.7%,57.6%,7.1%
+Patty Mills,SAS,31,6-1,180,St. Mary's (CA),Australia,2009,2,55,63,11.7,1.6,1.8,3.6,1.3%,5.2%,19.3%,58.9%,11.1%
+Paul George,LAC,29,6-8,220,Fresno State,USA,2010,1,10,42,21.0,5.7,3.9,8.3,1.8%,16.5%,29.2%,58.2%,20.8%
+Paul Millsap,DEN,35,6-7,257,Louisiana Tech,USA,2006,2,47,44,12.0,5.9,1.6,11.3,8.0%,15.8%,20.0%,59.8%,9.1%
+Paul Watson,TOR,25,6-6,210,Fresno State,USA,Undrafted,Undrafted,Undrafted,5,0.2,0.8,1.0,14.0,0.0%,14.3%,12.3%,5.6%,23.8%
+Quinn Cook,LAL,27,6-1,180,Duke,USA,Undrafted,Undrafted,Undrafted,38,4.8,1.1,1.1,8.8,1.6%,7.1%,20.1%,51.7%,14.0%
+Quinndary Weatherspoon,SAS,23,6-3,205,Mississippi State,USA,2019,2,49,3,0.0,0.3,0.3,14.5,0.0%,5.6%,8.6%,0.0%,9.1%
+RJ Barrett,NYK,19,6-6,214,Duke,Canada,2019,1,3,56,14.3,5.0,2.6,-9.1,2.7%,13.4%,23.4%,47.9%,12.7%
+Rajon Rondo,LAL,34,6-1,180,Kentucky,USA,2006,1,21,48,7.1,3.0,5.0,1.4,2.2%,11.9%,18.4%,49.4%,34.0%
+Raul Neto,PHI,27,6-1,180,None,Brazil,2013,2,47,49,4.3,1.1,1.6,1.8,1.9%,6.9%,17.2%,56.2%,21.4%
+Rayjon Tucker,UTA,22,6-3,209,None,USA,Undrafted,Undrafted,Undrafted,14,1.4,0.9,0.1,-3.5,2.3%,15.7%,12.4%,44.8%,3.2%
+Reggie Bullock,NYK,29,6-6,205,North Carolina,USA,2013,1,25,29,8.1,2.3,1.4,-5.8,1.8%,8.2%,15.3%,50.2%,8.7%
+Reggie Jackson,LAC,30,6-3,208,Boston College,USA,2011,1,24,23,12.8,2.9,4.4,7.4,2.7%,8.8%,24.0%,53.3%,28.5%
+Richaun Holmes,SAC,26,6-10,235,Bowling Green,USA,2015,2,37,39,12.8,8.3,1.0,1.6,10.3%,18.7%,15.9%,68.5%,5.3%
+Ricky Rubio,PHX,29,6-3,190,None,Spain,2009,1,5,57,13.1,4.6,8.9,3.8,2.3%,12.4%,19.7%,53.1%,37.8%
+Robert Covington,HOU,29,6-7,209,Tennessee State,USA,Undrafted,Undrafted,Undrafted,62,12.8,6.4,1.2,0.1,2.7%,17.7%,17.4%,57.1%,5.8%
+Robert Williams III,BOS,22,6-8,237,Texas A&M,USA,2018,1,27,23,4.3,4.7,1.0,1.2,10.2%,21.4%,12.2%,67.1%,9.7%
+Robin Lopez,MIL,32,7-0,281,Stanford,USA,2008,1,15,60,5.5,2.4,0.7,2.6,5.6%,9.1%,16.0%,56.5%,6.8%
+Rodions Kurucs,BKN,22,6-9,228,None,Latvia,2018,2,40,39,4.2,2.5,0.8,-2.3,3.2%,13.2%,14.5%,55.4%,9.5%
+Rodney Hood,POR,27,6-8,208,Duke,USA,2014,1,23,21,11.0,3.4,1.5,0.6,1.5%,9.2%,13.7%,62.5%,6.8%
+Rodney McGruder,LAC,28,6-4,205,Kansas State,USA,Undrafted,Undrafted,Undrafted,50,3.2,2.6,0.6,0.7,3.3%,12.0%,10.0%,47.2%,5.2%
+Romeo Langford,BOS,20,6-4,216,Indiana,USA,2019,1,14,27,2.6,1.2,0.2,8.5,4.3%,5.7%,11.6%,46.5%,2.6%
+Rondae Hollis-Jefferson,TOR,25,6-6,217,Arizona,USA,2015,1,23,52,7.2,4.9,1.7,5.1,9.1%,14.1%,16.4%,53.3%,13.5%
+Royce O'Neale,UTA,26,6-4,226,Baylor,USA,Undrafted,Undrafted,Undrafted,64,6.3,5.3,2.5,5.4,1.2%,15.9%,9.2%,58.4%,11.5%
+Rudy Gay,SAS,33,6-8,250,Connecticut,USA,2006,1,8,60,10.0,5.4,1.7,-0.9,4.2%,19.5%,20.6%,54.5%,11.6%
+Rudy Gobert,UTA,27,7-1,258,None,France,2013,1,27,62,15.1,13.7,1.5,6.1,10.4%,27.9%,16.1%,70.0%,6.5%
+Rui Hachimura,WAS,22,6-8,230,Gonzaga,Japan,2019,1,9,41,13.4,6.0,1.7,-7.8,4.9%,15.9%,18.6%,54.3%,8.3%
+Russell Westbrook,HOU,31,6-3,200,UCLA,USA,2008,1,4,53,27.5,8.0,7.0,3.6,4.4%,16.0%,33.0%,53.9%,33.8%
+Ryan Anderson,HOU,31,6-9,240,California,USA,2008,1,21,2,2.5,3.5,1.0,21.2,0.0%,46.7%,24.2%,35.7%,16.7%
+Ryan Arcidiacono,CHI,26,6-3,195,Villanova,USA,Undrafted,Undrafted,Undrafted,58,4.5,1.9,1.7,-4.0,1.9%,9.8%,12.1%,55.1%,14.3%
+Ryan Broekhoff,DAL,29,6-6,215,None,Australia,Undrafted,Undrafted,Undrafted,17,4.2,2.5,0.6,2.1,2.5%,20.2%,15.5%,56.8%,8.3%
+Sekou Doumbouya,DET,19,6-8,230,None,Guinea,2019,1,15,38,6.4,3.1,0.5,-10.8,2.6%,13.7%,16.4%,47.4%,3.7%
+Semi Ojeleye,BOS,25,6-6,240,Southern Methodist,USA,2017,2,37,61,3.1,2.0,0.5,-0.4,2.5%,10.3%,8.6%,55.7%,4.9%
+Serge Ibaka,TOR,30,7-0,235,None,Democratic Re...,2008,1,24,50,16.0,8.3,1.5,4.5,7.3%,20.2%,23.7%,59.3%,8.7%
+Seth Curry,DAL,29,6-2,185,Duke,USA,Undrafted,Undrafted,Undrafted,59,12.6,2.4,2.0,4.7,1.7%,7.2%,17.8%,65.0%,12.3%
+Shabazz Napier,WAS,28,6-0,175,Connecticut,USA,2014,1,24,51,10.3,2.9,5.0,-2.6,1.8%,10.0%,19.2%,55.5%,30.7%
+Shai Gilgeous-Alexander,OKC,21,6-5,180,Kentucky,Canada,2018,1,11,63,19.3,6.1,3.3,3.7,2.1%,14.9%,23.5%,56.6%,14.4%
+Shake Milton,PHI,23,6-5,205,Southern Methodist,USA,2018,2,54,32,9.5,2.1,2.2,1.4,1.8%,9.5%,19.4%,63.3%,17.0%
+Shamorie Ponds,TOR,21,6-0,175,None,USA,Undrafted,Undrafted,Undrafted,4,2.3,0.3,0.5,-5.5,0.0%,16.7%,22.2%,76.5%,40.0%
+Shaquille Harrison,CHI,26,6-7,190,Tulsa,USA,Undrafted,Undrafted,Undrafted,43,4.9,2.0,1.1,6.8,4.2%,13.9%,17.6%,55.9%,14.7%
+Skal Labissiere,ATL,24,6-10,235,Kentucky,Haiti,2016,1,28,33,5.8,5.1,1.3,1.3,10.5%,15.5%,13.9%,58.8%,10.6%
+Solomon Hill,MIA,29,6-6,226,Arizona,USA,2013,1,23,54,5.4,2.9,1.8,-1.6,2.7%,12.0%,13.2%,54.2%,12.6%
+Spencer Dinwiddie,BKN,27,6-5,215,Colorado,USA,2014,2,38,64,20.6,3.5,6.8,1.1,1.5%,8.5%,28.7%,54.1%,34.4%
+Stanley Johnson,TOR,23,6-6,242,Arizona,USA,2015,1,8,20,1.2,1.1,0.4,-4.9,2.8%,16.2%,17.7%,34.2%,12.9%
+Stanton Kidd,UTA,28,6-6,216,Colorado State,USA,Undrafted,Undrafted,Undrafted,4,0.0,0.8,0.3,2.3,0.0%,15.8%,13.9%,0.0%,10.0%
+Stephen Curry,GSW,32,6-3,185,Davidson,USA,2009,1,7,5,20.8,5.2,6.6,-15.3,2.3%,16.2%,28.6%,55.7%,35.5%
+Sterling Brown,MIL,25,6-5,219,Southern Methodist,USA,2017,2,46,45,5.0,3.7,1.0,5.3,3.9%,17.3%,16.0%,47.8%,9.6%
+Steven Adams,OKC,26,6-11,265,Pittsburgh,New Zealand,2013,1,12,58,10.9,9.4,2.4,4.4,13.0%,21.1%,16.6%,60.5%,13.2%
+Svi Mykhailiuk,DET,22,6-7,205,Kansas,Ukraine,2018,2,47,56,9.0,1.9,1.9,-0.6,1.3%,7.1%,16.5%,57.8%,12.0%
+T.J. McConnell,IND,28,6-1,190,Arizona,USA,Undrafted,Undrafted,Undrafted,63,6.5,2.6,5.0,0.7,2.7%,10.4%,16.5%,54.1%,35.6%
+T.J. Warren,IND,26,6-8,220,North Carolina State,USA,2014,1,14,61,18.7,4.0,1.4,1.4,3.1%,8.8%,22.4%,59.9%,7.0%
+TJ Leaf,IND,22,6-10,222,UCLA,USA,2017,1,18,25,2.9,2.6,0.2,-1.8,9.9%,18.4%,17.0%,48.5%,4.5%
+Tacko Fall,BOS,24,7-5,311,None,Senegal,Undrafted,Undrafted,Undrafted,6,3.2,1.8,0.0,12.7,0.0%,36.7%,28.1%,71.3%,0.0%
+Taj Gibson,NYK,34,6-9,232,USC,USA,2009,1,26,62,6.1,4.3,0.8,-12.5,9.8%,15.8%,14.5%,61.0%,7.7%
+Talen Horton-Tucker,LAL,19,6-4,234,Iowa State,USA,2019,2,46,2,0.0,0.0,1.0,-64.4,0.0%,0.0%,10.0%,0.0%,100%
+Tariq Owens,PHX,24,6-10,205,Texas Tech,USA,Undrafted,Undrafted,Undrafted,3,1.3,1.0,0.0,-43.4,10.5%,6.7%,17.1%,34.0%,0.0%
+Taurean Prince,BKN,26,6-7,218,Baylor,USA,2016,1,12,64,12.1,6.0,1.8,1.3,2.4%,16.2%,20.0%,49.7%,9.0%
+Terance Mann,LAC,23,6-5,215,Florida State,USA,2019,2,48,35,1.6,0.9,1.1,1.2,1.4%,9.8%,10.9%,47.2%,18.5%
+Terence Davis,TOR,22,6-4,201,None,USA,Undrafted,Undrafted,Undrafted,64,7.7,3.4,1.7,10.0,4.1%,13.9%,18.0%,59.8%,14.5%
+Terrance Ferguson,OKC,21,6-6,190,None,USA,2017,1,21,50,4.2,1.5,0.9,-3.0,2.1%,4.1%,9.1%,50.4%,5.2%
+Terrence Ross,ORL,29,6-6,206,Washington,USA,2012,1,8,63,14.8,3.2,1.2,-2.8,0.7%,10.7%,21.7%,54.8%,7.2%
+Terry Rozier,CHA,26,6-1,190,Louisville,USA,2015,1,16,63,18.0,4.4,4.1,-9.0,2.2%,10.7%,23.2%,55.3%,20.9%
+Thabo Sefolosha,HOU,35,6-6,215,None,Switzerland,2006,1,13,41,2.2,2.3,0.6,3.9,4.3%,15.2%,10.0%,48.7%,7.4%
+Thaddeus Young,CHI,31,6-8,235,Georgia Tech,USA,2007,1,12,64,10.3,4.9,1.8,-6.2,5.4%,14.5%,19.2%,52.1%,11.3%
+Thanasis Antetokounmpo,MIL,27,6-6,219,None,Greece,2014,2,51,18,2.5,1.1,0.5,-12.6,11.0%,7.3%,21.9%,52.8%,15.8%
+Theo Pinson,BKN,24,6-5,212,None,USA,Undrafted,Undrafted,Undrafted,33,3.6,1.6,1.7,-4.6,2.4%,10.1%,21.8%,37.0%,24.0%
+Thomas Bryant,WAS,22,6-10,248,Indiana,USA,2017,2,42,38,12.1,6.8,1.9,-7.0,8.1%,20.2%,18.0%,65.9%,11.2%
+Thon Maker,DET,23,7-0,221,None,South Sudan,2016,1,10,60,4.7,2.8,0.7,-8.0,6.9%,15.2%,16.0%,58.2%,8.8%
+Tim Frazier,DET,29,6-0,170,None,USA,Undrafted,Undrafted,Undrafted,27,3.6,1.2,3.4,-6.9,2.4%,7.1%,17.1%,46.4%,39.1%
+Tim Hardaway Jr.,DAL,28,6-5,205,Michigan,USA,2013,1,24,63,15.8,3.1,2.0,8.0,1.2%,8.6%,20.9%,58.1%,10.0%
+Timothe Luwawu-Cabarrot,BKN,24,6-7,220,None,France,2016,1,24,39,6.3,2.3,0.6,-3.8,3.1%,8.5%,15.3%,56.3%,5.8%
+Tobias Harris,PHI,27,6-8,226,Tennessee,USA,2011,1,19,65,19.4,6.8,3.2,3.0,2.4%,17.1%,23.4%,55.7%,14.5%
+Tomas Satoransky,CHI,28,6-7,210,None,Czech Republi...,2012,2,32,65,9.9,3.9,5.4,-1.5,4.0%,10.1%,16.5%,53.3%,26.9%
+Tony Bradley,UTA,22,6-10,248,North Carolina,USA,2017,1,28,50,4.7,4.3,0.3,3.3,16.0%,22.0%,15.0%,67.5%,4.6%
+Tony Snell,DET,28,6-6,213,,USA,2013,1,20,59,8.0,1.9,2.2,-5.5,0.5%,6.4%,11.0%,59.8%,11.0%
+Torrey Craig,DEN,29,6-7,221,South Carolina Upstate,USA,Undrafted,Undrafted,Undrafted,50,5.0,3.1,0.7,-5.4,5.4%,12.2%,11.8%,55.9%,5.5%
+Trae Young,ATL,21,6-1,180,Oklahoma,USA,2018,1,5,60,29.6,4.3,9.3,-4.9,1.4%,10.0%,33.9%,59.5%,42.3%
+Tremont Waters,BOS,22,5-10,175,Louisiana State,USA,2019,2,51,10,3.3,0.9,1.2,14.8,0.0%,8.9%,21.6%,43.8%,18.5%
+Treveon Graham,ATL,26,6-5,219,Va Commonwealth,USA,Undrafted,Undrafted,Undrafted,55,4.4,2.7,0.8,-6.2,5.0%,9.9%,13.0%,45.6%,6.9%
+Trevor Ariza,POR,34,6-8,215,UCLA,USA,2004,2,43,53,8.0,4.6,1.7,-0.3,2.2%,13.7%,11.7%,59.3%,8.1%
+Trey Burke,PHI,27,6-0,185,Michigan,USA,2013,1,9,25,5.9,1.4,2.1,4.8,4.5%,6.1%,18.8%,54.5%,23.8%
+Trey Lyles,SAS,24,6-9,234,Kentucky,USA,2015,1,12,63,6.4,5.7,1.1,-2.4,5.6%,22.8%,13.6%,55.7%,7.2%
+Tristan Thompson,CLE,29,6-9,254,Texas,Canada,2011,1,4,57,12.0,10.1,2.1,-10.1,12.6%,20.7%,18.1%,54.0%,10.6%
+Troy Brown Jr.,WAS,20,6-6,215,Oregon,USA,2018,1,15,61,9.7,5.3,2.3,-4.8,3.9%,17.1%,16.6%,53.4%,13.1%
+Troy Daniels,DEN,28,6-4,200,Va Commonwealth,USA,Undrafted,Undrafted,Undrafted,42,4.1,1.1,0.3,0.0,2.4%,6.7%,15.5%,52.4%,4.5%
+Ty Jerome,PHX,22,6-5,195,Virginia,USA,2019,1,24,28,3.5,1.5,1.5,-14.9,1.7%,11.5%,16.6%,43.7%,22.5%
+Tyler Cook,CLE,22,6-8,255,None,USA,Undrafted,Undrafted,Undrafted,11,1.7,0.9,0.1,-12.5,10.5%,18.8%,16.9%,75.2%,5.0%
+Tyler Herro,MIA,20,6-5,195,Kentucky,USA,2019,1,13,47,12.9,4.0,1.9,-1.7,1.1%,12.6%,21.0%,53.4%,11.6%
+Tyler Johnson,PHX,27,6-3,186,Fresno State,USA,Undrafted,Undrafted,Undrafted,31,5.7,1.7,1.6,-8.1,1.8%,7.6%,16.9%,48.1%,14.9%
+Tyrone Wallace,ATL,25,6-5,198,California,USA,2016,2,60,14,2.9,1.6,0.9,-8.3,1.6%,12.3%,15.4%,38.9%,12.3%
+Tyson Chandler,HOU,37,7-0,235,None,USA,2001,1,2,26,1.3,2.5,0.2,5.7,9.7%,17.2%,5.7%,71.7%,3.7%
+Tyus Jones,MEM,23,6-0,196,Duke,USA,2015,1,24,65,7.4,1.6,4.4,-2.3,0.7%,7.1%,16.5%,53.2%,31.4%
+Udonis Haslem,MIA,39,6-8,235,Florida,USA,Undrafted,Undrafted,Undrafted,3,1.7,2.7,0.3,-30.6,0.0%,42.1%,18.2%,32.2%,10.0%
+Vic Law,ORL,24,6-7,201,Northwestern,USA,Undrafted,Undrafted,Undrafted,5,0.0,0.2,0.0,-19.9,0.0%,11.1%,16.0%,0.0%,0.0%
+Victor Oladipo,IND,27,6-4,213,Indiana,USA,2013,1,2,13,13.8,3.2,3.0,-0.5,2.1%,9.4%,26.5%,50.0%,17.6%
+Vince Carter,ATL,43,6-6,220,North Carolina,USA,1998,1,5,60,5.0,2.1,0.8,-8.1,1.9%,11.4%,16.3%,47.0%,8.1%
+Vincent Poirier,BOS,26,7-0,235,None,France,Undrafted,Undrafted,Undrafted,21,1.9,1.6,0.3,-3.8,8.7%,18.0%,14.7%,54.0%,8.4%
+Vlatko Cancar,DEN,23,6-8,236,None,Slovenia,2017,2,49,14,1.2,0.7,0.2,-6.0,10.9%,11.9%,17.7%,50.7%,8.6%
+Wayne Ellington,NYK,32,6-4,207,North Carolina,USA,2009,1,28,36,5.1,1.8,1.2,-3.1,0.7%,10.4%,14.6%,50.9%,11.7%
+Wendell Carter Jr.,CHI,21,6-9,270,Duke,USA,2018,1,7,43,11.3,9.4,1.2,-0.5,10.2%,21.6%,16.2%,59.0%,6.2%
+Wenyen Gabriel,POR,23,6-9,205,None,Sudan,Undrafted,Undrafted,Undrafted,28,2.1,1.6,0.3,-8.8,7.6%,15.2%,13.2%,54.7%,5.3%
+Wes Iwundu,ORL,25,6-6,195,Kansas State,USA,2017,2,33,45,5.3,2.5,1.0,0.4,2.6%,10.9%,12.8%,52.1%,7.9%
+Wesley Matthews,MIL,33,6-4,220,Marquette,USA,Undrafted,Undrafted,Undrafted,62,7.5,2.6,1.5,12.0,1.3%,7.6%,12.5%,54.5%,7.4%
+Will Barton,DEN,29,6-5,181,Memphis,USA,2012,2,40,58,15.1,6.3,3.7,5.8,4.0%,14.7%,19.7%,54.9%,15.7%
+William Howard,HOU,26,6-8,207,None,France,Undrafted,Undrafted,Undrafted,2,0.0,1.0,0.5,-51.3,0.0%,25.0%,15.2%,0.0%,20.0%
+Willie Cauley-Stein,DAL,26,7-0,240,Kentucky,USA,2015,1,6,54,7.2,5.8,1.3,-5.5,7.2%,20.2%,14.4%,58.9%,9.8%
+Willy Hernangomez,CHA,25,6-11,250,None,Spain,2015,2,35,31,6.1,4.3,0.9,-2.6,10.5%,24.3%,22.2%,57.6%,13.6%
+Wilson Chandler,BKN,32,6-8,235,DePaul,USA,2007,1,23,35,5.9,4.1,1.1,-6.4,1.4%,16.4%,12.8%,53.1%,8.0%
+Yogi Ferrell,SAC,26,6-0,178,Indiana,USA,Undrafted,Undrafted,Undrafted,44,4.2,1.1,1.3,-3.3,1.2%,9.1%,18.2%,49.9%,19.0%
+Yuta Watanabe,MEM,25,6-8,215,George Washington,Japan,Undrafted,Undrafted,Undrafted,16,1.9,1.1,0.3,1.4,5.3%,11.1%,13.8%,46.1%,5.4%
+Zach Collins,POR,22,6-11,250,Gonzaga,USA,2017,1,10,3,9.0,4.0,2.0,13.1,5.6%,8.2%,13.9%,62.4%,8.3%
+Zach LaVine,CHI,25,6-6,200,UCLA,USA,2014,1,13,60,25.5,4.8,4.2,-4.4,1.9%,12.5%,31.2%,56.8%,21.8%
+Zach Norvell Jr.,GSW,22,6-5,205,None,USA,Undrafted,Undrafted,Undrafted,5,2.0,1.2,0.6,-32.3,0.0%,20.7%,14.7%,40.2%,9.1%
+Zhaire Smith,PHI,20,6-3,205,Texas Tech,USA,2018,1,16,7,1.1,0.3,0.3,-12.3,0.0%,8.0%,16.5%,31.3%,8.3%
+Zion Williamson,NOP,19,6-6,284,Duke,USA,2019,1,1,19,23.6,6.8,2.2,10.4,9.3%,11.4%,28.2%,62.4%,11.1%
+Zylan Cheatham,NOP,24,6-5,220,None,USA,Undrafted,Undrafted,Undrafted,3,1.3,2.0,0.7,-43.9,3.1%,15.2%,11.4%,40.0%,13.3%

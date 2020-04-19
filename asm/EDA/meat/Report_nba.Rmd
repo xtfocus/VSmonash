@@ -1,0 +1,184 @@
+---
+title: "Nba physique"
+author: "Tung"
+date: "16/04/2020"
+output: pdf_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=FALSE}
+require(dplyr)
+require(ggplot2)
+require(tidyr)
+library(plyr)
+setwd('~/units/VSmonash/asm/EDA/meat/')
+nba <- read.csv('phythro_nba.csv')
+
+nba[nba$Draft_Round=='Undrafted',]$Draft_Round <- NA
+nba$Draft_Round <- as.numeric(as.character(nba$Draft_Round))
+nba[nba$Draft_Number=='Undrafted',]$Draft_Number <- NA
+nba[nba$Wingspan=='',]$Wingspan <- NA
+
+df <- data.frame(nba$Wingspan)
+df <- df %>% separate(nba.Wingspan, c('feet', 'inches'), "'", convert = TRUE) %>% 
+     mutate(cm = (12*feet + inches)*2.54)
+nba$Wingspan_cm <- df$cm
+```
+
+
+
+## Plot the distribution of weight, height, wingspan
+
+```{r}
+# Distribution of weight
+d <- density(nba$Weight)
+plot(density(nba$Weight), main='NBA: Density of Weight')
+polygon(d, col="red", border="blue")
+```
+```{r}
+# Distribution of height
+d <- density(nba$Height_cm)
+plot(d, main='NBA: Density of Height')
+polygon(d, col="red", border="blue")
+```
+
+
+
+```{r}
+nba$period = NA
+nba[nba$Draft_Year < 2010,]$period = 'before 2010'
+nba[nba$Draft_Year >= 2010,]$period = 'after 2010'
+nba$period <- as.factor(nba$period)
+
+
+mu <- ddply(nba, "period", summarise, grp.mean=mean(Weight))
+
+ggplot(nba, aes(x=Weight, color=period)) +
+  geom_density()
+# Add mean lines
+p<-ggplot(nba, aes(x=Weight, color=period)) +
+  geom_density()+
+  geom_vline(data=mu, aes(xintercept=grp.mean, color=period),
+             linetype="dashed")
+p
+
+```
+
+```{r}
+
+
+
+mu <- ddply(nba, "period", summarise, grp.mean=mean(Height_cm))
+
+ggplot(nba, aes(x=Height_cm, color=period)) +
+  geom_density()
+# Add mean lines
+p<-ggplot(nba, aes(x=Height_cm, color=period)) +
+  geom_density()+
+  geom_vline(data=mu, aes(xintercept=grp.mean, color=period),
+             linetype="dashed")
+p
+
+```
+
+## Plot Height vs Weigth
+
+```{r, echo=FALSE}
+p1<-ggplot(nba, aes(Height_cm, Weight)) + geom_point(color='gray')
+
+outliers <- c('Earl Boykins', 'Zion Williamson', 'Oliver Miller', 'Michael Sweetney', 'Stanley Roberts', 'LeBron James', 'Jahidi White', 'Sim Bhullar', 'Shaquille O’Neal', 'Giannis Antetokounmpo', 'Nate Robinson', 'Spud Webb', 'Isaiah Thomas', 'Kevin Durant', 'Kristaps Porzingis', 'Kobe Bryant', 'Corey Brewer', 'Shaun Livingston', 'Zhou Qi', ' Yao Ming', 'Tacko Fall', "Shaquille O'Neal")
+
+p2 <- p1 + geom_text(aes(label=Player), hjust='inward',
+                     data=nba[nba$Player %in% outliers, ]) + geom_point(data=nba[nba$Player %in% outliers, ], color='green')
+
+
+p3 <- p2 +
+      geom_smooth(aes(group = 1),
+      method = "lm",
+      color = "black",
+      formula = y~ poly(x, 2),
+      se = T)
+
+p4 <- p3 + theme_bw() + 
+  scale_x_continuous("Height in cm") +
+  scale_y_continuous("Weight in lbs") +
+  theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradientn(colours = rainbow(5))
+
+p4
+
+```
+
+
+
+
+
+```{r}
+# Distribution of wing
+data <- nba[complete.cases(nba[ , 'Wingspan_cm']),]$Wingspan_cm
+d <- density(data)
+plot(d, main='NBA: Density of Wingspan')
+polygon(d, col="red", border="blue")
+```
+
+## Plot Height vs Weigth for the first round and second round
+
+
+
+```{r, echo=FALSE, warning=FALSE}
+data <- nba
+outliers <- c('Earl Boykins', 'Zion Williamson', 'Oliver Miller', 'Michael Sweetney', 'Stanley Roberts', 'LeBron James', 'Jahidi White', 'Sim Bhullar', 'Shaquille O’Neal', 'Giannis Antetokounmpo', 'Nate Robinson', 'Spud Webb', 'Isaiah Thomas', 'Kevin Durant', 'Kristaps Porzingis', 'Kobe Bryant', 'Corey Brewer', 'Shaun Livingston', 'Zhou Qi', ' Yao Ming', 'Tacko Fall', "Shaquille O'Neal")
+
+
+
+p1<-ggplot(data, aes(x=Height_cm, y=Wingspan_cm)) + geom_point()
+
+p3 <- p1 +
+      geom_smooth(aes(group = 1),
+      method = "lm",
+      color = "black",
+      formula = y~ poly(x, 2),
+      se = T)
+
+p4 <- p3 + theme_bw() + 
+  scale_x_continuous("Height in cm") +
+  scale_y_continuous("Wingspan in lbs") +
+  theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradientn(colours = rainbow(5))
+
+p4
+
+```
+
+
+
+## Plot draft num vs height
+```{r, echo=FALSE, warning=FALSE}
+data <- nba[which(nba$Draft_Number != 'Undrafted'), ]
+data$Draft_Number = as.integer(data$Draft_Number)
+
+
+p1<-ggplot(data, aes(Draft_Number, Height_cm)) + geom_point()
+
+
+outliers <- c('Earl Boykins', 'LeBron James', 'Jahidi White', 'Sim Bhullar', 'Shaquille O’Neal', 'Giannis Antetokounmpo', 'Nate Robinson', 'Isaiah Thomas', 'Kevin Durant', 'Kristaps Porzingis', 'Kobe Bryant', ' Yao Ming', "Shaquille O'Neal", "Kyrie Irving")
+
+
+
+
+p2 <- p1 + geom_text(aes(label=Player), hjust='inward',
+                     data=data[data$Player %in% outliers, ]) + geom_point(data=data[data$Player %in% outliers, ],         color='green')
+
+
+p4 <- p2 + theme_bw() + 
+  scale_x_continuous("Draft Number") +
+  scale_y_continuous("Height in cm") +
+  theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradientn(colours = 'rainbow(5)')
+
+p4
+
+```
+
+

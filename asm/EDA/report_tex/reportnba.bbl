@@ -1,0 +1,30 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia contributors}%
+}{%
+{Wikipedia contributors}%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+wiper}
+\APACinsertmetastar {%
+wiper}%
+\begin{APACrefauthors}%
+{Wikipedia contributors}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+\APACrefbtitle {Player efficiency rating --- {Wikipedia}{,} The Free
+  Encyclopedia.} {Player efficiency rating --- {Wikipedia}{,} the free
+  encyclopedia.}
+\newblock
+\APAChowpublished
+  {\url{https://en.wikipedia.org/w/index.php?title=Player_efficiency_rating&oldid=951282757}}.
+\newblock
+\APACrefnote{[Online; accessed 17-April-2020 ]}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

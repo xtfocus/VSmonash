@@ -1,0 +1,467 @@
+Player,Team,Age,Height,Weight,College,Country,Draft Year,Draft Round,Draft Number,GP,PTS,REB,AST,NetRtg,OREB%,DREB%,USG%,TS%,AST%
+Aaron McKie,LAL,34,6-5,209,Temple,USA,1994,1,17,10,2.2,1.8,1.3,-6.6,0.8%,13.7%,8.5%,64.7%,16.5%
+Aaron Williams,LAC,35,6-9,235,Xavier,USA,Undrafted,Undrafted,Undrafted,38,2.0,2.2,0.2,-1.4,7.8%,16.3%,10.0%,60.6%,3.0%
+Adam Morrison,CHA,22,6-8,205,Gonzaga,USA,2006,1,3,78,11.8,2.9,2.1,-6.1,2.3%,8.1%,21.6%,45.0%,12.1%
+Adonal Foyle,GSW,32,6-10,270,Colgate,St. Vincent &...,1997,1,8,48,2.2,2.6,0.4,-3.4,10.4%,15.0%,10.5%,55.7%,5.4%
+Adrian Griffin,CHI,32,6-5,230,Seton Hall,USA,Undrafted,Undrafted,Undrafted,54,2.5,2.0,1.1,6.6,7.5%,12.2%,13.2%,49.9%,15.4%
+Al Harrington,GSW,27,6-9,245,None,USA,1998,1,25,78,16.5,6.4,1.9,-0.6,5.8%,13.8%,22.8%,54.0%,9.7%
+Al Jefferson,BOS,22,6-10,256,None,USA,2004,1,15,69,16.0,11.0,1.3,-3.3,11.0%,23.9%,22.6%,54.7%,7.1%
+Alan Anderson,CHA,24,6-6,220,Michigan State,USA,Undrafted,Undrafted,Undrafted,17,5.8,1.9,1.2,-3.9,4.5%,8.9%,19.4%,53.8%,14.4%
+Alan Henderson,PHI,34,6-9,240,Indiana,USA,1995,1,16,38,3.1,2.8,0.3,-0.7,11.5%,15.2%,10.3%,67.9%,3.6%
+Alexander Johnson,MEM,24,6-9,240,Florida State,USA,2006,2,45,59,4.4,3.1,0.3,-0.6,7.6%,19.3%,15.8%,58.8%,3.3%
+Allan Ray,BOS,23,6-2,190,Villanova,USA,Undrafted,Undrafted,Undrafted,47,6.2,1.5,0.9,-0.8,2.4%,8.3%,19.8%,51.2%,10.5%
+Allen Iverson,DEN,32,6-0,165,Georgetown,USA,1996,1,1,65,26.3,3.0,7.2,-0.2,0.8%,6.1%,28.8%,54.0%,30.2%
+Alonzo Mourning,MIA,37,6-10,261,Georgetown,USA,1992,1,2,77,8.6,4.5,0.2,-1.8,8.9%,13.7%,20.4%,59.0%,2.0%
+Alvin Williams,LAC,32,6-5,195,Villanova,USA,1997,2,47,2,1.0,0.5,1.5,-38.1,7.1%,0.0%,25.9%,26.6%,42.9%
+Amar'e Stoudemire,PHX,24,6-10,245,None,USA,2002,1,9,82,20.4,9.6,1.0,8.3,9.1%,20.4%,25.2%,63.7%,4.9%
+Amir Johnson,DET,20,6-9,210,None,USA,2005,2,56,8,5.9,4.6,0.4,0.4,12.8%,15.5%,17.0%,60.0%,3.9%
+Anderson Varejao,CLE,24,6-10,240,None,Brazil,2004,2,30,81,6.8,6.7,0.9,6.8,9.7%,19.2%,13.5%,52.7%,6.0%
+Andray Blatche,WAS,20,6-11,248,None,USA,2005,2,49,56,3.7,3.4,0.7,-5.8,10.7%,17.4%,16.9%,47.1%,9.4%
+Andre Barrett,CHI,25,5-10,173,Seton Hall,,Undrafted,Undrafted,Undrafted,6,1.3,0.8,1.2,-2.9,3.8%,16.0%,16.9%,50.0%,36.8%
+Andre Brown,SEA,26,6-9,245,DePaul,USA,Undrafted,Undrafted,Undrafted,38,2.4,1.9,0.1,-3.6,10.0%,16.8%,17.1%,57.7%,1.4%
+Andre Iguodala,PHI,23,6-6,207,Arizona,USA,2004,1,9,76,18.2,5.7,5.7,-3.5,2.7%,12.4%,22.4%,56.2%,24.2%
+Andre Miller,PHI,31,6-2,200,Utah,USA,1999,1,8,80,13.4,4.4,7.8,-0.5,3.5%,8.8%,18.9%,52.0%,32.9%
+Andrea Bargnani,TOR,21,7-0,250,None,Italy,2006,1,1,65,11.6,3.9,0.8,1.4,3.4%,13.0%,22.2%,54.6%,5.1%
+Andreas Glyniadakis,SEA,25,7-1,280,None,USA,2003,2,58,13,1.3,0.6,0.1,-15.0,2.7%,8.5%,15.3%,47.5%,2.0%
+Andrei Kirilenko,UTA,26,6-9,227,None,Russia,1999,1,24,70,8.3,4.7,2.9,1.1,4.7%,12.3%,14.5%,55.8%,14.5%
+Andres Nocioni,CHI,27,6-7,225,None,Argentina,Undrafted,Undrafted,Undrafted,53,14.1,5.7,1.1,1.8,3.1%,18.6%,23.7%,57.8%,7.3%
+Andrew Bogut,MIL,22,7-0,245,Utah,Australia,2005,1,1,66,12.3,8.8,3.0,-2.6,7.8%,20.0%,17.2%,56.6%,13.8%
+Andrew Bynum,LAL,19,7-0,275,None,USA,2005,1,10,82,7.8,5.9,1.1,-2.8,8.3%,19.1%,16.3%,59.3%,8.5%
+Andris Biedrins,GSW,21,6-11,245,None,Latvia,2004,1,11,82,9.5,9.3,1.1,2.9,10.6%,21.5%,13.9%,59.8%,5.3%
+Antawn Jamison,WAS,31,6-9,235,North Carolina,USA,1998,1,4,70,19.8,8.0,1.9,1.2,5.0%,17.0%,22.4%,54.5%,8.4%
+Anthony Carter,DEN,32,6-2,195,Hawaii,USA,Undrafted,Undrafted,Undrafted,2,3.0,1.5,5.5,7.7,0.0%,5.9%,15.6%,37.5%,42.3%
+Anthony Johnson,ATL,32,6-3,195,College of Charleston,USA,1997,2,39,67,5.3,1.5,3.0,-4.8,1.8%,6.5%,15.6%,48.0%,24.9%
+Anthony Parker,TOR,32,6-6,215,Bradley,USA,1997,1,21,73,12.4,3.9,2.1,6.7,2.7%,9.6%,15.5%,59.6%,9.6%
+Anthony Roberson,GSW,24,6-2,188,Florida,USA,Undrafted,Undrafted,Undrafted,20,5.6,1.1,0.5,-11.3,0.8%,8.3%,21.9%,52.7%,7.1%
+Antoine Walker,MIA,30,6-9,245,Kentucky,USA,1996,1,6,78,8.5,4.3,1.7,-2.2,5.4%,14.1%,21.9%,46.2%,12.2%
+Antoine Wright,NJN,23,6-7,215,Texas A&M,USA,2005,1,15,63,4.5,2.8,0.9,-6.3,3.6%,12.3%,13.1%,50.0%,8.1%
+Antonio Daniels,WAS,32,6-4,205,Bowling Green,USA,1997,1,4,80,7.1,1.9,3.6,-0.4,1.0%,8.0%,14.1%,57.2%,26.1%
+Antonio McDyess,DET,32,6-9,245,Alabama,USA,1995,1,2,82,8.1,6.0,0.9,8.9,9.9%,20.0%,18.0%,55.2%,7.2%
+Austin Croshere,DAL,32,6-10,235,Providence,USA,1997,1,12,61,3.7,3.0,0.7,1.2,4.6%,20.8%,16.9%,46.3%,10.4%
+Baron Davis,GSW,28,6-3,215,California-Los Angeles,USA,1999,1,3,63,20.1,4.4,8.1,5.3,2.3%,10.1%,26.3%,53.0%,35.6%
+Ben Gordon,CHI,24,6-3,200,Connecticut,USA,2004,1,3,82,21.4,3.1,3.6,6.6,1.3%,8.2%,28.6%,57.2%,19.4%
+Ben Wallace,CHI,32,6-9,240,Virginia Union,USA,Undrafted,Undrafted,Undrafted,77,6.4,10.7,2.4,3.3,11.3%,19.6%,10.7%,45.6%,10.1%
+Beno Udrih,SAS,24,6-3,200,None,Slovenia,2004,1,28,73,4.7,1.1,1.7,-0.2,1.2%,7.8%,20.5%,45.9%,22.0%
+Bernard Robinson,NJN,26,6-6,210,Michigan,USA,2004,2,45,31,2.0,1.5,0.6,-9.2,3.6%,13.4%,14.3%,41.3%,11.9%
+Bo Outlaw,ORL,36,6-8,220,Houston,USA,Undrafted,Undrafted,Undrafted,41,2.0,2.6,0.4,-1.3,11.4%,14.4%,8.1%,66.7%,5.5%
+Bobby Jackson,NOK,34,6-1,185,Minnesota,USA,1997,1,23,56,10.6,3.2,2.5,1.3,3.1%,10.3%,22.4%,50.0%,17.9%
+Bobby Jones,PHI,23,6-7,215,Washington,USA,2006,2,37,44,2.5,1.3,0.4,7.4,6.7%,11.0%,17.2%,49.5%,7.5%
+Bonzi Wells,HOU,30,6-5,210,Ball State,USA,1998,1,11,28,7.8,4.3,1.1,0.2,4.7%,16.2%,23.5%,44.6%,10.0%
+Boris Diaw,PHX,25,6-8,230,None,France,2003,1,21,73,9.7,4.3,4.8,5.3,4.5%,9.9%,15.3%,57.0%,21.9%
+Bostjan Nachbar,NJN,26,6-9,221,None,Slovenia,2002,1,15,76,9.2,3.3,0.8,-1.1,1.9%,14.9%,18.7%,61.4%,7.2%
+Bracey Wright,MIN,22,6-3,201,Indiana,USA,2005,2,47,19,3.5,1.1,0.8,14.1,3.7%,8.4%,17.0%,49.3%,11.4%
+Brad Miller,SAC,31,7-0,261,Purdue,USA,Undrafted,Undrafted,Undrafted,63,9.0,6.4,3.6,1.7,4.5%,18.7%,16.6%,50.8%,19.6%
+Brandon Bass,NOK,22,6-8,240,Louisiana State,USA,2005,2,33,21,2.0,2.0,0.1,-6.3,7.6%,22.1%,16.7%,41.1%,3.0%
+Brandon Roy,POR,22,6-6,229,Washington,USA,2006,1,6,57,16.8,4.4,4.0,-4.9,3.0%,10.7%,22.5%,54.8%,20.2%
+Brendan Haywood,WAS,27,7-0,263,North Carolina,USA,2001,1,20,77,6.6,6.2,0.6,1.9,10.9%,16.7%,13.4%,57.1%,4.0%
+Brent Barry,SAS,35,6-7,210,Oregon State,USA,1995,1,15,75,8.5,2.1,1.8,6.0,1.2%,9.1%,15.0%,66.6%,13.2%
+Brevin Knight,CHA,31,5-10,170,Stanford,USA,1997,1,16,45,9.1,2.6,6.6,-3.1,1.1%,8.5%,17.9%,48.7%,37.8%
+Brian Cardinal,MEM,30,6-8,245,Purdue,USA,2000,2,44,28,4.5,2.1,1.1,-5.3,4.2%,16.4%,17.1%,65.5%,16.9%
+Brian Cook,LAL,26,6-9,258,Illinois,USA,2003,1,24,65,6.9,3.3,1.0,3.0,6.4%,15.6%,20.8%,52.5%,10.0%
+Brian Scalabrine,BOS,29,6-9,235,Southern California,USA,2001,2,34,54,4.0,1.9,1.1,-3.6,2.5%,8.4%,10.8%,53.7%,9.2%
+Brian Skinner,MIL,31,6-9,265,Baylor,USA,1998,1,22,67,4.4,5.7,0.9,-3.5,7.4%,19.5%,10.8%,51.1%,5.4%
+Bruce Bowen,SAS,36,6-7,200,Cal State-Fullerton,USA,Undrafted,Undrafted,Undrafted,82,6.2,2.7,1.4,13.5,1.1%,8.2%,10.8%,51.1%,6.8%
+CJ Miles,UTA,20,6-6,215,None,USA,2005,2,34,37,2.7,0.9,0.7,-8.1,2.8%,6.8%,17.7%,40.0%,9.7%
+Calvin Booth,WAS,31,6-11,250,Penn State,USA,1999,2,35,44,1.6,1.8,0.4,7.4,7.1%,15.1%,9.1%,49.0%,6.7%
+Carlos Arroyo,ORL,27,6-2,202,Florida International,Puerto Rico,Undrafted,Undrafted,Undrafted,72,7.7,1.9,2.8,1.4,2.7%,8.4%,22.2%,50.1%,28.6%
+Carlos Boozer,UTA,25,6-9,266,Duke,USA,2002,2,34,74,20.9,11.7,3.0,2.9,9.9%,25.8%,26.2%,58.8%,15.8%
+Carlos Delfino,DET,24,6-6,230,None,Argentina,2003,1,25,82,5.2,3.2,1.1,2.9,5.0%,14.9%,15.8%,51.5%,10.8%
+Carmelo Anthony,DEN,23,6-8,230,Syracuse,USA,2003,1,3,65,28.9,6.0,3.8,1.7,6.0%,9.9%,32.8%,55.2%,18.3%
+Caron Butler,WAS,27,6-7,228,Connecticut,USA,2002,1,10,63,19.1,7.4,3.7,1.2,5.9%,13.6%,22.7%,53.7%,15.4%
+Cedric Bozeman,ATL,24,6-6,207,UCLA,USA,Undrafted,Undrafted,Undrafted,23,1.1,1.0,0.4,-4.6,1.4%,9.6%,10.7%,31.2%,7.5%
+Cedric Simmons,NOK,21,6-9,235,North Carolina State,USA,2006,1,15,43,2.9,2.5,0.3,-8.8,8.2%,11.9%,14.2%,43.0%,3.7%
+Channing Frye,NYK,24,6-11,248,Arizona,USA,2005,1,8,72,9.5,5.5,0.9,-4.3,5.1%,17.0%,19.9%,46.4%,6.3%
+Charlie Bell,MIL,28,6-3,200,Michigan State,,Undrafted,Undrafted,Undrafted,82,13.5,2.9,3.0,-4.5,2.0%,6.8%,18.1%,53.0%,13.7%
+Charlie Villanueva,MIL,22,6-11,240,Connecticut,USA,2005,1,7,39,11.8,5.8,0.9,-0.1,6.6%,17.6%,21.5%,54.7%,5.8%
+Chauncey Billups,DET,30,6-3,202,Colorado,USA,1997,1,3,70,17.0,3.4,7.2,7.5,1.0%,8.9%,21.2%,59.1%,32.1%
+Chris Bosh,TOR,23,6-10,230,Georgia Tech,USA,2003,1,4,69,22.6,10.7,2.5,3.8,7.5%,21.7%,26.6%,57.7%,11.5%
+Chris Duhon,CHI,24,6-1,185,Duke,USA,2004,2,38,78,7.2,2.2,4.0,4.9,1.2%,7.7%,14.5%,52.9%,25.2%
+Chris Kaman,LAC,25,7-0,265,Central Michigan,USA,2003,1,6,75,10.1,7.8,1.1,-3.7,8.3%,21.1%,19.4%,50.2%,6.1%
+Chris McCray,MIL,23,6-5,192,Maryland,USA,Undrafted,Undrafted,Undrafted,5,0.0,0.0,0.0,-11.0,0.0%,0.0%,16.1%,0.0%,0.0%
+Chris Paul,NOK,22,6-0,175,Wake Forest,USA,2005,1,4,64,17.3,4.4,8.9,-1.1,2.2%,10.4%,22.3%,53.7%,39.7%
+Chris Quinn,MIA,23,6-2,185,Notre Dame,USA,Undrafted,Undrafted,Undrafted,42,3.4,0.7,1.5,1.4,1.5%,6.2%,19.4%,47.9%,28.9%
+Chris Webber,DET,34,6-10,245,Michigan,USA,1993,1,1,61,11.2,7.2,3.1,2.4,7.5%,19.6%,21.3%,48.2%,17.0%
+Chris Wilcox,SEA,24,6-10,235,Maryland,USA,2002,1,8,82,13.5,7.7,1.0,-0.8,7.3%,18.9%,19.1%,56.8%,5.0%
+Chuck Hayes,HOU,24,6-6,238,Kentucky,USA,Undrafted,Undrafted,Undrafted,78,5.6,6.7,0.6,10.3,12.2%,18.8%,11.6%,58.7%,4.3%
+Chucky Atkins,MEM,32,5-11,185,South Florida,USA,Undrafted,Undrafted,Undrafted,75,13.2,1.9,4.6,-3.0,0.9%,6.1%,21.0%,58.0%,27.6%
+Clifford Robinson,NJN,40,6-10,245,Connecticut,USA,1989,2,36,50,4.1,2.4,1.0,-11.5,3.3%,9.8%,12.9%,43.4%,9.2%
+Corey Maggette,LAC,27,6-6,225,Duke,USA,1999,1,13,75,16.9,5.9,2.8,1.7,4.3%,16.0%,25.4%,58.3%,16.0%
+Corliss Williamson,SAC,33,6-7,245,Arkansas,USA,1995,1,13,68,9.1,3.3,0.6,2.9,5.1%,11.7%,22.2%,55.9%,5.4%
+Craig Smith,MIN,23,6-7,272,Boston College,USA,2006,2,36,82,7.4,5.1,0.6,-4.8,10.3%,18.4%,18.2%,55.8%,5.6%
+Cuttino Mobley,LAC,31,6-4,215,Rhode Island,USA,1998,2,41,78,13.8,3.4,2.5,-0.5,2.0%,7.9%,18.1%,54.6%,11.7%
+DJ Mbenga,DAL,26,7-0,255,None,,Undrafted,Undrafted,Undrafted,21,0.8,0.5,0.3,-11.2,4.5%,11.1%,14.4%,43.5%,11.3%
+Dahntay Jones,MEM,26,6-6,210,Duke,USA,2003,1,20,78,7.5,2.0,0.9,-3.0,3.1%,7.0%,16.9%,54.2%,6.6%
+Dajuan Wagner,GSW,24,6-3,200,Memphis,USA,2002,1,6,1,4.0,0.0,1.0,21.4,0.0%,0.0%,21.4%,106.4%,20.0%
+Dale Davis,DET,38,6-11,252,Clemson,USA,1991,1,13,46,1.8,3.0,0.3,6.9,12.3%,16.4%,9.9%,48.6%,4.1%
+Damien Wilkins,SEA,27,6-6,225,Georgia,USA,Undrafted,Undrafted,Undrafted,82,8.8,2.8,1.9,-5.9,4.5%,7.6%,17.3%,53.5%,12.1%
+Damir Markota,MIL,21,6-10,225,None,USA,2006,2,59,30,1.7,1.0,0.2,-10.8,6.5%,11.7%,19.0%,44.9%,5.9%
+Damon Jones,CLE,30,6-3,190,Houston,USA,Undrafted,Undrafted,Undrafted,60,6.6,1.1,1.6,2.7,0.7%,5.1%,14.8%,52.5%,12.8%
+Damon Stoudamire,MEM,33,5-10,174,Arizona,USA,1995,1,7,62,7.5,2.2,4.8,-8.1,2.2%,8.0%,16.8%,49.3%,31.3%
+Dan Dickau,POR,28,6-0,180,Gonzaga,USA,2002,1,28,50,3.3,0.9,1.4,5.9,1.7%,9.1%,20.0%,47.6%,25.9%
+Dan Gadzuric,MIL,29,6-11,240,California-Los Angeles,Netherlands,2002,2,33,54,4.8,4.6,0.5,-4.8,11.2%,19.2%,16.8%,48.2%,5.3%
+Daniel Ewing,LAC,24,6-3,185,Duke,USA,2005,2,32,61,2.9,1.2,1.5,4.3,1.4%,9.1%,15.2%,49.5%,21.5%
+Daniel Gibson,CLE,21,6-2,190,Texas,USA,2006,2,42,60,4.6,1.5,1.2,4.7,2.8%,6.9%,13.0%,55.6%,11.0%
+Danny Fortson,SEA,31,6-8,260,Cincinnati,USA,1997,1,10,14,2.9,3.1,0.1,0.5,9.3%,21.3%,14.5%,56.0%,1.0%
+Danny Granger,IND,24,6-9,228,New Mexico,USA,2005,1,17,82,13.9,4.6,1.4,-2.3,4.1%,10.2%,17.8%,57.3%,7.0%
+Darius Songaila,WAS,29,6-9,248,Wake Forest,Lithuania,2002,2,49,37,7.6,3.6,1.0,0.3,6.4%,13.6%,18.4%,56.7%,9.2%
+Darko Milicic,ORL,22,7-0,275,None,Serbia,2003,1,2,80,8.0,5.5,1.1,0.3,8.5%,16.1%,18.7%,49.2%,8.1%
+Darrell Armstrong,IND,39,6-1,180,Fayetteville State,USA,Undrafted,Undrafted,Undrafted,81,5.6,1.7,2.4,-2.4,2.7%,8.5%,16.7%,54.7%,25.0%
+Darrick Martin,TOR,36,5-11,170,UCLA,,Undrafted,Undrafted,Undrafted,31,3.0,0.4,1.4,-4.3,0.8%,4.7%,21.7%,45.5%,34.7%
+David Harrison,IND,24,7-0,280,Colorado,USA,2004,1,29,24,3.0,1.8,0.3,-9.1,5.1%,18.0%,20.9%,52.5%,6.3%
+David Lee,NYK,24,6-9,249,Florida,USA,2005,1,30,58,10.7,10.4,1.8,2.8,11.9%,23.8%,14.2%,65.2%,9.5%
+David Noel,MIL,23,6-6,230,North Carolina,USA,2006,2,39,68,2.7,1.8,1.0,-9.3,5.2%,10.9%,13.1%,47.0%,12.2%
+David Wesley,CLE,36,6-1,203,Baylor,USA,Undrafted,Undrafted,Undrafted,35,2.1,1.0,1.1,-1.7,0.9%,9.0%,13.3%,41.8%,17.2%
+David West,NOK,26,6-9,240,Xavier,USA,2003,1,18,52,18.3,8.2,2.2,0.4,6.7%,16.9%,23.2%,53.2%,10.3%
+DeSagana Diop,DAL,25,7-0,280,None,Senegal,2001,1,8,81,2.3,5.4,0.4,4.4,11.8%,19.3%,7.8%,50.3%,3.0%
+DeShawn Stevenson,WAS,26,6-5,218,None,USA,2000,1,23,82,11.2,2.6,2.7,-1.7,2.2%,7.0%,17.3%,54.2%,13.9%
+Dee Brown,UTA,22,6-0,181,Illinois,USA,2006,2,46,49,1.9,0.8,1.7,1.6,1.8%,7.8%,13.5%,41.1%,26.9%
+Delonte West,BOS,23,6-4,180,None,,2004,1,24,69,12.2,3.0,4.4,-5.6,1.5%,8.5%,19.0%,52.6%,23.7%
+DerMarr Johnson,DEN,27,6-9,210,Cincinnati,USA,2000,1,6,39,3.5,1.5,0.4,-5.8,2.1%,10.6%,18.3%,41.4%,6.8%
+Derek Anderson,CHA,32,6-5,195,Kentucky,USA,1997,1,13,50,8.0,2.3,2.7,1.3,2.6%,7.6%,14.8%,58.6%,17.4%
+Derek Fisher,UTA,32,6-1,211,Arkansas-Little Rock,USA,1996,1,24,82,10.1,1.8,3.3,4.1,1.4%,5.7%,17.7%,51.0%,18.3%
+Deron Williams,UTA,23,6-3,205,Illinois,USA,2005,1,3,80,16.2,3.3,9.3,2.9,1.5%,8.2%,22.1%,53.5%,40.4%
+Desmon Farmer,SEA,25,6-5,220,Southern California,,Undrafted,Undrafted,Undrafted,8,1.6,0.1,1.1,22.5,0.0%,2.8%,20.8%,42.1%,34.6%
+Desmond Mason,NOK,29,6-5,222,Oklahoma State,USA,2000,1,17,75,13.7,4.6,1.5,-2.7,4.8%,9.0%,21.5%,49.3%,7.6%
+Devean George,DAL,29,6-8,235,Augsburg,USA,1999,1,23,60,6.4,3.6,0.6,3.0,4.7%,13.2%,15.6%,48.7%,4.3%
+Devin Brown,NOK,28,6-5,220,Texas-San Antonio,USA,Undrafted,Undrafted,Undrafted,58,11.6,4.3,2.6,-0.5,3.3%,12.3%,19.2%,53.8%,14.3%
+Devin Harris,DAL,24,6-3,185,Wisconsin,USA,2004,1,5,80,10.2,2.5,3.7,14.8,2.4%,7.4%,18.7%,57.4%,22.0%
+Dijon Thompson,ATL,24,6-8,200,California-Los Angeles,USA,2005,2,54,6,2.8,1.3,0.3,-7.1,7.1%,12.5%,17.3%,48.2%,7.1%
+Dikembe Mutombo,HOU,41,7-2,260,Georgetown,Congo,1991,1,4,75,3.1,6.5,0.2,3.8,12.7%,25.0%,8.2%,60.1%,1.6%
+Dirk Nowitzki,DAL,29,7-0,245,None,Germany,1998,1,9,78,24.6,8.9,3.4,11.6,4.8%,21.7%,28.3%,60.5%,16.9%
+Donell Taylor,WAS,24,6-5,193,None,USA,Undrafted,Undrafted,Undrafted,47,2.7,1.1,1.0,-11.1,3.4%,10.9%,20.9%,42.2%,23.6%
+Donyell Marshall,CLE,34,6-9,230,Connecticut,USA,1994,1,4,81,7.0,4.0,0.6,3.7,6.1%,17.7%,18.8%,53.6%,5.8%
+Dorell Wright,MIA,21,6-8,205,None,USA,2004,1,19,66,6.0,4.1,1.4,-6.5,3.3%,18.3%,16.7%,48.9%,12.6%
+Doug Christie,LAC,37,6-6,205,Pepperdine,USA,1992,1,17,7,1.9,1.6,1.1,-18.4,3.6%,10.3%,13.4%,35.5%,18.2%
+Drew Gooden,CLE,25,6-10,250,Kansas,USA,2002,1,4,80,11.1,8.5,1.1,0.0,11.9%,20.2%,19.9%,50.8%,6.7%
+Dwayne Jones,CLE,24,6-11,251,None,USA,Undrafted,Undrafted,Undrafted,4,0.8,1.5,0.0,8.4,5.6%,26.3%,13.6%,41.2%,0.0%
+Dwight Howard,ORL,21,6-11,265,None,USA,2004,1,1,82,17.6,12.3,1.9,1.4,10.5%,25.4%,22.5%,61.9%,9.2%
+Dwyane Wade,MIA,25,6-4,212,Marquette,USA,2003,1,5,51,27.4,4.7,7.5,2.0,2.9%,9.6%,33.3%,58.3%,37.8%
+Earl Barron,MIA,25,7-0,245,Memphis,,Undrafted,Undrafted,Undrafted,28,2.3,1.5,0.2,-6.1,9.6%,12.5%,22.7%,35.7%,4.5%
+Earl Boykins,MIL,31,5-5,133,Eastern Michigan,USA,Undrafted,Undrafted,Undrafted,66,14.6,2.1,4.4,-6.0,2.3%,4.4%,20.9%,54.8%,24.1%
+Earl Watson,SEA,28,6-1,195,California-Los Angeles,USA,2001,2,39,77,9.4,2.4,5.7,-2.4,1.6%,7.4%,19.1%,48.3%,31.8%
+Eddie Griffin,MIN,25,6-9,222,Seton Hall,USA,2001,1,7,13,1.4,1.9,0.3,-40.8,6.8%,20.7%,16.1%,30.8%,8.3%
+Eddie House,NJN,29,6-1,175,Arizona State,USA,2000,2,37,56,8.4,1.6,1.2,-5.2,1.4%,8.8%,21.3%,53.6%,12.7%
+Eddie Jones,MIA,35,6-6,200,Temple,USA,1994,1,10,64,7.7,3.0,1.7,-1.5,2.1%,10.5%,14.6%,54.2%,11.1%
+Eddy Curry,NYK,24,6-11,285,None,USA,2001,1,4,81,19.5,7.0,0.8,-4.4,7.6%,14.1%,25.6%,60.3%,4.5%
+Eduardo Najera,DEN,30,6-8,235,Oklahoma,Mexico,2000,2,38,75,6.6,4.1,0.9,1.4,7.9%,10.8%,11.7%,60.9%,5.6%
+Elton Brand,LAC,28,6-8,254,Duke,USA,1999,1,1,80,20.5,9.3,2.9,0.4,9.3%,16.2%,23.6%,58.1%,14.2%
+Emeka Okafor,CHA,24,6-10,252,Connecticut,USA,2004,1,2,67,14.4,11.3,1.2,-2.0,11.1%,22.2%,19.1%,55.4%,6.0%
+Eric Piatkowski,PHX,36,6-7,215,Nebraska,USA,1994,1,15,11,2.5,0.8,0.4,-4.3,2.8%,9.3%,20.0%,52.2%,8.5%
+Eric Snow,CLE,34,6-3,205,Michigan State,USA,1995,2,43,82,4.2,2.3,4.0,-0.6,1.8%,8.2%,11.2%,45.8%,25.9%
+Eric Williams,CHA,34,6-8,220,Providence,USA,1995,1,14,21,2.6,0.8,0.3,0.0,2.8%,11.5%,22.6%,50.8%,10.3%
+Erick Dampier,DAL,31,6-11,265,Mississippi State,USA,1996,1,10,76,7.1,7.4,0.6,12.8,12.7%,19.4%,12.8%,64.2%,3.4%
+Ersan Ilyasova,MIL,20,6-9,235,None,Turkey,2005,2,36,66,6.1,2.9,0.7,-10.0,5.8%,14.2%,20.4%,50.0%,8.6%
+Esteban Batista,ATL,23,6-10,268,None,Uruguay,Undrafted,Undrafted,Undrafted,13,1.5,2.3,0.3,-16.0,8.3%,29.1%,12.3%,52.4%,10.5%
+Etan Thomas,WAS,29,6-10,260,Syracuse,USA,2000,1,12,65,6.1,5.8,0.4,-1.3,11.1%,20.9%,14.5%,58.5%,3.6%
+Fabricio Oberto,SAS,32,6-10,245,None,Argentina,Undrafted,Undrafted,Undrafted,79,4.4,4.7,0.9,7.7,10.6%,18.4%,12.5%,57.5%,7.5%
+Flip Murray,DET,27,6-3,197,Shaw,USA,2002,2,41,69,6.7,1.6,2.7,1.6,1.8%,6.1%,18.3%,47.4%,20.7%
+Francisco Elson,SAS,31,7-0,235,California,Netherlands,1999,2,41,70,5.0,4.8,0.8,6.4,6.8%,20.0%,14.2%,55.2%,6.3%
+Francisco Garcia,SAC,25,6-7,195,Louisville,Dominican Rep...,2005,1,23,79,6.0,2.6,1.1,-0.4,3.8%,10.7%,15.4%,55.1%,10.1%
+Fred Jones,POR,28,6-2,220,Oregon,USA,2002,1,14,63,6.5,1.8,1.7,-8.5,1.8%,7.4%,16.4%,50.1%,13.4%
+Gary Payton,MIA,38,6-4,190,Oregon State,USA,1990,1,2,68,5.3,1.9,3.0,-6.7,1.3%,7.8%,14.4%,45.8%,21.7%
+Gerald Green,BOS,21,6-8,200,None,USA,2005,1,18,81,10.4,2.6,1.0,-6.3,3.8%,8.8%,23.0%,52.1%,8.9%
+Gerald Wallace,CHA,24,6-7,215,Alabama,USA,2001,1,25,72,18.1,7.2,2.6,-4.6,5.4%,15.6%,22.1%,56.8%,12.3%
+Gilbert Arenas,WAS,25,6-4,215,Arizona,USA,2001,2,30,74,28.4,4.6,6.0,2.9,2.0%,9.8%,30.2%,56.5%,25.7%
+Gordan Giricek,UTA,30,6-6,222,None,Croatia,1999,2,40,61,7.8,2.1,1.0,6.3,2.2%,9.7%,18.1%,56.6%,9.0%
+Grant Hill,ORL,34,6-8,225,Duke,USA,1994,1,3,65,14.4,3.6,2.1,-1.4,2.9%,9.7%,21.3%,58.2%,12.5%
+Greg Buckner,DAL,30,6-4,210,Clemson,USA,1998,2,53,76,4.0,2.1,0.9,1.3,2.7%,9.4%,11.6%,48.6%,8.2%
+Hakim Warrick,MEM,24,6-9,219,Syracuse,USA,2005,1,19,82,12.7,5.1,0.9,-8.7,6.4%,14.5%,21.8%,59.2%,6.4%
+Hassan Adams,NJN,23,6-4,220,Arizona,USA,2006,2,54,61,2.9,1.3,0.2,-0.4,7.7%,8.2%,15.7%,57.7%,4.3%
+Hedo Turkoglu,ORL,28,6-10,220,None,Turkey,2000,1,16,73,13.3,4.0,3.2,3.1,2.8%,11.0%,21.3%,52.8%,17.1%
+Hilton Armstrong,NOK,22,6-11,235,Connecticut,USA,2006,1,12,56,3.1,2.7,0.2,-0.1,9.4%,14.4%,13.6%,57.0%,2.7%
+Ike Diogu,IND,23,6-8,255,Arizona State,USA,2005,1,9,59,6.2,3.4,0.4,-1.5,9.8%,16.5%,22.5%,55.9%,6.1%
+Ime Udoka,POR,29,6-5,220,Portland State,USA,Undrafted,Undrafted,Undrafted,75,8.4,3.7,1.5,-2.9,4.8%,9.8%,13.6%,56.9%,8.5%
+Ira Newble,CLE,32,6-7,220,Miami (OH),USA,Undrafted,Undrafted,Undrafted,15,3.1,2.0,0.1,-3.0,9.6%,13.2%,14.6%,55.6%,2.6%
+Ivan McFarlin,PHI,25,6-7,229,Oklahoma State,USA,Undrafted,Undrafted,Undrafted,11,1.4,1.0,0.1,-9.3,14.9%,12.5%,17.0%,46.6%,3.8%
+J.J. Barea,DAL,23,6-0,175,Northeastern,Puerto Rico,Undrafted,Undrafted,Undrafted,33,2.4,0.8,0.7,-10.7,3.6%,9.6%,23.1%,44.0%,24.0%
+JJ Redick,ORL,23,6-4,190,Duke,USA,2006,1,11,42,6.0,1.2,0.9,-1.0,1.8%,7.0%,17.3%,56.9%,10.0%
+JR Smith,DEN,21,6-6,220,None,USA,2004,1,18,63,13.0,2.3,1.4,2.7,2.0%,7.5%,22.3%,58.5%,9.8%
+Jackie Butler,SAS,22,6-10,260,Southern Illinois,USA,Undrafted,Undrafted,Undrafted,11,3.7,2.0,0.5,-19.7,6.3%,16.7%,22.0%,52.0%,8.8%
+Jacque Vaughn,SAS,32,6-1,190,Kansas,USA,1997,1,27,64,3.0,1.1,2.0,11.1,1.2%,7.6%,14.6%,49.1%,27.0%
+Jake Tsakalidis,HOU,28,7-2,290,None,Greece,2000,1,25,36,2.3,2.9,0.1,-3.1,11.0%,16.8%,13.3%,47.1%,2.2%
+Jake Voskuhl,CHA,29,6-11,255,Connecticut,USA,2000,2,33,73,4.4,3.5,0.6,-4.7,8.3%,18.5%,15.4%,52.3%,6.7%
+Jalen Rose,PHX,34,6-8,215,Michigan,USA,1994,1,13,29,3.7,0.8,0.6,-8.2,1.2%,8.5%,18.4%,59.2%,11.9%
+Jamaal Magloire,POR,29,6-11,265,Kentucky,Canada,2000,1,19,81,6.5,6.1,0.4,-7.9,9.6%,22.7%,17.5%,52.7%,3.0%
+Jamaal Tinsley,IND,29,6-3,185,Iowa State,USA,2001,1,27,72,12.8,3.3,6.9,-2.8,2.6%,8.4%,23.4%,46.5%,37.9%
+Jamal Crawford,NYK,27,6-5,190,Michigan,USA,2000,1,8,59,17.6,3.2,4.4,-3.0,2.1%,6.8%,23.2%,51.7%,20.3%
+Jamal Sampson,DEN,24,6-11,235,California,USA,2002,2,46,22,1.1,2.2,0.2,-4.6,12.1%,25.2%,10.7%,59.5%,5.8%
+Jameer Nelson,ORL,25,6-0,190,None,USA,2004,1,20,77,13.0,3.1,4.3,-0.1,2.3%,8.4%,22.3%,51.4%,24.2%
+James Augustine,ORL,23,6-10,235,Illinois,USA,2006,2,41,2,1.0,1.5,1.0,-25.1,20.0%,28.6%,17.6%,33.3%,33.3%
+James Jones,PHX,26,6-8,220,Miami (FL),USA,2003,2,49,76,6.4,2.3,0.6,6.8,2.5%,10.0%,16.2%,51.0%,4.8%
+James Lang,WAS,23,6-10,305,None,USA,2003,2,48,11,1.0,1.0,0.2,3.1,9.6%,9.2%,10.9%,49.1%,5.4%
+James Posey,MIA,30,6-8,217,Xavier,USA,1999,1,18,71,7.7,5.0,1.3,-0.8,3.6%,15.7%,12.7%,57.9%,7.8%
+James Singleton,LAC,25,6-8,230,Murray State,,Undrafted,Undrafted,Undrafted,53,1.6,2.0,0.3,1.8,9.0%,19.4%,13.2%,44.9%,7.5%
+James White,SAS,24,6-7,200,Cincinnati,USA,2006,2,31,6,8.3,3.3,0.8,-8.5,2.2%,12.8%,17.5%,52.5%,6.5%
+Jannero Pargo,NOK,27,6-1,175,Arkansas,USA,Undrafted,Undrafted,Undrafted,82,9.2,2.2,2.5,-2.8,1.2%,9.6%,23.0%,50.4%,21.8%
+Jared Jeffries,NYK,25,6-11,240,Indiana,USA,2002,1,11,55,4.1,4.3,1.2,-5.5,9.2%,10.7%,10.3%,47.3%,8.0%
+Jared Reiner,MIL,25,6-11,255,Iowa,USA,Undrafted,Undrafted,Undrafted,27,1.2,2.6,0.5,-12.0,8.7%,21.8%,11.1%,34.8%,7.6%
+Jarrett Jack,POR,23,6-3,197,Georgia Tech,USA,2005,1,22,79,12.0,2.6,5.3,-6.1,0.7%,8.1%,17.5%,57.1%,26.5%
+Jarron Collins,UTA,28,6-11,248,Stanford,USA,2001,2,52,82,2.5,2.1,0.7,5.6,7.8%,12.6%,11.6%,49.4%,10.2%
+Jarvis Hayes,WAS,25,6-8,228,Georgia,USA,2003,1,10,81,7.2,2.6,1.0,-4.8,2.5%,10.9%,17.1%,50.2%,8.2%
+Jason Collins,NJN,28,7-0,260,Stanford,USA,2001,1,18,80,2.1,4.0,0.6,2.9,5.3%,12.9%,7.1%,40.8%,3.4%
+Jason Hart,LAC,29,6-3,185,Syracuse,USA,2000,2,49,36,6.9,2.7,2.9,-1.7,1.8%,10.9%,15.3%,50.9%,19.5%
+Jason Kapono,MIA,26,6-8,215,California-Los Angeles,USA,2003,2,31,67,10.9,2.7,1.2,-1.3,1.6%,8.7%,17.4%,61.3%,7.9%
+Jason Kidd,NJN,34,6-4,210,California,USA,1994,1,2,80,13.0,8.2,9.2,0.9,4.8%,18.6%,18.8%,51.6%,40.5%
+Jason Maxiell,DET,24,6-7,260,Cincinnati,USA,2005,1,26,67,5.0,2.8,0.2,5.0,9.7%,10.3%,18.2%,51.8%,2.5%
+Jason Richardson,GSW,26,6-6,225,Michigan State,USA,2001,1,5,51,16.0,5.1,3.4,3.3,4.2%,11.1%,22.0%,51.2%,15.3%
+Jason Terry,DAL,29,6-2,180,Arizona,USA,1999,1,10,81,16.7,2.9,5.2,10.3,1.6%,7.2%,21.1%,58.7%,24.4%
+Jason Williams,MIA,31,6-1,180,Florida,USA,1998,1,7,61,10.9,2.3,5.3,0.1,1.1%,6.6%,17.6%,54.0%,27.5%
+Jeff Foster,IND,30,6-11,250,S.W. Texas State,USA,1999,1,21,75,4.3,8.1,0.8,-1.6,14.3%,22.2%,9.7%,51.3%,4.9%
+Jeff McInnis,CHA,32,6-4,190,North Carolina,USA,1996,2,37,38,4.3,1.6,3.3,-6.5,2.1%,7.4%,15.4%,42.3%,27.6%
+Jeremy Richardson,POR,23,6-7,195,Delta State,USA,Undrafted,Undrafted,Undrafted,6,1.3,0.3,0.0,-8.3,5.6%,6.3%,13.2%,66.7%,0.0%
+Jermaine O'Neal,IND,28,6-11,260,None,USA,1996,1,17,69,19.4,9.6,2.4,-0.1,6.3%,21.4%,28.2%,50.0%,12.8%
+Jerome James,NYK,31,7-1,280,Florida A&M,USA,1998,2,36,41,1.9,1.6,0.1,-12.4,7.0%,16.0%,17.8%,43.7%,2.3%
+Jerry Stackhouse,DAL,32,6-6,218,North Carolina,USA,1995,1,3,67,12.0,2.2,2.8,7.8,2.6%,7.0%,23.9%,53.7%,19.5%
+Joe Johnson,ATL,26,6-7,235,Arkansas,USA,2001,1,10,57,25.0,4.2,4.4,-4.1,2.4%,8.4%,28.1%,55.8%,21.6%
+Joe Smith,PHI,31,6-10,225,Maryland,USA,1995,1,1,65,8.5,6.2,0.8,0.3,8.5%,19.4%,18.2%,51.0%,5.5%
+Joel Przybilla,POR,27,7-1,255,Minnesota,USA,2000,1,9,43,2.0,3.9,0.3,-1.7,9.1%,17.2%,8.8%,46.7%,2.7%
+Joey Graham,TOR,25,6-7,225,Oklahoma State,USA,2005,1,16,79,6.4,3.1,0.6,2.8,4.5%,15.3%,16.8%,56.4%,5.3%
+Johan Petro,SEA,21,7-0,247,None,France,2005,1,25,81,6.2,4.1,0.6,-6.5,6.4%,17.5%,16.6%,53.2%,5.0%
+John Lucas III,HOU,24,5-11,165,Oklahoma State,USA,Undrafted,Undrafted,Undrafted,47,3.3,0.8,0.7,-4.3,2.3%,7.7%,21.0%,46.8%,16.7%
+John Salmons,SAC,27,6-6,207,Miami (FL),USA,2002,1,26,79,8.5,3.3,3.2,-4.0,2.3%,10.4%,15.2%,55.3%,19.6%
+Jordan Farmar,LAL,20,6-2,180,California-Los Angeles,USA,2006,1,26,72,4.4,1.7,1.9,0.7,2.1%,9.2%,15.8%,51.5%,20.4%
+Jorge Garbajosa,TOR,29,6-9,245,None,USA,Undrafted,Undrafted,Undrafted,67,8.5,4.9,1.9,2.6,2.7%,15.5%,15.3%,50.3%,9.9%
+Jose Calderon,TOR,25,6-3,210,None,Spain,Undrafted,Undrafted,Undrafted,77,8.7,1.7,5.0,1.3,1.4%,7.6%,19.0%,58.8%,39.7%
+Josh Boone,NJN,22,6-10,245,Connecticut,USA,2006,1,23,61,4.2,2.9,0.2,1.7,9.9%,16.2%,16.7%,58.7%,2.7%
+Josh Childress,ATL,24,6-8,210,Stanford,USA,2004,1,6,55,13.0,6.2,2.3,-2.8,6.4%,11.2%,15.5%,58.6%,10.8%
+Josh Howard,DAL,27,6-7,210,Wake Forest,USA,2003,1,29,70,18.9,6.8,1.8,10.6,5.8%,15.3%,24.8%,54.8%,8.8%
+Josh Powell,GSW,24,6-9,225,North Carolina State,USA,Undrafted,Undrafted,Undrafted,37,3.1,2.4,0.6,-17.0,6.3%,16.5%,16.5%,52.0%,10.0%
+Josh Smith,ATL,21,6-9,235,None,USA,2004,1,17,72,16.4,8.6,3.3,-3.6,6.5%,18.3%,23.7%,50.6%,15.7%
+Juan Dixon,TOR,28,6-3,164,Maryland,USA,2002,1,17,81,9.6,2.0,1.5,-2.4,1.5%,7.4%,20.0%,51.6%,11.2%
+Julius Hodge,MIL,23,6-7,220,North Carolina State,USA,2005,1,20,9,1.7,0.9,1.3,-6.1,2.7%,7.9%,11.0%,54.5%,29.3%
+Jumaine Jones,PHX,28,6-8,230,Georgia,USA,1999,1,27,18,2.2,1.3,0.1,-5.3,4.2%,13.3%,18.6%,38.6%,1.1%
+Junior Harrington,MEM,26,6-4,190,Wingate,USA,Undrafted,Undrafted,Undrafted,29,5.2,2.3,3.1,-2.4,2.4%,11.0%,16.9%,48.3%,24.6%
+Justin Reed,MIN,25,6-8,240,Mississippi,USA,2004,2,40,41,2.6,1.1,0.4,-8.5,4.5%,10.3%,19.1%,44.1%,8.5%
+Justin Williams,SAC,23,6-10,230,Wyoming,USA,Undrafted,Undrafted,Undrafted,26,5.0,4.4,0.1,-7.9,15.3%,20.4%,16.9%,56.6%,1.0%
+Juwan Howard,HOU,34,6-9,250,Michigan,USA,1994,1,5,80,9.7,5.9,1.6,0.8,6.8%,16.2%,18.5%,51.7%,10.5%
+Keith Bogans,ORL,27,6-5,215,Kentucky,USA,2003,2,43,59,5.1,1.6,1.0,2.3,1.8%,8.4%,14.7%,54.6%,9.4%
+Keith McLeod,IND,27,6-2,190,Bowling Green,USA,Undrafted,Undrafted,Undrafted,48,4.8,0.9,1.9,-0.5,0.6%,5.6%,16.0%,52.0%,18.4%
+Kelenna Azubuike,GSW,23,6-5,220,Kentucky,England,Undrafted,Undrafted,Undrafted,41,7.1,2.3,0.7,-11.6,3.6%,9.7%,18.3%,57.2%,6.8%
+Kelvin Cato,NYK,32,6-11,275,Iowa State,USA,1997,1,15,18,1.2,1.7,0.0,-10.2,11.1%,17.9%,15.2%,40.3%,0.0%
+Kendrick Perkins,BOS,22,6-10,280,None,USA,2003,1,27,72,4.5,5.2,1.3,-2.7,7.5%,17.3%,12.3%,51.8%,9.5%
+Kenny Thomas,SAC,29,6-7,245,New Mexico,USA,1999,1,22,62,5.3,6.1,1.2,-6.7,9.6%,19.1%,13.4%,49.2%,8.5%
+Kenyon Martin,DEN,29,6-9,240,Cincinnati,USA,2000,1,1,2,9.5,10.0,0.5,-4.5,8.6%,23.0%,17.1%,44.6%,2.3%
+Kevin Garnett,MIN,31,6-11,253,None,USA,1995,1,5,76,22.4,12.8,4.1,-0.1,6.8%,27.5%,27.2%,54.6%,19.0%
+Kevin Martin,SAC,24,6-7,185,Western Carolina,USA,2004,1,26,80,20.2,4.3,2.2,-3.1,2.5%,10.4%,22.6%,61.4%,10.8%
+Kevin Ollie,PHI,34,6-3,195,Connecticut,USA,Undrafted,Undrafted,Undrafted,53,3.8,1.4,2.5,-8.2,1.0%,7.8%,12.9%,48.1%,22.9%
+Kevin Willis,DAL,44,7-0,245,Michigan State,USA,1984,1,11,5,2.4,1.6,0.2,9.2,5.7%,17.1%,17.6%,43.2%,3.4%
+Kevinn Pinkney,BOS,23,6-10,245,Nevada,USA,Undrafted,Undrafted,Undrafted,6,5.2,2.5,0.8,0.0,6.5%,10.1%,14.8%,50.1%,7.8%
+Keyon Dooling,ORL,27,6-3,195,Missouri,USA,2000,1,10,66,7.9,1.3,1.7,0.2,1.6%,4.8%,18.4%,50.1%,13.5%
+Kirk Hinrich,CHI,26,6-3,190,Kansas,USA,2003,1,7,80,16.6,3.4,6.3,6.0,1.1%,8.6%,21.3%,55.9%,29.1%
+Kirk Snyder,HOU,24,6-6,225,Nevada-Reno,USA,2004,1,16,39,4.9,2.1,1.0,-4.1,3.2%,12.2%,16.8%,53.6%,12.5%
+Kobe Bryant,LAL,28,6-6,220,None,USA,1996,1,13,77,31.6,5.7,5.4,1.3,2.5%,11.8%,32.8%,58.0%,24.9%
+Kris Humphries,TOR,22,6-9,235,Minnesota,USA,2004,1,14,60,3.8,3.1,0.3,-2.5,11.5%,17.2%,16.6%,51.6%,4.3%
+Kurt Thomas,PHX,34,6-9,235,Texas Christian,USA,1995,1,10,67,4.6,5.7,0.4,11.5,7.8%,23.9%,12.2%,53.1%,2.6%
+Kwame Brown,LAL,25,6-11,270,None,USA,2001,1,1,41,8.4,6.0,1.8,3.9,8.0%,16.0%,14.8%,57.3%,9.7%
+Kyle Korver,PHI,26,6-7,210,Creighton,USA,2003,2,51,74,14.4,3.5,1.4,-4.3,1.4%,10.5%,20.6%,56.9%,8.3%
+Kyle Lowry,MEM,21,6-0,175,Villanova,USA,2006,1,24,10,5.6,3.1,3.2,15.9,7.0%,12.1%,15.6%,55.6%,26.9%
+LaMarcus Aldridge,POR,21,6-11,245,Texas,USA,2006,1,2,63,9.0,5.0,0.4,-0.8,10.9%,13.8%,18.8%,53.3%,3.0%
+Lamar Odom,LAL,27,6-10,230,Rhode Island,USA,1999,1,4,56,15.9,9.8,4.8,1.5,4.8%,20.7%,19.5%,55.2%,19.3%
+Larry Hughes,CLE,28,6-5,184,Saint Louis,USA,1998,1,8,70,14.9,3.8,3.7,4.3,1.5%,9.3%,21.4%,48.0%,16.2%
+Lawrence Roberts,MEM,24,6-9,240,Mississippi,USA,2005,2,55,54,5.2,4.8,0.6,-2.4,10.5%,18.0%,13.6%,53.3%,4.8%
+LeBron James,CLE,22,6-8,240,None,USA,2003,1,1,78,27.3,6.7,6.0,5.7,2.6%,14.7%,30.3%,55.2%,28.1%
+Leandro Barbosa,PHX,24,6-3,188,None,Brazil,2003,1,28,80,18.1,2.7,4.0,9.3,0.9%,7.2%,23.1%,59.5%,18.8%
+Leon Powe,BOS,23,6-8,240,California,USA,2006,2,49,63,4.2,3.4,0.2,-1.5,13.0%,18.7%,17.4%,54.9%,2.6%
+Linas Kleiza,DEN,22,6-8,245,Missouri,Lithuania,2005,1,27,79,7.6,3.4,0.6,2.2,5.1%,12.6%,17.2%,56.1%,4.7%
+Lindsey Hunter,DET,36,6-2,195,Jackson State,USA,1993,1,10,52,4.9,0.9,1.8,-4.7,1.2%,5.4%,17.9%,49.5%,22.5%
+Linton Johnson,NOK,27,6-8,205,Tulane,USA,Undrafted,Undrafted,Undrafted,54,4.2,3.0,0.3,1.6,7.2%,16.0%,14.5%,54.8%,4.1%
+Lorenzen Wright,ATL,31,6-11,255,Memphis,USA,1996,1,7,67,2.6,3.2,0.6,-6.4,8.4%,14.0%,10.4%,43.9%,6.0%
+Lou Amundson,PHI,24,6-9,225,Nevada-Las Vegas,USA,Undrafted,Undrafted,Undrafted,11,1.5,2.5,0.1,-14.6,12.7%,16.1%,11.6%,41.2%,2.0%
+Lou Williams,PHI,20,6-1,175,None,USA,2005,2,45,61,4.3,1.1,1.8,4.3,2.5%,8.1%,19.1%,52.1%,26.4%
+Luke Jackson,TOR,25,6-7,215,Oregon,USA,2004,1,10,13,3.7,0.8,1.0,-6.3,1.5%,6.1%,18.0%,51.1%,15.7%
+Luke Ridnour,SEA,26,6-1,167,Oregon,USA,2003,1,14,71,11.0,2.3,5.2,-3.6,1.4%,6.9%,19.6%,50.9%,27.6%
+Luke Schenscher,POR,25,7-1,265,Georgia Tech,USA,Undrafted,Undrafted,Undrafted,11,1.7,2.3,0.1,0.0,8.4%,13.2%,11.6%,36.4%,1.4%
+Luke Walton,LAL,27,6-8,232,Arizona,USA,2003,2,32,60,11.4,5.0,4.3,0.2,4.6%,11.0%,16.4%,55.1%,19.4%
+Luol Deng,CHI,22,6-9,220,Duke,United Kingdo...,2004,1,7,82,18.8,7.1,2.5,6.7,4.9%,14.1%,21.9%,56.0%,11.5%
+Luther Head,HOU,24,6-3,185,Illinois,USA,2005,1,24,80,10.9,3.2,2.4,0.2,1.4%,10.0%,17.9%,58.4%,15.5%
+Lynn Greer,MIL,27,6-2,175,Temple,USA,Undrafted,Undrafted,Undrafted,41,4.1,0.7,1.3,-1.7,0.5%,5.9%,18.0%,53.8%,20.5%
+Maceo Baston,IND,31,6-10,230,Michigan,USA,1998,2,58,47,2.9,1.6,0.3,-3.4,5.8%,14.6%,13.6%,71.4%,6.7%
+Malik Allen,CHI,29,6-10,255,Villanova,USA,Undrafted,Undrafted,Undrafted,60,4.0,2.0,0.3,4.8,6.8%,12.2%,20.2%,44.3%,4.1%
+Malik Rose,NYK,32,6-7,255,Drexel,USA,1996,2,44,65,3.0,2.7,1.0,-7.8,6.0%,16.9%,15.1%,46.0%,13.5%
+Manu Ginobili,SAS,29,6-6,205,None,Argentina,1999,2,57,75,16.5,4.4,3.5,14.0,3.1%,13.5%,25.9%,60.9%,22.3%
+Marc Jackson,NOK,32,6-10,253,Temple,USA,1997,2,37,56,7.3,3.4,1.0,-7.9,6.2%,14.0%,22.3%,47.1%,9.9%
+Marcus Banks,PHX,25,6-2,200,Nevada-Las Vegas,USA,2003,1,13,45,4.9,0.8,1.3,-12.4,1.9%,5.8%,23.2%,49.7%,22.3%
+Marcus Camby,DEN,33,6-11,235,Massachusetts,USA,1996,1,2,70,11.2,11.7,3.2,2.3,7.1%,26.5%,15.8%,51.9%,13.7%
+Marcus Vinicius,NOK,23,6-8,225,None,USA,2006,2,43,13,1.7,0.8,0.4,-19.1,2.3%,10.7%,10.6%,60.8%,6.9%
+Marcus Williams,NJN,21,6-3,205,Connecticut,USA,2006,1,22,79,6.8,2.1,3.3,-2.0,2.4%,10.2%,24.0%,47.4%,34.6%
+Mardy Collins,NYK,22,6-6,220,Temple,USA,2006,1,29,52,4.5,2.0,1.6,-6.7,3.7%,10.5%,18.4%,44.5%,18.8%
+Mark Blount,MIN,31,7-0,250,Pittsburgh,USA,1997,2,54,82,12.3,6.2,0.8,-5.8,5.9%,14.8%,19.7%,54.6%,4.5%
+Mark Madsen,MIN,31,6-9,250,Stanford,USA,2000,1,29,56,1.1,1.6,0.2,-0.1,8.1%,11.3%,7.4%,54.7%,3.1%
+Marko Jaric,MIN,28,6-7,224,None,Serbia,2000,2,30,70,5.3,2.6,2.1,-5.5,3.7%,8.9%,13.2%,51.0%,14.7%
+Marquis Daniels,IND,26,6-6,200,Auburn,USA,Undrafted,Undrafted,Undrafted,45,7.1,1.8,1.3,-5.0,3.2%,7.3%,20.1%,50.6%,12.6%
+Martell Webster,POR,20,6-7,229,None,USA,2005,1,6,82,7.0,2.9,0.6,-5.7,2.5%,12.3%,16.2%,52.2%,5.0%
+Marvin Williams,ATL,21,6-9,230,North Carolina,USA,2005,1,2,64,13.1,5.3,1.9,-4.3,4.1%,12.8%,19.7%,51.0%,9.4%
+Matt Barnes,GSW,27,6-7,226,UCLA,USA,2002,2,45,76,9.8,4.6,2.1,-0.2,4.8%,13.7%,18.0%,54.7%,13.1%
+Matt Bonner,SAS,27,6-10,240,Florida,USA,2003,2,45,56,4.9,2.8,0.4,0.8,10.0%,15.1%,19.5%,54.2%,6.1%
+Matt Carroll,CHA,26,6-6,212,Notre Dame,USA,Undrafted,Undrafted,Undrafted,72,12.1,2.9,1.3,-3.7,1.9%,9.9%,19.2%,58.0%,8.3%
+Matt Freije,ATL,25,6-9,249,Vanderbilt,USA,2004,2,53,19,2.1,1.3,0.4,1.4,5.0%,10.9%,17.0%,35.3%,8.8%
+Matt Harpring,UTA,31,6-7,225,Georgia Tech,USA,1998,1,15,77,11.6,4.6,1.3,5.7,6.2%,13.1%,20.1%,56.4%,8.3%
+Maurice Ager,DAL,23,6-5,202,Michigan State,USA,2006,1,28,32,2.2,0.7,0.2,-16.2,0.4%,8.9%,20.7%,40.8%,6.5%
+Maurice Evans,LAL,28,6-5,220,Texas,USA,Undrafted,Undrafted,Undrafted,76,8.4,2.9,1.0,0.0,5.5%,7.7%,17.3%,52.3%,7.0%
+Maurice Taylor,SAC,30,6-9,265,Michigan,USA,1997,1,14,12,2.0,2.3,0.4,17.1,9.7%,16.7%,17.3%,35.6%,7.8%
+Mehmet Okur,UTA,28,6-11,263,None,Turkey,2001,2,37,80,17.6,7.2,2.0,0.9,6.5%,16.9%,22.6%,57.1%,9.7%
+Melvin Ely,SAS,29,6-10,261,Fresno State,USA,2002,1,12,30,3.0,1.8,0.6,-13.1,4.5%,12.5%,18.4%,44.2%,11.5%
+Metta World Peace,SAC,27,6-7,260,St. John's (NY),USA,1999,1,16,70,18.8,6.5,3.4,0.9,4.0%,14.3%,23.3%,53.8%,15.3%
+Michael Doleac,MIA,30,6-11,262,Utah,USA,1998,1,12,56,3.6,2.8,0.4,-4.9,6.8%,16.7%,15.0%,51.8%,5.3%
+Michael Finley,SAS,34,6-7,225,Wisconsin,USA,1995,1,21,82,9.0,2.7,1.3,4.9,2.0%,10.7%,18.9%,52.4%,10.0%
+Michael Olowokandi,BOS,32,7-0,270,Pacific,Nigeria,1998,1,1,24,1.7,2.0,0.2,-6.5,5.7%,15.7%,12.1%,42.3%,3.8%
+Michael Redd,MIL,27,6-6,215,Ohio State,USA,2000,2,43,53,26.7,3.7,2.3,0.2,2.2%,8.2%,28.7%,58.6%,10.4%
+Michael Ruffin,WAS,30,6-8,248,Tulsa,USA,1999,2,32,30,0.6,2.1,0.2,-16.0,12.2%,10.3%,6.4%,32.2%,3.7%
+Michael Sweetney,CHI,24,6-8,270,Georgetown,USA,2003,1,9,48,3.2,2.5,0.6,3.7,11.6%,18.7%,22.3%,46.9%,12.2%
+Mickael Gelabale,SEA,24,6-7,215,None,USA,2005,2,48,70,4.6,2.5,0.8,-1.9,5.0%,9.6%,12.5%,53.5%,7.0%
+Mickael Pietrus,GSW,25,6-6,215,None,France,2003,1,11,72,11.1,4.5,0.9,-4.0,4.0%,12.6%,17.1%,59.0%,4.9%
+Mike Bibby,SAC,29,6-1,190,Arizona,USA,1998,1,2,82,17.1,3.2,4.7,-0.9,1.4%,8.4%,23.7%,53.2%,23.5%
+Mike Dunleavy,IND,26,6-9,230,Duke,USA,2002,1,3,82,12.8,5.3,2.8,-1.8,3.2%,13.6%,18.7%,54.2%,14.2%
+Mike Hall,WAS,23,6-8,230,George Washington,USA,Undrafted,Undrafted,Undrafted,2,1.0,1.0,0.5,-14.6,5.6%,14.3%,11.4%,25.0%,10.0%
+Mike James,MIN,32,6-2,190,Duquesne,,Undrafted,Undrafted,Undrafted,82,10.1,2.0,3.6,-5.4,1.3%,6.9%,20.2%,52.9%,23.2%
+Mike Miller,MEM,27,6-8,218,Florida,USA,2000,1,5,70,18.5,5.4,4.3,-5.8,2.0%,12.8%,20.8%,58.8%,18.9%
+Mike Wilks,SEA,28,5-10,180,Rice,USA,Undrafted,Undrafted,Undrafted,47,3.6,1.1,1.7,2.3,3.0%,7.8%,16.2%,53.3%,23.8%
+Mikki Moore,NJN,31,7-0,223,Nebraska,USA,Undrafted,Undrafted,Undrafted,79,9.8,5.1,0.9,0.5,7.5%,13.1%,16.0%,63.7%,5.9%
+Mile Ilic,NJN,23,7-1,255,None,USA,2005,2,43,5,0.0,0.2,0.0,-130.8,0.0%,20.0%,50.0%,0.0%,0.0%
+Mo Williams,MIL,24,6-1,185,Alabama,USA,2003,2,47,68,17.3,4.8,6.1,-1.8,2.3%,11.9%,23.9%,51.9%,26.6%
+Monta Ellis,GSW,21,6-3,177,None,USA,2005,2,40,77,16.5,3.2,4.1,0.6,2.3%,6.8%,22.1%,54.5%,18.5%
+Morris Peterson,TOR,29,6-7,220,Michigan State,USA,2000,1,21,71,8.9,3.3,0.7,-4.0,2.1%,14.3%,18.5%,55.5%,5.2%
+Mouhamed Sene,SEA,21,6-11,230,None,Senegal,2006,1,10,28,1.9,1.6,0.0,-15.1,8.6%,18.0%,18.7%,42.9%,0.0%
+Nate Robinson,NYK,23,5-9,180,Washington,USA,2005,1,21,64,10.1,2.4,1.4,-1.3,4.2%,7.5%,21.1%,55.2%,11.9%
+Nazr Mohammed,DET,29,6-10,250,Kentucky,USA,1998,1,29,51,5.6,4.5,0.2,-2.0,12.1%,18.2%,18.1%,55.4%,2.0%
+Nenad Krstic,NJN,23,7-0,260,None,Serbia and Mo...,2002,1,24,26,16.4,6.8,1.8,0.2,6.2%,15.6%,22.7%,56.6%,10.2%
+Nene,DEN,24,6-11,268,None,Brazil,2002,1,7,64,12.2,7.0,1.2,3.9,9.3%,17.0%,19.3%,61.1%,7.2%
+Nick Collison,SEA,26,6-10,255,Kansas,USA,2003,1,12,82,9.6,8.1,1.0,-1.5,10.0%,19.4%,16.0%,54.6%,5.5%
+Orien Greene,IND,25,6-4,208,Louisana-Lafayette,USA,2005,2,53,41,1.5,1.1,0.5,-7.8,4.7%,12.9%,16.9%,43.2%,15.0%
+Othella Harrington,CHA,33,6-9,235,Georgetown,USA,1996,2,30,26,2.6,1.5,0.2,-4.8,6.2%,11.3%,16.9%,51.0%,5.4%
+P.J. Brown,CHI,37,6-11,239,Louisiana Tech,USA,1992,2,29,72,6.1,4.8,0.7,7.8,9.0%,15.3%,17.2%,46.2%,4.9%
+P.J. Tucker,TOR,22,6-5,225,Texas,USA,2006,2,35,17,1.8,1.4,0.2,-16.2,10.3%,17.1%,16.1%,53.3%,6.1%
+Pape Sow,TOR,25,6-10,250,Cal State-Fullerton,Senegal,2004,2,47,7,1.4,1.6,0.3,-39.7,14.6%,17.2%,14.1%,43.0%,10.0%
+Pat Burke,PHX,33,6-11,250,Auburn,Ireland,Undrafted,Undrafted,Undrafted,23,2.6,2.0,0.2,-9.8,6.9%,20.0%,20.6%,42.4%,5.1%
+Pat Garrity,ORL,30,6-9,238,Notre Dame,USA,1998,1,19,33,2.2,1.3,0.4,0.1,4.7%,12.0%,15.1%,45.6%,8.2%
+Patrick O'Bryant,GSW,21,7-0,249,Bradley,USA,2006,1,9,16,1.9,1.3,0.6,9.6,6.5%,11.9%,17.3%,39.3%,10.6%
+Pau Gasol,MEM,26,7-0,260,None,Spain,2001,1,3,59,20.8,9.8,3.4,-5.5,7.6%,21.1%,24.7%,59.3%,16.6%
+Paul Davis,LAC,22,6-11,270,Michigan State,USA,2006,2,34,31,1.6,1.4,0.2,-1.1,10.4%,13.0%,15.4%,45.2%,8.0%
+Paul Millsap,UTA,22,6-8,258,Louisiana Tech,USA,2006,2,47,82,6.8,5.2,0.8,5.7,13.1%,18.2%,17.4%,57.1%,6.8%
+Paul Pierce,BOS,29,6-6,230,Kansas,USA,1998,1,10,47,25.0,5.9,4.1,0.0,2.4%,14.3%,30.2%,57.1%,20.9%
+Peja Stojakovic,NOK,30,6-10,229,None,Serbia and Mo...,1996,1,14,13,17.8,4.2,0.8,2.0,2.4%,10.8%,23.9%,54.3%,4.5%
+Pops Mensah-Bonsu,DAL,23,6-9,240,George Washington,USA,Undrafted,Undrafted,Undrafted,12,2.4,1.8,0.0,1.4,12.2%,16.7%,20.5%,58.2%,0.0%
+Primoz Brezec,CHA,27,7-1,252,None,Slovenia,2000,1,27,58,5.0,3.2,0.4,-5.9,9.4%,14.0%,18.3%,47.4%,4.4%
+Quentin Richardson,NYK,27,6-6,230,DePaul,USA,2000,1,18,49,13.0,7.2,2.2,-2.4,4.4%,18.2%,18.7%,53.2%,11.3%
+Quincy Douby,SAC,23,6-3,175,Rutgers,USA,2006,1,19,42,2.8,0.9,0.4,-4.8,2.8%,6.8%,17.3%,44.9%,7.1%
+Quinton Ross,LAC,26,6-6,193,Southern Methodist,USA,Undrafted,Undrafted,Undrafted,81,5.2,2.3,1.1,-2.1,3.8%,7.8%,11.9%,50.8%,7.9%
+Raef LaFrentz,POR,31,6-11,245,Kansas,USA,1998,1,3,27,3.7,2.6,0.3,-15.3,7.3%,15.5%,16.8%,44.1%,3.8%
+Rafael Araujo,UTA,26,6-11,270,Brigham Young,Brazil,2004,1,8,28,2.6,2.4,0.4,10.3,9.1%,20.5%,16.4%,46.3%,6.7%
+Rafer Alston,HOU,30,6-2,175,Fresno State,USA,1998,2,39,82,13.3,3.4,5.4,7.6,1.0%,8.3%,19.0%,49.6%,23.2%
+Raja Bell,PHX,30,6-5,210,Florida International,U.S. Virgin I...,Undrafted,Undrafted,Undrafted,78,14.7,3.2,2.5,8.9,1.8%,6.7%,16.8%,56.2%,9.4%
+Rajon Rondo,BOS,21,6-1,171,Kentucky,USA,2006,1,21,78,6.4,3.7,3.8,1.6,4.1%,12.9%,16.2%,47.2%,26.0%
+Randolph Morris,NYK,21,6-11,260,Kentucky,USA,Undrafted,Undrafted,Undrafted,5,0.8,1.8,0.2,-16.8,2.1%,19.0%,10.9%,23.1%,3.7%
+Randy Foye,MIN,23,6-4,213,Villanova,USA,2006,1,7,82,10.1,2.7,2.8,-4.4,2.8%,9.5%,22.4%,53.6%,21.6%
+Randy Livingston,SEA,32,6-4,209,Louisiana State,USA,1996,2,42,4,0.0,0.3,1.0,-95.0,3.3%,0.0%,6.9%,0.0%,30.8%
+Rashad McCants,MIN,22,6-4,226,North Carolina,USA,2005,1,14,37,5.0,1.3,1.0,-0.8,2.6%,6.3%,20.1%,45.4%,11.1%
+Rashard Lewis,SEA,27,6-10,230,None,USA,1998,2,32,60,22.4,6.6,2.4,-0.4,4.1%,14.0%,24.3%,58.7%,10.8%
+Rasheed Wallace,DET,32,6-11,230,North Carolina,USA,1995,1,4,75,12.3,7.2,1.7,4.5,4.0%,20.1%,19.8%,51.3%,8.9%
+Rasho Nesterovic,TOR,31,7-0,255,None,Slovenia,1998,1,17,80,6.2,4.5,0.9,3.7,7.6%,15.2%,13.9%,55.8%,6.8%
+Rasual Butler,NOK,28,6-7,205,La Salle,USA,2002,2,52,81,10.1,3.2,0.8,-2.4,1.9%,9.9%,18.4%,49.5%,4.8%
+Rawle Marshall,IND,25,6-7,190,Oakland,USA,Undrafted,Undrafted,Undrafted,40,2.5,0.7,0.3,-5.5,2.1%,6.1%,14.8%,45.5%,6.3%
+Ray Allen,SEA,31,6-5,205,Connecticut,USA,1996,1,5,55,26.4,4.5,4.1,-1.0,2.7%,9.3%,28.7%,56.4%,18.3%
+Raymond Felton,CHA,23,6-1,198,North Carolina,USA,2005,1,5,78,14.0,3.4,7.0,-2.2,1.8%,8.1%,21.5%,48.1%,31.4%
+Reggie Evans,DEN,27,6-8,245,Iowa,USA,Undrafted,Undrafted,Undrafted,66,4.9,7.0,0.7,3.2,13.2%,26.1%,14.5%,55.0%,6.0%
+Renaldo Balkman,NYK,22,6-8,208,South Carolina,USA,2006,1,20,68,4.9,4.3,0.6,0.8,9.1%,18.9%,14.9%,53.1%,7.1%
+Renaldo Major,GSW,25,6-7,190,Fresno State,USA,Undrafted,Undrafted,Undrafted,1,5.0,2.0,0.0,22.8,0.0%,7.1%,16.9%,23.0%,0.0%
+Richard Hamilton,DET,29,6-7,193,Connecticut,USA,1999,1,7,75,19.8,3.8,3.8,7.1,2.9%,8.0%,25.5%,55.1%,18.4%
+Richard Jefferson,NJN,27,6-7,230,Arizona,USA,2001,1,13,55,16.3,4.4,2.7,0.3,2.6%,10.3%,21.9%,55.5%,13.1%
+Ricky Davis,MIN,27,6-7,226,Iowa,USA,1998,1,21,81,17.0,3.9,4.8,-4.0,2.0%,8.8%,21.5%,56.6%,21.5%
+Robert Hite,MIA,23,6-2,184,Miami (FL),USA,Undrafted,Undrafted,Undrafted,12,4.3,1.3,0.7,-5.0,2.5%,9.0%,23.3%,39.1%,11.6%
+Robert Horry,SAS,36,6-10,240,Alabama,USA,1992,1,11,68,3.9,3.4,1.1,8.6,6.9%,13.9%,13.5%,48.0%,10.6%
+Rodney Carney,PHI,23,6-7,205,Memphis,USA,2006,1,16,67,6.6,1.9,0.4,-4.7,3.6%,8.0%,18.3%,51.4%,3.7%
+Roger Mason Jr.,WAS,26,6-5,212,Virginia,USA,2002,2,30,62,2.7,0.7,0.6,-6.5,1.3%,8.4%,17.9%,44.3%,11.5%
+Roger Powell,UTA,24,6-6,220,Illinois,USA,Undrafted,Undrafted,Undrafted,3,0.7,1.0,0.0,-40.0,20.0%,0.0%,21.2%,25.8%,0.0%
+Ronald Dupree,DET,26,6-7,209,Louisiana State,USA,Undrafted,Undrafted,Undrafted,19,1.3,0.9,0.3,0.7,5.5%,14.1%,17.1%,35.8%,8.3%
+Ronnie Brewer,UTA,22,6-7,218,Arkansas,USA,2006,1,14,56,4.6,1.3,0.4,0.2,5.7%,6.4%,16.2%,56.6%,5.7%
+Ronnie Price,SAC,24,6-2,190,Utah Valley,,Undrafted,Undrafted,Undrafted,58,3.3,1.2,0.8,-1.3,2.9%,10.5%,18.1%,48.9%,14.0%
+Ronny Turiaf,LAL,24,6-10,249,Gonzaga,France,2005,2,37,72,5.3,3.6,0.9,1.6,7.8%,16.1%,15.0%,58.6%,9.2%
+Royal Ivey,ATL,25,6-4,215,Brigham Young,USA,2004,2,37,53,3.0,1.0,0.8,-6.3,3.0%,7.4%,15.6%,49.6%,14.0%
+Ruben Patterson,MIL,31,6-5,223,Cincinnati,USA,1998,2,31,81,14.7,5.4,2.9,-2.8,7.9%,10.4%,21.8%,57.8%,15.4%
+Rudy Gay,MEM,20,6-9,220,Connecticut,USA,2006,1,8,78,10.8,4.5,1.3,-3.0,4.7%,12.7%,20.6%,49.7%,7.8%
+Ryan Gomes,BOS,24,6-7,250,Providence,USA,2005,2,50,73,12.1,5.6,1.6,-8.0,5.8%,13.6%,18.7%,53.4%,9.2%
+Ryan Hollins,CHA,22,7-0,230,California-Los Angeles,USA,2006,2,50,27,2.4,1.1,0.0,-22.4,5.9%,12.5%,16.7%,59.7%,1.0%
+Salim Stoudamire,ATL,24,6-1,175,Arizona,,2005,2,31,61,7.7,1.2,1.0,-5.7,0.6%,6.8%,21.5%,51.8%,11.2%
+Sam Cassell,LAC,37,6-3,185,Florida State,USA,1993,1,24,58,12.3,2.9,4.7,2.1,2.0%,10.1%,25.3%,50.6%,34.0%
+Samuel Dalembert,PHI,27,6-11,250,Seton Hall,Haiti,2001,1,26,82,10.7,8.9,0.8,-0.3,10.4%,20.8%,16.6%,58.1%,4.1%
+Sarunas Jasikevicius,GSW,31,6-4,197,Maryland,USSR,Undrafted,Undrafted,Undrafted,63,6.1,1.1,2.7,-5.8,1.5%,5.6%,19.5%,53.1%,31.0%
+Sasha Pavlovic,CLE,23,6-7,210,None,Montenegro,2003,1,19,67,9.0,2.4,1.6,7.2,1.5%,9.2%,18.6%,55.4%,11.0%
+Sasha Vujacic,LAL,23,6-7,195,None,Slovenia,2004,1,27,73,4.3,1.5,0.9,-2.0,2.9%,9.1%,15.0%,54.0%,10.7%
+Scot Pollard,CLE,32,6-11,265,Kansas,USA,1997,1,19,24,1.0,1.3,0.1,-1.0,14.6%,16.2%,13.3%,43.2%,5.3%
+Scott Padgett,MEM,31,6-9,240,Kentucky,USA,1999,1,28,31,1.5,1.7,0.3,1.3,7.3%,16.7%,13.9%,37.3%,5.8%
+Sean Marks,PHX,31,6-10,250,California,New Zealand,1998,2,44,3,2.0,1.0,0.0,-28.0,0.0%,21.4%,16.3%,43.6%,0.0%
+Sean May,CHA,23,6-9,266,North Carolina,USA,2005,1,13,35,11.9,6.7,1.9,0.2,9.1%,19.2%,22.9%,55.1%,13.9%
+Sebastian Telfair,BOS,22,6-0,160,None,,2004,1,13,78,6.1,1.4,2.8,-1.5,1.1%,6.1%,17.3%,45.8%,22.3%
+Sergio Rodriguez,POR,21,6-3,168,None,Spain,2006,1,27,67,3.7,1.4,3.3,-7.0,2.4%,9.3%,17.1%,49.3%,41.6%
+Shammond Williams,LAL,32,6-1,201,North Carolina,USA,1998,2,34,30,3.1,1.3,1.0,-4.3,3.2%,8.8%,13.4%,53.0%,15.0%
+Shane Battier,HOU,28,6-8,220,Duke,USA,2001,1,6,82,10.1,4.1,2.1,5.7,2.3%,9.1%,11.9%,58.9%,9.2%
+Shannon Brown,CLE,21,6-4,205,Michigan State,USA,2006,1,25,23,3.2,0.9,0.4,-15.7,3.0%,7.9%,20.8%,45.5%,9.1%
+Shaquille O'Neal,MIA,35,7-1,325,Louisiana State,USA,1992,1,1,40,17.3,7.4,2.0,2.4,9.4%,18.8%,29.9%,56.7%,13.8%
+Shareef Abdur-Rahim,SAC,30,6-9,245,California,USA,1996,1,3,80,9.9,5.0,1.4,-4.4,6.2%,14.8%,19.4%,52.4%,9.2%
+Shaun Livingston,LAC,21,6-7,182,None,USA,2004,1,4,54,9.3,3.4,5.1,-4.3,3.8%,8.2%,17.0%,50.3%,28.3%
+Shavlik Randolph,PHI,23,6-10,240,Duke,USA,Undrafted,Undrafted,Undrafted,13,4.5,4.2,0.3,3.6,10.2%,19.4%,16.5%,50.3%,3.8%
+Shawn Marion,PHX,29,6-7,228,Nevada-Las Vegas,USA,1999,1,9,80,17.5,9.8,1.7,9.7,6.3%,19.8%,18.9%,59.4%,6.5%
+Shawne Williams,IND,21,6-9,225,Memphis,USA,2006,1,17,46,3.9,1.8,0.5,-10.8,6.3%,9.7%,15.6%,53.3%,6.8%
+Shelden Williams,ATL,23,6-9,250,Duke,USA,2006,1,5,81,5.5,5.4,0.5,-8.3,8.9%,21.3%,15.6%,51.8%,5.1%
+Slava Medvedenko,ATL,28,6-10,253,None,Ukraine,Undrafted,Undrafted,Undrafted,14,3.0,1.0,0.1,-7.1,5.6%,15.6%,24.9%,55.6%,4.8%
+Smush Parker,LAL,26,6-4,180,Fordham,USA,Undrafted,Undrafted,Undrafted,82,11.1,2.5,2.8,-2.0,1.9%,6.8%,18.1%,52.6%,14.1%
+Solomon Jones,ATL,22,6-10,230,South Florida,USA,2006,2,33,58,3.3,2.3,0.2,-12.1,7.6%,14.2%,12.5%,58.7%,2.8%
+Speedy Claxton,ATL,29,5-11,170,Hofstra,USA,2000,1,20,42,5.3,1.9,4.4,-5.7,1.1%,7.1%,16.3%,36.3%,29.1%
+Stephen Graham,POR,25,6-6,215,Oklahoma State,USA,Undrafted,Undrafted,Undrafted,14,3.2,1.5,0.4,-14.8,4.4%,10.5%,15.9%,51.2%,5.5%
+Stephen Jackson,GSW,29,6-8,218,Butler Community College,USA,1997,2,42,75,15.5,3.0,3.8,2.8,2.4%,6.6%,21.7%,54.0%,18.3%
+Stephon Marbury,NYK,30,6-2,205,Georgia Tech,USA,1996,1,4,74,16.4,2.9,5.4,-3.4,1.4%,6.8%,21.3%,53.9%,24.9%
+Steve Blake,DEN,27,6-3,172,Maryland,USA,2003,2,38,82,6.4,2.1,5.0,-0.8,1.0%,6.8%,13.1%,49.1%,26.0%
+Steve Francis,NYK,30,6-3,210,Maryland,USA,1999,1,2,44,11.3,3.6,3.9,-1.3,2.8%,10.7%,19.2%,57.0%,22.3%
+Steve Nash,PHX,33,6-3,195,Santa Clara,Canada,1996,1,15,76,18.6,3.5,11.6,11.3,1.3%,8.5%,22.3%,65.4%,46.8%
+Steve Novak,HOU,24,6-10,220,Marquette,USA,2006,2,32,35,1.5,0.7,0.2,-11.4,2.0%,11.9%,12.6%,50.1%,5.5%
+Steven Hunter,PHI,25,7-0,240,DePaul,USA,2001,1,15,70,6.4,4.8,0.4,-8.5,7.7%,14.0%,13.1%,57.3%,2.8%
+Steven Smith,PHI,24,6-9,250,La Salle,USA,Undrafted,Undrafted,Undrafted,8,0.6,0.8,0.0,-22.8,3.3%,20.0%,16.9%,28.2%,0.0%
+Stromile Swift,MEM,27,6-9,230,Louisiana State,USA,2000,1,2,54,7.8,4.6,0.3,-9.3,8.6%,17.0%,20.4%,51.7%,2.9%
+T.J. Ford,TOR,24,6-0,165,Texas,USA,2003,1,8,75,14.0,3.1,7.9,0.8,2.5%,8.3%,25.8%,50.8%,44.8%
+Tarence Kinsey,MEM,23,6-6,189,South Carolina,USA,Undrafted,Undrafted,Undrafted,48,7.7,2.0,0.9,-5.0,3.2%,7.5%,17.8%,53.2%,6.8%
+Tayshaun Prince,DET,27,6-9,215,Kentucky,USA,2002,1,23,82,14.3,5.2,2.8,5.8,5.1%,10.1%,18.8%,53.4%,12.7%
+Thabo Sefolosha,CHI,23,6-7,215,None,Switzerland,2006,1,13,71,3.6,2.2,0.8,5.3,4.0%,13.8%,16.7%,46.4%,10.9%
+Theo Ratliff,BOS,34,6-10,235,Wyoming,USA,1995,1,18,2,2.5,3.5,0.0,-25.7,4.7%,11.6%,5.9%,52.5%,0.0%
+Tim Duncan,SAS,31,6-11,260,Wake Forest,US Virgin Isl...,1997,1,1,80,20.0,10.6,3.4,14.6,9.0%,23.9%,27.9%,57.9%,18.2%
+Tim Thomas,LAC,30,6-10,240,Villanova,USA,1997,1,7,76,11.0,5.0,2.3,4.3,3.4%,15.3%,19.8%,53.2%,14.2%
+Tony Allen,BOS,25,6-4,213,Oklahoma State,USA,2004,1,25,33,11.5,3.8,1.7,-3.0,4.7%,11.6%,21.3%,59.6%,12.0%
+Tony Battie,ORL,31,6-11,240,Texas Tech,USA,1997,1,5,66,6.1,5.2,0.5,0.6,6.5%,16.8%,13.5%,51.3%,3.6%
+Tony Parker,SAS,25,6-2,180,None,France,2001,1,28,77,18.6,3.2,5.5,10.6,1.5%,9.0%,27.2%,57.2%,30.7%
+Tracy McGrady,HOU,28,6-8,223,None,USA,1997,1,9,71,24.6,5.3,6.5,7.7,2.3%,12.7%,34.0%,51.5%,35.3%
+Travis Diener,ORL,25,6-1,175,Marquette,USA,2005,2,38,26,3.8,0.7,1.3,-0.2,1.1%,5.3%,15.2%,56.6%,21.0%
+Travis Outlaw,POR,22,6-9,215,None,USA,2003,1,23,67,9.6,3.2,0.8,-4.2,4.6%,10.6%,21.3%,49.9%,6.1%
+Trenton Hassell,MIN,28,6-5,233,Austin Peay,USA,2001,2,29,76,6.7,3.2,2.7,-4.5,4.1%,7.3%,11.7%,52.9%,13.8%
+Trevor Ariza,ORL,21,6-8,210,UCLA,USA,2004,2,43,57,8.9,4.4,1.1,2.2,8.4%,12.4%,18.6%,56.7%,9.2%
+Troy Hudson,MIN,31,6-1,178,Southern Illinois,USA,Undrafted,Undrafted,Undrafted,34,5.9,1.4,2.1,-6.6,1.6%,7.7%,20.5%,48.3%,22.7%
+Troy Murphy,IND,27,6-11,245,Notre Dame,USA,2001,1,14,68,10.3,6.1,1.9,-5.8,5.3%,17.5%,17.2%,54.1%,11.2%
+Tyronn Lue,ATL,30,6-0,175,Nebraska,USA,1998,1,23,56,11.4,1.9,3.6,-6.7,1.3%,6.3%,20.6%,53.4%,24.2%
+Tyrus Thomas,CHI,20,6-9,215,Louisiana State,,2006,1,4,72,5.2,3.7,0.6,8.6,9.2%,17.9%,20.1%,52.1%,6.6%
+Tyson Chandler,NOK,24,7-1,235,None,USA,2001,1,2,73,9.5,12.4,0.9,-0.5,12.6%,24.4%,12.1%,62.0%,4.0%
+Udonis Haslem,MIA,27,6-8,235,Florida,USA,Undrafted,Undrafted,Undrafted,79,10.7,8.3,1.2,0.6,8.2%,18.8%,17.0%,52.3%,6.4%
+Uros Slokar,TOR,24,6-10,238,None,USA,2005,2,58,20,1.9,0.7,0.1,-20.8,8.0%,11.3%,22.5%,59.9%,3.6%
+Vassilis Spanoulis,HOU,24,6-4,195,None,USA,2004,2,50,31,2.7,0.7,0.9,-6.3,1.9%,6.3%,20.0%,47.0%,20.7%
+Viktor Khryapa,CHI,24,6-9,218,None,Russia,2004,1,22,33,2.2,1.7,0.6,-5.0,9.0%,17.6%,17.9%,44.8%,14.5%
+Vince Carter,NJN,30,6-6,220,North Carolina,USA,1998,1,5,82,25.2,6.0,4.8,0.9,3.9%,12.7%,30.2%,55.9%,24.5%
+Vitaly Potapenko,SAC,32,6-10,285,Wright State,Ukraine,1996,1,12,3,0.0,0.7,0.0,-14.0,0.0%,11.8%,17.6%,0.0%,0.0%
+Vladimir Radmanovic,LAL,26,6-10,234,None,Serbia,2001,1,12,55,6.6,3.3,1.2,-5.3,5.4%,13.3%,18.7%,51.8%,11.3%
+Von Wafer,LAC,21,6-5,210,Florida State,USA,2005,2,39,1,0.0,0.0,0.0,-16.7,0.0%,0.0%,16.7%,0.0%,0.0%
+Wally Szczerbiak,BOS,30,6-7,244,Miami (OH),USA,1999,1,6,32,15.0,3.1,1.7,-2.2,1.9%,9.7%,24.3%,54.0%,10.7%
+Walter Herrmann,CHA,28,6-9,225,None,USA,Undrafted,Undrafted,Undrafted,48,9.2,2.9,0.5,-0.4,3.1%,12.6%,18.6%,62.5%,4.9%
+Wayne Simien,MIA,24,6-9,250,Kansas,USA,2005,1,29,8,2.9,1.4,0.5,-11.2,5.1%,7.7%,14.5%,44.1%,8.2%
+Will Blalock,DET,23,6-0,205,Iowa State,USA,2006,2,60,14,1.8,1.1,1.2,-5.0,3.2%,5.7%,11.9%,38.3%,19.3%
+Will Conroy,LAC,24,6-2,195,Washington,USA,Undrafted,Undrafted,Undrafted,7,0.0,1.0,1.3,-8.5,5.8%,7.8%,6.1%,0.0%,30.0%
+Willie Green,PHI,25,6-3,201,Detroit Mercy,USA,2003,2,41,74,11.3,2.1,1.5,-6.4,2.4%,6.7%,25.1%,45.8%,11.1%
+Yakhouba Diawara,DEN,24,6-7,225,Pepperdine,USA,Undrafted,Undrafted,Undrafted,64,4.4,1.7,0.9,1.0,2.2%,6.6%,12.4%,45.0%,6.8%
+Yao Ming,HOU,26,7-6,310,None,China,2002,1,1,48,25.0,9.4,2.0,8.9,6.7%,21.4%,32.4%,60.1%,11.5%
+Yaroslav Korolev,LAC,20,6-9,203,None,Russia,2005,1,12,10,1.2,0.3,0.4,-24.3,2.0%,7.4%,20.2%,32.2%,19.0%
+Zach Randolph,POR,25,6-9,215,Michigan State,USA,2001,1,19,68,23.6,10.1,2.2,-3.4,8.9%,23.0%,32.8%,53.7%,12.6%
+Zaza Pachulia,ATL,23,6-11,280,None,Georgia,2003,2,42,72,12.2,6.9,1.5,-2.4,10.4%,16.3%,21.4%,56.2%,9.2%
+Zydrunas Ilgauskas,CLE,32,7-3,260,None,Lithuania,1996,1,20,78,11.9,7.7,1.6,5.7,11.5%,18.2%,21.5%,52.7%,9.9%
+Will Conroy,LAC,24,6-2,195,Washington,USA,Undrafted,Undrafted,Undrafted,7,0.0,1.0,1.3,-8.5,5.8%,7.8%,6.1%,0.0%,30.0%
+Willie Green,PHI,25,6-3,201,Detroit Mercy,USA,2003,2,41,74,11.3,2.1,1.5,-6.4,2.4%,6.7%,25.1%,45.8%,11.1%
+Yakhouba Diawara,DEN,24,6-7,225,Pepperdine,USA,Undrafted,Undrafted,Undrafted,64,4.4,1.7,0.9,1.0,2.2%,6.6%,12.4%,45.0%,6.8%
+Yao Ming,HOU,26,7-6,310,None,China,2002,1,1,48,25.0,9.4,2.0,8.9,6.7%,21.4%,32.4%,60.1%,11.5%
+Yaroslav Korolev,LAC,20,6-9,203,None,Russia,2005,1,12,10,1.2,0.3,0.4,-24.3,2.0%,7.4%,20.2%,32.2%,19.0%
+Zach Randolph,POR,25,6-9,215,Michigan State,USA,2001,1,19,68,23.6,10.1,2.2,-3.4,8.9%,23.0%,32.8%,53.7%,12.6%
+Zaza Pachulia,ATL,23,6-11,280,None,Georgia,2003,2,42,72,12.2,6.9,1.5,-2.4,10.4%,16.3%,21.4%,56.2%,9.2%
+Zydrunas Ilgauskas,CLE,32,7-3,260,None,Lithuania,1996,1,20,78,11.9,7.7,1.6,5.7,11.5%,18.2%,21.5%,52.7%,9.9%
