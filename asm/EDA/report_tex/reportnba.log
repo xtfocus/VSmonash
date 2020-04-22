@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.2.3)  19 APR 2020 20:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.2.3)  22 APR 2020 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1111,122 +1111,126 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lof=\write6
 \openout6 = `reportnba.lof'.
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
 
-[2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
- [3]
-<hop.jpg, id=19, 488.82625pt x 521.95pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
+ [2]
+<hop.jpg, id=16, 488.82625pt x 521.95pt>
 File: hop.jpg Graphic file (type jpg)
  <use hop.jpg>
-Package pdftex.def Info: hop.jpg used on input line 98.
-(pdftex.def)             Requested size: 244.41252pt x 260.97435pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4] <nba_ap.jpg, id=24, 889.3225pt x 475.7775pt>
+Package pdftex.def Info: hop.jpg used on input line 94.
+(pdftex.def)             Requested size: 146.649pt x 156.5862pt.
+ [3 <./hop.jpg>]
+<nba_ap.jpg, id=21, 889.3225pt x 475.7775pt>
 File: nba_ap.jpg Graphic file (type jpg)
  <use nba_ap.jpg>
-Package pdftex.def Info: nba_ap.jpg used on input line 112.
-(pdftex.def)             Requested size: 355.72269pt x 190.30762pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 116.
-
-<nba_at.jpg, id=25, 1092.08pt x 342.27875pt>
-File: nba_at.jpg Graphic file (type jpg)
- <use nba_at.jpg>
-Package pdftex.def Info: nba_at.jpg used on input line 118.
-(pdftex.def)             Requested size: 349.47275pt x 109.53142pt.
- [5 <./hop.jpg>]
-[6 <./nba_ap.jpg> <./nba_at.jpg>] <dsoh.jpg, id=32, 744.7825pt x 457.71pt>
+Package pdftex.def Info: nba_ap.jpg used on input line 108.
+(pdftex.def)             Requested size: 302.36565pt x 161.76219pt.
+ [4 <./nba_ap.jpg>] <dsoh.jpg, id=25, 761.84625pt x 423.5825pt>
 File: dsoh.jpg Graphic file (type jpg)
+ <use dsoh.jpg>
+Package pdftex.def Info: dsoh.jpg used on input line 127.
+(pdftex.def)             Requested size: 228.55563pt x 127.07573pt.
 
-<use dsoh.jpg>
-Package pdftex.def Info: dsoh.jpg used on input line 137.
-(pdftex.def)             Requested size: 223.43648pt x 137.31406pt.
- <hebf05.jpg, id=33, 774.895pt x 482.80376pt>
-File: hebf05.jpg Graphic file (type jpg)
- <use hebf05.jpg>
-Package pdftex.def Info: hebf05.jpg used on input line 143.
-(pdftex.def)             Requested size: 255.71614pt x 159.32573pt.
-
-[7 <./dsoh.jpg> <./hebf05.jpg>] <dsow.jpg, id=38, 760.8425pt x 454.69875pt>
+<hebf02.jpg, id=26, 756.8275pt x 477.785pt>
+File: hebf02.jpg Graphic file (type jpg)
+ <use hebf02.jpg>
+Package pdftex.def Info: hebf02.jpg used on input line 133.
+(pdftex.def)             Requested size: 242.18974pt x 152.89432pt.
+ [5 <./dsoh.jpg> <./hebf02.jpg>] <dsow.jpg, id=30, 761.84625pt x 426.59375pt>
 File: dsow.jpg Graphic file (type jpg)
+ <use dsow.jpg>
+Package pdftex.def Info: dsow.jpg used on input line 141.
+(pdftex.def)             Requested size: 228.55563pt x 127.97911pt.
 
-<use dsow.jpg>
-Package pdftex.def Info: dsow.jpg used on input line 151.
-(pdftex.def)             Requested size: 251.0788pt x 150.05104pt.
- <webf05.jpg, id=39, 769.87625pt x 478.78876pt>
-File: webf05.jpg Graphic file (type jpg)
- <use webf05.jpg>
-Package pdftex.def Info: webf05.jpg used on input line 157.
-(pdftex.def)             Requested size: 254.05995pt x 158.00078pt.
-
-<hvw.jpg, id=40, 794.97pt x 478.78876pt>
+<webf02.jpg, id=31, 766.865pt x 478.78876pt>
+File: webf02.jpg Graphic file (type jpg)
+ <use webf02.jpg>
+Package pdftex.def Info: webf02.jpg used on input line 147.
+(pdftex.def)             Requested size: 245.40181pt x 153.21553pt.
+ [6 <./dsow.jpg> <./webf02.jpg>] <hvw.jpg, id=35, 794.97pt x 478.78876pt>
 File: hvw.jpg Graphic file (type jpg)
  <use hvw.jpg>
-Package pdftex.def Info: hvw.jpg used on input line 168.
-(pdftex.def)             Requested size: 262.34091pt x 158.00078pt.
+Package pdftex.def Info: hvw.jpg used on input line 157.
+(pdftex.def)             Requested size: 278.24367pt x 167.57857pt.
+
+<hvdrf.jpg, id=36, 787.94376pt x 463.7325pt>
+File: hvdrf.jpg Graphic file (type jpg)
+ <use hvdrf.jpg>
+Package pdftex.def Info: hvdrf.jpg used on input line 168.
+(pdftex.def)             Requested size: 236.38495pt x 139.12082pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8 <./dsow.jpg> <./webf05.jpg>] <hvdrf.jpg, id=44, 787.94376pt x 463.7325pt>
-File: hvdrf.jpg Graphic file (type jpg)
-
-<use hvdrf.jpg>
-Package pdftex.def Info: hvdrf.jpg used on input line 181.
-(pdftex.def)             Requested size: 267.89732pt x 157.66696pt.
- [9 <./hvw.jpg> <./hvdrf.jpg>]
-<fush.jpg, id=48, 768.8725pt x 480.79625pt>
+<fush.jpg, id=37, 767.86874pt x 473.77pt>
 File: fush.jpg Graphic file (type jpg)
  <use fush.jpg>
-Package pdftex.def Info: fush.jpg used on input line 190.
-(pdftex.def)             Requested size: 253.7287pt x 158.66324pt.
+Package pdftex.def Info: fush.jpg used on input line 177.
+(pdftex.def)             Requested size: 253.39746pt x 156.34457pt.
 
-<fusw.jpg, id=49, 772.8875pt x 482.80376pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fusw.jpg, id=38, 772.8875pt x 475.7775pt>
 File: fusw.jpg Graphic file (type jpg)
  <use fusw.jpg>
-Package pdftex.def Info: fusw.jpg used on input line 196.
-(pdftex.def)             Requested size: 255.05365pt x 159.32573pt.
- (./reportnba.bbl
-Underfull \vbox (badness 3000) has occurred while \output is active []
+Package pdftex.def Info: fusw.jpg used on input line 183.
+(pdftex.def)             Requested size: 255.05365pt x 157.00705pt.
 
- [10 <./fush.jpg> <./fusw.jpg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./hvw.jpg>] <hvsper06.jpg, id=43, 772.8875pt x 417.56pt>
+File: hvsper06.jpg Graphic file (type jpg)
+
+<use hvsper06.jpg>
+Package pdftex.def Info: hvsper06.jpg used on input line 195.
+(pdftex.def)             Requested size: 309.14952pt x 167.02103pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<hvsper.jpg, id=44, 772.8875pt x 398.48875pt>
+File: hvsper.jpg Graphic file (type jpg)
+ <use hvsper.jpg>
+Package pdftex.def Info: hvsper.jpg used on input line 200.
+(pdftex.def)             Requested size: 309.14952pt x 159.39267pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./hvdrf.jpg> <./fush.jpg>] [9 <./fusw.jpg> <./hvsper06.jpg>]
+(./reportnba.bbl
 Underfull \hbox (badness 1436) in paragraph at lines 14--29
 \OT1/cmr/m/it/12 en-cy-clo-pe-dia.  $\OT1/cmtt/m/n/12 https :// en [] .wikipedi
 a [] .org / w / index [] .php [] ?title = Player []
  []
 
-) [11] (./reportnba.aux) ) 
+) [10 <./hvsper.jpg>] (./reportnba.aux) ) 
 Here is how much of TeX's memory you used:
- 24539 strings out of 493029
- 602003 string characters out of 6136235
+ 24544 strings out of 493029
+ 602082 string characters out of 6136235
  745966 words of memory out of 5000000
- 27568 multiletter control sequences out of 15000+600000
+ 27572 multiletter control sequences out of 15000+600000
  18171 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,84p,858b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on reportnba.pdf (11 pages, 530840 bytes).
+ 55i,11n,84p,857b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.p
+fb>
+Output written on reportnba.pdf (10 pages, 550075 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

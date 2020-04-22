@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt,twoside]{article}
+	\documentclass[a4paper,12pt,twoside]{article}
 
 
 
@@ -52,7 +52,7 @@
 \tableofcontents
 \listoffigures
 \thispagestyle{empty}
-\newpage
+
 
 \oddsidemargin = 22pt
 \evensidemargin = 22pt
@@ -61,41 +61,37 @@
 
 
 \section{Introduction}
-\subsection*{1}
-Basketball easily is one of the most favored kinds of sports ever been invented. The game is the most dominant in the United States, where the National Basketball Association, arguably the most competitive basketball league of the world, headquaters. Each regular season usually starts in October and finish in April. Then come the play-off, lasting from April to June and finally, the finals. The draft also happens in June, when young promising talents from over the world waiting for their name to be called.
-
-In most types of sports, physicality is an important indicator of players for their potential to success. This is especially true for basketball, which is a very physical game. Even though basketball IQ and tatics play a vital role, it is the muscle that delivers the hardwork. NBA basketballs are, in general, not only huge but also exceptionally fit. This was not always the case. In the past century, basketball players were mostly tall, sometimes skinny men. As time goes by, we see more players with more body mass. This undeniable trend is a proof showing that physique in NBA is gaining more importance.
+In most types of sports, physicality is an important indicator of players for their potential to success. This is especially true for basketball, which is a very physical game. Before 1990, basketball players were mostly tall, sometimes skinny men. As time goes by, we see more players with more body mass. This undeniable trend is a proof showing that physique in NBA is gaining more importance.
 
 Inspired by this observation and by my interest in the game, I decided to pick "The importance of physique in NBA" as the topic for this report. In this report, I attemp to answer several key questions:
 \begin{itemize}
-\item What is the most common physique type in the NBA (2019-2020) by position, by height, by weight, wing size ...?
-\item How physique can affect the draft number of a player? For instance: do bigger players get more chance of being picked in the first round?
-\item How physique and Player Efficiency Rating correlated?
+\item What is the most common physique type in the NBA (from 2000 to 2020) by height and weight?
+\item How the distribution of height and weight changes?
+\item How physique can affect the draft number of a player?
 \item Is there any differences in the physique of non-US players to US players?
+\item How physique and Player Efficiency Rating correlated?
 \end{itemize}
+
+For the second question, I split the data into 2 groups for comparison: drafted before 2002 and drafted after 2002. For the third question, I use all draft data from 2000 to 2019 to answer. For the final question related to PER, I only use the PER data from two season 2005-2006 and 2018-2019 for comparison.
 
 
 
 \section{Data Wrangling}
-The data used for my projects are all scraped from online basketball websites mentioned in the subsection \textbf{Data sources}. I used Python with the help of libraries including Selenium, BeautifulSoup, pandas and csv to automatically surf the websites, scan for data, and finally write them down to dataframe that can be stored in text files and reused in the future.
+The subsection \textbf{Data sources} belows shows the description of my sources. All of them are tabular, html data that can be scraped with the help of libraries including Selenium, BeautifulSoup, pandas and csv.
 \subsection{Data sources}
 \subsubsection{NBA players regular season stats from Official NBA Statistics and Advanced Analytics}Link: \textit{stats.nba.com/players/bio/} 
 
-This website contain the information about players' full name, their age, their draft, height and weight. There is also the information about their draft (including draft year, draft round, draft number) and key perfomance measurement and the team they are playing for, and these information usually changes season after season. 
+This website contain the information about players' full name, their age, their draft, height and weight. There is also the information about their draft (including draft year, draft round, draft number) and key perfomance measurement and the team they are playing for, and these information usually changes season after season. The number of players varies each season, but the maximum is 450 (15 players a team multiplied by 30 teams).
 
-\subsubsection{NBA Draft Combine Anthro}
-Link \textit{stats.nba.com/draft/combine-anthro/}
-
-This is a more detail table showing players' physicality index such as body fat percentage, wingspan, hands' length and width, height with shoes on and off. Not all players in the NBA show up in the Draft Combine Anthro. This data only applies to  young talents who are going to be drafted for the same year or the year after. This data is used to complement the bio dataset above. It is important to accept that the wingspan, hands' length and width, and standing reach are less likely to change over seasons, but the body fat percentage is.
 
 \subsubsection{Player Efficiency Rating (PER)} 
 Link \textit{insider.espn.com/nba/hollinger/statistics}.
 
 This is a scale developed by John Hollinger, former Vice President of Basketball Operations for the Memphis Grizzlies (an NBA team). This all-in-one formula attempts to calculate a player's contribution per playing minute, taking in consideration key performance items such as field goals, assists, steals, blocks, rebounds, free-throw, three-pointers \cite{wiper}. PER is not the perfect scale to measure a player defensively (as good defensive players are not necessarily excellent blockers or stealers), but it is still one of the most popular tools available to do evaluate players. Figure 1 is a reference table for PER, provided by Hollinger himself.
 
-\begin{figure}[h!]
+\begin{figure}[h]
 \caption{PER reference guide}
-\includegraphics[scale=0.5]{hop.jpg}
+\includegraphics[scale=0.3]{hop.jpg}
 \centering
 \end{figure}
 
@@ -109,76 +105,67 @@ For the NBA players regular season data, I retained only the columns that contai
 
 \begin{figure}[h]
 \caption{NBA players from 2000 to 2020}
-\includegraphics[scale=0.4]{nba_ap.jpg}
-\centering
-\end{figure}
-For the NBA Draft Combine Anthro data, I also perform union to merge across seasons. It is worth noticing that the NBA Draft Combine Anthro started out with only Standing reach, Weight, and  Wingpsan. Body fat were then introduced in the season 2003-2004. Finally, in the season 2010-2011, Hand length and Hand width were added to the measurement. For this dataset, I only keep data about wingspan, hand length and width, standing reach and body fat percentage. I also convert the wingspan and standing reach from feet-inch to centimeters like I did for the regular season dataset. The last five entries in the resulting dataframe is shown in Figure 3.
-\begin{figure}[!]
-\caption{NBA Draft Combine Anthro from 2000 to 2020}
-\includegraphics[scale=0.32]{nba_at.jpg}
+\includegraphics[scale=0.34]{nba_ap.jpg}
 \centering
 \end{figure}
 
-There are 1350 entries in the Draft Combine Anthro datasets. However, not all players in this dataset are NBA players. Therefore, I perform a left join between the NBA regular season dataset with this dataset to complete the physique dataset.
 
-In the similar manner, I retrieve the PER data. After scraping html data for multiple times, I became relatively efficient at this skill.
-
+In the similar manner, I retrieve the PER data for each regular season. I then join (using Python) these data with the physique data above.
 \section{Data Checking}
 
-There are entries in my dataset that are problematic. They are Guy Rucker and Xavier Silas, whose draft number is leave empty in the original dataset. After looking for their information online, I change their draft number to Undrafted.
+There are some missing in my dataset. Firstly, there are Guy Rucker and Xavier Silas, whose draft number is leave empty in the original dataset. After looking for their information online, I change their draft number to Undrafted.
+
+Next, after merging the PER data with the physique data, I found out that there are some players who were not recorded in the physique data but actually played at the momment. So, I looked up online for their height and weight information to manually fill in the data, using Python.
 
 \section{Data Exploration}
 In this section, I use Rstudio to draw plots and explore data.
 \subsection{The distribution of Height and Weight}
-The distribution of \textbf{Height} for all players from 2000 to 2020 is shown in Figure 4. This distribution is skewed to the right, and the most popular height range is from about 195 to 210 centimeters. The tallest players are Yao Ming and Shawn Bradley (7f6 or 2.29m), while the shortest player is Earl Boykins (5f5 or 1.65m)
+The distribution of \textbf{Height} for all players from 2000 to 2020 is shown in Figure 3. This distribution is skewed to the right, and the most popular height range is from about 195 to 210 centimeters. 
 
-\begin{figure}[h]
-\caption{Density plot of Height}
+\begin{figure}[h!]
+\caption{Density plot of Height (in cm)}
 \includegraphics[scale=0.3]{dsoh.jpg}
 \centering
 \end{figure}
 
 \begin{figure}[h]
-\caption{Density plot of Height before vs after 2005}
-\includegraphics[scale=0.33]{hebf05.jpg}
+\caption{Density plot of Height before vs after 2002}
+\includegraphics[scale=0.32]{hebf02.jpg}
 \centering
 \end{figure}
 
-As the basketball game progresses, I expect to see the younger generation dominate the older in height. I used the draft year 2005 to split players into 2 groups to compare their height distribution. The result, shown in Figure 5, seems to confirm my speculation. The height mean of the younger group (200.9cm) is slightly higher than that of the older (200.2cm). The most height distribution of the young is also more tightened to the middle and shifted to the right, compared to the line for the older group, which implies that players drafted after 2005 are generally taller than their older counterpart.
+As time goes by, I expect to see the younger generation dominate the older in height. I used the draft year 2002 to split players into 2 groups (each includes roughly 900 players) to compare their height distribution. The result boxplot shown in Figure 4 seems to confirm my speculation. The height mean of the younger group (201.1cm) is higher than that of the older (199.7cm), and the same can be said for the median. Overall, it can said that the height distribution of the younger group is more elevated than that of the older group, which implies that players drafted after 2002 are generally taller than their older counterpart.
 
 \begin{figure}[h]
-\caption{Distribution of Weight}
-\includegraphics[scale=0.33]{dsow.jpg}
+\caption{Distribution of Weight (in pounds)}
+\includegraphics[scale=0.3]{dsow.jpg}
 \centering
 \end{figure}
 
 \begin{figure}[h]
-\caption{Density plot of Weight before vs after 2005}
-\includegraphics[scale=0.33]{webf05.jpg}
+\caption{Density plot of Weight before vs after 2002}
+\includegraphics[scale=0.32]{webf02.jpg}
 \centering
 \end{figure}
-I address the same question for \textbf{Weight}, and the result is shown in Figure 6 and Figure 7. The most popular weight range is about 200-230 pounds, and the mean weight for two group are roughly similar. However, the distribution of weight for the younger group are more tightened to the middle, implying a higher percentage of the heavier players, compared to the players drafted before 2005.
+I address the same question for \textbf{Weight}, and the result is shown in Figure 5 and Figure 6. The most popular weight range is about 200-230 pounds, and the mean weight for two group are roughly similar. However, the distribution of weight for the younger group are more tightened to the middle, implying a higher percentage of the heavier players, compared to the players drafted before 2002. I use a density plot because the difference is not as recognizable in boxplot.
 
 
+To conclude this section, I plotted to see how \textbf{Height} and \textbf{weight} are correlated, using a scatter plot in Figure 8. An apparent upward trend is seen in the relationship between \textbf{Height} and \textbf{Weight}. This chart also exposes the outliers in my dataset. There are players who are very heavy for their frame, namely Zion Williamson, Oliver Miller, Shaquille O'Neal, and Sim Bhullar. This can pose huge stress on their knees and ankles, leading to injuries. There are also players who are too skinny, such as Corey Brewer, Shaun Livingston, Zhou Qui and Kristaps Porzingis.
 
-
-To conclude this section, I plotted to see how \textbf{Height} and \textbf{weight} are correlated, using a scatter plot.
 \begin{figure}[h]
 \caption{Height and Weight}
-\includegraphics[scale=0.33]{hvw.jpg}
+\includegraphics[scale=0.35]{hvw.jpg}
 \centering
 \end{figure}
 
-An apparent upward trend is seen in the relationship between \textbf{Height} and \textbf{Weight}. This chart also exposes the outliers in my dataset. There are players who are very heavy for their frame, namely Zion Williamson, Oliver Miller, Shaquille O'Neal, and Sim Bhullar. This can pose huge stress on their knees and ankles, leading to injuries. There are also players who are too skinny, such as Corey Brewer, Shaun Livingston, Zhou Qui and Kristaps Porzingis.
 
-There is not enough wingspan data for all of the player in my dataset (the earliest draft combine data available is from 2000). Therefore I conclude this section and move to the next part.
 
 \subsection{Draft Number and Height, Weight}
 
-I attempt to find a relationship between \textbf{Draft Number} and \textbf{Height}. but there are no significant pattern found (see figure 9). The same can be said for the relationship between Weight and Height
+I attempt to find a relationship between \textbf{Draft Number} and \textbf{Height}. but there are no significant pattern found (see Figure 8 belows). The same can be said for the relationship between Weight and Height.s
 \begin{figure}[h]
 \caption{Draft Number vs Height, Weight}
-\includegraphics[scale=0.34]{hvdrf.jpg}
+\includegraphics[scale=0.3]{hvdrf.jpg}
 \centering
 \end{figure}
 
@@ -197,11 +184,41 @@ In 1908 entries in my dataset, there are only 377 foreign players (players who a
 \centering
 \end{figure}
 
-It is convincing from the density distribution plots that non-US players are more dominant in height and weight: their distribution are shifted to the right of the US counterpart, and comparisons for mean height and weight also agree with my speculation.
+It is convincing from the density distribution plots in Figure 9 and 10 that non-US players are more dominant in height and weight: their distribution are more elevated than that of the US counterpart, and comparisons for mean height and weight also agree with my speculation. For example, according to figure 9, 50\% of the foreign group is taller than 75\% of the US group.
 
 \subsection{Physique and PER}
 In this section, I will use the PER data for the
  regular season 2018-2019 and 2005-2006 for comparison. I hope to see some differences between two seasons as the game is supposedly modernized now.
+ 
+\begin{figure}[h]
+\caption{Height vs PER regular season 2018-2019}
+\includegraphics[scale=0.4]{hvsper06.jpg}
+\centering
+\end{figure}
+\begin{figure}[h]
+\caption{Height vs PER regular season 2005-2006}
+\includegraphics[scale=0.4]{hvsper.jpg}
+\centering
+\end{figure}
+
+ 
+The result is shown in Figure 11 and 12. The color of the dots are simply based on \textbf{Height} for easier examination. Both charts reveals an interesting trend that bigger does not always mean better: it seems to be the opposite for players with height below 195cm. As the convex smoothing line implies, taller players (taller than 2m) seems to score higher PER. The trend is more recognizable in regular season 2018-2019, compared to the older time. The elite group also includes players shorter than 2m, such as Allen Iverson (season 2005-2006), Stephen Curry, James Harden, and Kyrie Irving (season 2018-2019), whose skills are exceptional. But, in general, this group is dominated by big, tall, and strong forwards or centers (as the dominance of hot-colored dots implies).
+
+Some of the most defensively successful players are underated by PER, such as Ben Wallace (best defensive player season 2005-2006), Patrick Beverley, Draymond Green, and Marcus Smart (season 2018-2019). The rating for Draymond Green is about 10 only, yet this is one of the best defensive players in the league in recent years.
+
+\section{Conclusion}
+In the end, it seems that heavier and taller players are becoming more dominant in the NBA, not only in quantity but also in quality: the highest achievers are usually the strongest players (power forwards or centers). Next, foreign ballers tend to be heavier and taller than US players. Finally, there is no significant proof that draft number is affected by height or weight.
+
+\section{Reflection} 
+After this assignment, I became more efficient at scraping and cleaning data using Python. I also got to practice drawing plots using ggplot in Rstudio. I believe that the visualization aspect of my assignment is not too distracting but informative and coherent. 
+
+In subsection \textbf{4.4 Physique and PER}, I did not draw the similar plots for weight because the trend for weight and PER is not as clear as that of height and weight and the report is already too long. And, in order to illustrate the distribution, I had to pick between density plot and boxplot. It seems that sometimes the difference is exposed more in density plot (see Figure 6).
+
+Overall, I am satisfied with the result, but I am open to criticism as there are always rooms for improvement.
+
+
+
+ 
 \bibliographystyle{apacite}
 \bibliography{nbabib}
 

@@ -44,11 +44,11 @@
 
 \section{Questions.}
 
-1.1 What is the most common physique type in the NBA (2019-2020) by position, by height, by weight, wing size ...? 
+1.1 What is the most common physique type in the NBA (2000-2020)? Do players are getting bigger and stronger as time goes by?
 
-1.2 How physique can affect the draft number of a player? For instance: do bigger players get more chance of being picked in the first round (scope: all draft in history, so I think the size is good enough)?
+1.2 How physique can affect the draft number of a player (2000-2020)?
 
-1.3 How physique and Player Efficiency Rating correlated (scope: regular season for all seasons)?
+1.3 How physique and Player Efficiency Rating correlated (scope: regular season for 2005-2006 and 2018=2019 for comparison)?
 
 1.4 Compare the physique of non-US players to US players (scope: regular season for all seasons)
  
@@ -56,19 +56,19 @@
 
 \section{Data source.}
 \addcontentsline{toc}{subsection}{}
-Player Bios Regular Season
+\begin{itemize}
+\item Player Bios Regular Season 
+\item Player Efficiency Rating
+\end{itemize}
 
 \section{Description of data source}
 There are about 450 players in the league in any season.
 
-Tabular data in HTML 514 rows x 20 columns. The data is formatted well for display but not for data explorationi, hence should be wrangled.\\
+
+First source: physique data. Tabular data in HTML with number of rows equal number of players x 20 columns. The data is formatted well for display but not for data explorationi, hence should be wrangled. Also, data across seasons must be merged (union).\\
 https://stats.nba.com/players/bio/
 
-Draft Combine Anthro in HTML format
-\\https://stats.nba.com/draft/combine-anthro/
+Second source:Player Efficiency Rating. Tabular data in HTML with number of rows equal number of players x 14 columns. Data is well formatted, but there is no information of height and weight, therefore require joining with the first source.
+\\http://insider.espn.com/nba/hollinger/statistics
 
-Player Efficiency Rating\\http://insider.espn.com/nba/hollinger/statistics
- 
-\bibliographystyle{apacite}
-\bibliography{a2bib}
 \end{document}

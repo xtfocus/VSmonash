@@ -38,20 +38,26 @@ nba$Wingspan_cm <- df$cm
 d <- density(nba$Weight)
 plot(density(nba$Weight), main='NBA: Density of Weight')
 polygon(d, col="red", border="blue")
+
+
 ```
+
+
 ```{r}
 # Distribution of height
 d <- density(nba$Height_cm)
 plot(d, main='NBA: Density of Height')
 polygon(d, col="red", border="blue")
+
+
 ```
 
 
 
 ```{r}
 nba$period = NA
-nba[nba$Draft_Year < 2010,]$period = 'before 2010'
-nba[nba$Draft_Year >= 2010,]$period = 'after 2010'
+nba[nba$Draft_Year < 2002,]$period = 'before 2002'
+nba[nba$Draft_Year >= 2002,]$period = 'after 2002'
 nba$period <- as.factor(nba$period)
 
 
@@ -83,7 +89,16 @@ p<-ggplot(nba, aes(x=Height_cm, color=period)) +
              linetype="dashed")
 p
 
+
+
 ```
+```{r}
+p <- ggplot(nba, aes(x=period, y=Height_cm, color=period)) + 
+  geom_boxplot()
+p   + stat_summary(fun.y=mean, geom="point", shape=23, size=4) + scale_y_continuous('Height (cm)') + scale_x_discrete('period')
+```
+
+
 
 ## Plot Height vs Weigth
 
@@ -130,9 +145,6 @@ polygon(d, col="red", border="blue")
 
 ```{r, echo=FALSE, warning=FALSE}
 data <- nba
-outliers <- c('Earl Boykins', 'Zion Williamson', 'Oliver Miller', 'Michael Sweetney', 'Stanley Roberts', 'LeBron James', 'Jahidi White', 'Sim Bhullar', 'Shaquille O’Neal', 'Giannis Antetokounmpo', 'Nate Robinson', 'Spud Webb', 'Isaiah Thomas', 'Kevin Durant', 'Kristaps Porzingis', 'Kobe Bryant', 'Corey Brewer', 'Shaun Livingston', 'Zhou Qi', ' Yao Ming', 'Tacko Fall', "Shaquille O'Neal")
-
-
 
 p1<-ggplot(data, aes(x=Height_cm, y=Wingspan_cm)) + geom_point()
 
@@ -160,25 +172,125 @@ data <- nba[which(nba$Draft_Number != 'Undrafted'), ]
 data$Draft_Number = as.integer(data$Draft_Number)
 
 
-p1<-ggplot(data, aes(Draft_Number, Height_cm)) + geom_point()
+p1<-ggplot(data, aes(Draft_Number, Height_cm, color=Weight)) + geom_point(alpha = .4)
 
-
-outliers <- c('Earl Boykins', 'LeBron James', 'Jahidi White', 'Sim Bhullar', 'Shaquille O’Neal', 'Giannis Antetokounmpo', 'Nate Robinson', 'Isaiah Thomas', 'Kevin Durant', 'Kristaps Porzingis', 'Kobe Bryant', ' Yao Ming', "Shaquille O'Neal", "Kyrie Irving")
-
-
-
-
-p2 <- p1 + geom_text(aes(label=Player), hjust='inward',
-                     data=data[data$Player %in% outliers, ]) + geom_point(data=data[data$Player %in% outliers, ],         color='green')
-
-
-p4 <- p2 + theme_bw() + 
+p4 <- p1 + theme_bw() + 
   scale_x_continuous("Draft Number") +
   scale_y_continuous("Height in cm") +
-  theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradientn(colours = 'rainbow(5)')
+  theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradientn(colours = rainbow(5))
 
 p4
 
 ```
 
+```{r}
+nba$Nationality = NA
+nba[nba$Country == 'USA',]$Nationality = 'US player'
+nba[nba$Country != 'USA',]$Nationality = 'Foreign player'
+nba$US <- as.factor(nba$US)
+
+
+
+mu <- ddply(nba, "Nationality", summarise, grp.mean=mean(Height_cm))
+
+ggplot(nba, aes(x=Height_cm, color=Nationality)) +
+  geom_density()
+# Add mean lines
+p<-ggplot(nba, aes(x=Height_cm, color=Nationality)) +
+  geom_density()+
+  geom_vline(data=mu, aes(xintercept=grp.mean, color=Nationality),
+             linetype="dashed")
+p
+
+```
+```{r}
+p <- ggplot(nba, aes(x=Nationality, y=Height_cm, color=Nationality)) + 
+  geom_boxplot()
+p   + stat_summary(fun.y=mean, geom="point", shape=23, size=4) + scale_y_continuous('Height (cm)') + scale_x_discrete('Nationality')
+```
+
+
+```{r}
+p <- ggplot(nba, aes(x=Nationality, y=Weight, color=Nationality)) + 
+  geom_boxplot()
+p   + stat_summary(fun.y=mean, geom="point", shape=23, size=4) + scale_y_continuous('Weight (lbs)') + scale_x_discrete('Nationality')
+
+```
+
+
+```{r}
+mu <- ddply(nba, "US", summarise, grp.mean=mean(Weight))
+
+ggplot(nba, aes(x=Weight, color=US)) +
+  geom_density()
+# Add mean lines
+p<-ggplot(nba, aes(x=Weight, color=US)) +
+  geom_density()+
+  geom_vline(data=mu, aes(xintercept=grp.mean, color=US),
+             linetype="dashed")
+p
+
+```
+```{r}
+per <- read.csv('short_PER_1819.csv')
+
+data <- per
+
+outliers <- c('LeBron James', 'Giannis Antetokounmpo', 'Stephen Curry', 'Draymond Green', 'Kevin Durant', 'Kristaps Porzingis', 'Paul George', 'Rudy Gobert', 'Marcus Smart', 'Anthony Davis', 'Patrick Beverley', 'Jimmy Butler', 'Kawhi Leonard', 'Jrue Holiday', 'James Harden', 'Nikola Jokic', 'Joel Embiid', 'Kyrie Irving')
+
+p1<-ggplot(data, aes(Height_cm, PER, color=Height_cm)) + geom_point(alpha = .4)
+
+p2 <- p1 + geom_text(aes(label=PLAYER), hjust='inward', position=position_jitter(width=2,height=3), fontface='bold',
+                     data=data[data$PLAYER %in% outliers, ]) + geom_point(data=data[data$PLAYER %in% outliers, ], color='green')
+p3 <- p2 +
+      geom_smooth(aes(group = 1),
+      method = "lm",
+      color = "black",
+      formula = y~ poly(x, 2),
+      se = T)
+
+p4 <- p3 + theme_bw() + 
+  scale_x_continuous("Height") +
+  scale_y_continuous("PER") +
+  theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradient(low = "#0091ff", high = "#f0650e")
+
+  
+
+p4 + geom_hline(yintercept=15, linetype="dashed", color = "red")
+
+
+
+```
+
+```{r}
+
+per <- read.csv('short_PER_0506.csv')
+
+data <- per
+
+outliers <- c('LeBron James', 'Dirk Nowitzki', 'Kobe Bryant,', '	Dwyane Wade', 'Kevin Garnett', 'Allen Iverson', 'Yao Ming', "Shaquille O'Neal", 'Ray Allen', 	"Manu Ginobili", "Ben Wallace", "Tim Duncan")
+
+p1<-ggplot(data, aes(Height_cm, PER, color=Height_cm)) + geom_point(alpha = .4,  show.legend = FALSE)
+
+p2 <- p1 + geom_text(aes(label=PLAYER), hjust='inward', position=position_jitter(width=3,height=3), fontface='bold',
+                     data=data[data$PLAYER %in% outliers, ]) + geom_point(data=data[data$PLAYER %in% outliers, ], color='green')
+p3 <- p2 +
+      geom_smooth(aes(group = 1),
+      method = "lm",
+      color = "black",
+      formula = y~ poly(x, 2),
+      se = T)
+
+p4 <- p3 + theme_bw() + 
+  scale_x_continuous("Height") +
+  scale_y_continuous("PER") +
+  theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradient(low = "#0091ff", high = "#f0650e")
+
+  
+
+p4 + geom_hline(yintercept=15, linetype="dashed", color = "red")
+
+```
+
+```
 
