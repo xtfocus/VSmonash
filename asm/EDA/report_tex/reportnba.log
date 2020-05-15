@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.2.3)  22 APR 2020 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.2.3)  23 APR 2020 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,11 +1136,11 @@ File: dsoh.jpg Graphic file (type jpg)
 Package pdftex.def Info: dsoh.jpg used on input line 127.
 (pdftex.def)             Requested size: 228.55563pt x 127.07573pt.
 
-<hebf02.jpg, id=26, 756.8275pt x 477.785pt>
+<hebf02.jpg, id=26, 597.23125pt x 369.38pt>
 File: hebf02.jpg Graphic file (type jpg)
  <use hebf02.jpg>
 Package pdftex.def Info: hebf02.jpg used on input line 133.
-(pdftex.def)             Requested size: 242.18974pt x 152.89432pt.
+(pdftex.def)             Requested size: 191.11789pt x 118.20401pt.
  [5 <./dsoh.jpg> <./hebf02.jpg>] <dsow.jpg, id=30, 761.84625pt x 426.59375pt>
 File: dsow.jpg Graphic file (type jpg)
  <use dsow.jpg>
@@ -1163,71 +1163,54 @@ File: hvdrf.jpg Graphic file (type jpg)
  <use hvdrf.jpg>
 Package pdftex.def Info: hvdrf.jpg used on input line 168.
 (pdftex.def)             Requested size: 236.38495pt x 139.12082pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fush.jpg, id=37, 767.86874pt x 473.77pt>
+ [7 <./hvw.jpg> <./hvdrf.jpg>] <fush.jpg, id=41, 767.86874pt x 473.77pt>
 File: fush.jpg Graphic file (type jpg)
  <use fush.jpg>
 Package pdftex.def Info: fush.jpg used on input line 177.
 (pdftex.def)             Requested size: 253.39746pt x 156.34457pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fusw.jpg, id=38, 772.8875pt x 475.7775pt>
+<fusw.jpg, id=42, 772.8875pt x 475.7775pt>
 File: fusw.jpg Graphic file (type jpg)
  <use fusw.jpg>
 Package pdftex.def Info: fusw.jpg used on input line 183.
 (pdftex.def)             Requested size: 255.05365pt x 157.00705pt.
 
+Underfull \vbox (badness 1616) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7 <./hvw.jpg>] <hvsper06.jpg, id=43, 772.8875pt x 417.56pt>
+ [8 <./fush.jpg> <./fusw.jpg>] <hvsper06.jpg, id=46, 772.8875pt x 417.56pt>
 File: hvsper06.jpg Graphic file (type jpg)
 
 <use hvsper06.jpg>
 Package pdftex.def Info: hvsper06.jpg used on input line 195.
 (pdftex.def)             Requested size: 309.14952pt x 167.02103pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<hvsper.jpg, id=44, 772.8875pt x 398.48875pt>
+ <hvsper.jpg, id=47, 772.8875pt x 398.48875pt>
 File: hvsper.jpg Graphic file (type jpg)
- <use hvsper.jpg>
+
+<use hvsper.jpg>
 Package pdftex.def Info: hvsper.jpg used on input line 200.
 (pdftex.def)             Requested size: 309.14952pt x 159.39267pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8 <./hvdrf.jpg> <./fush.jpg>] [9 <./fusw.jpg> <./hvsper06.jpg>]
-(./reportnba.bbl
+ [9 <./hvsper06.jpg> <./hvsper.jpg>] (./reportnba.bbl
 Underfull \hbox (badness 1436) in paragraph at lines 14--29
 \OT1/cmr/m/it/12 en-cy-clo-pe-dia.  $\OT1/cmtt/m/n/12 https :// en [] .wikipedi
 a [] .org / w / index [] .php [] ?title = Player []
  []
 
-) [10 <./hvsper.jpg>] (./reportnba.aux) ) 
+) [10] (./reportnba.aux) ) 
 Here is how much of TeX's memory you used:
  24544 strings out of 493029
  602082 string characters out of 6136235
- 745966 words of memory out of 5000000
+ 746004 words of memory out of 5000000
  27572 multiletter control sequences out of 15000+600000
  18171 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,84p,857b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.p
-fb>
-Output written on reportnba.pdf (10 pages, 550075 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on reportnba.pdf (10 pages, 538610 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream

@@ -36,7 +36,7 @@ nba$Wingspan_cm <- df$cm
 ```{r}
 # Distribution of weight
 d <- density(nba$Weight)
-plot(density(nba$Weight), main='NBA: Density of Weight')
+plot(density(nba$Weight), main='NBA: Density of Weight', xlab = 'Weight (lbs)')
 polygon(d, col="red", border="blue")
 
 
@@ -46,9 +46,9 @@ polygon(d, col="red", border="blue")
 ```{r}
 # Distribution of height
 d <- density(nba$Height_cm)
-plot(d, main='NBA: Density of Height')
+plot(d, main='NBA: Density of Weight', xlab = 'Height (cm)')
 polygon(d, col="red", border="blue")
-
+  
 
 ```
 
@@ -69,7 +69,7 @@ ggplot(nba, aes(x=Weight, color=period)) +
 p<-ggplot(nba, aes(x=Weight, color=period)) +
   geom_density()+
   geom_vline(data=mu, aes(xintercept=grp.mean, color=period),
-             linetype="dashed")
+             linetype="dashed") + scale_x_continuous('Weight (lbs)')
 p
 
 ```
@@ -86,19 +86,23 @@ ggplot(nba, aes(x=Height_cm, color=period)) +
 p<-ggplot(nba, aes(x=Height_cm, color=period)) +
   geom_density()+
   geom_vline(data=mu, aes(xintercept=grp.mean, color=period),
-             linetype="dashed")
+             linetype="dashed") + scale_x_continuous('Height (cm)')
 p
 
 
 
 ```
 ```{r}
+p <- ggplot(nba, aes(x=period, y=Weight, color=period)) + 
+  geom_boxplot()
+p   + stat_summary(fun.y=mean, geom="point", shape=23, size=4) + scale_y_continuous('Weight (lbs)') + scale_x_discrete('period')
+```
+
+```{r}
 p <- ggplot(nba, aes(x=period, y=Height_cm, color=period)) + 
   geom_boxplot()
 p   + stat_summary(fun.y=mean, geom="point", shape=23, size=4) + scale_y_continuous('Height (cm)') + scale_x_discrete('period')
 ```
-
-
 
 ## Plot Height vs Weigth
 
@@ -252,7 +256,7 @@ p3 <- p2 +
 p4 <- p3 + theme_bw() + 
   scale_x_continuous("Height") +
   scale_y_continuous("PER") +
-  theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradient(low = "#0091ff", high = "#f0650e")
+  theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradient(low = "#0091ff", high = "#f0650e") + scale_x_continuous('Height (cm)')
 
   
 
@@ -288,7 +292,8 @@ p4 <- p3 + theme_bw() +
 
   
 
-p4 + geom_hline(yintercept=15, linetype="dashed", color = "red")
+p4 + geom_hline(yintercept=15, linetype="dashed", color = "red") + scale_x_continuous('Height (cm)')
+
 
 ```
 
