@@ -6,11 +6,12 @@
 
 <body>
   <script>
-  d3.csv("/home/tung/units/VSmonash/asm/EDA/present/height_demo.csv", function(data) {
-      for (var i = 0; i < data.length; i++) {
-          console.log(data[i].Player);
-          console.log(data[i].Height_cm);
-      }
+  d3.csv("https://raw.githubusercontent.com/xtfocus/VSmonash/master/asm/EDA/present/height_demo.csv", function(data) {
+    console.log(data);
+      // for (var i = 0; i < data.length; i++) {
+      //     console.log(data[i].Player);
+      //     console.log(data[i].Height_cm);
+      // }
   });
   </script>
 

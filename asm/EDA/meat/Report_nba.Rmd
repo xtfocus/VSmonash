@@ -191,7 +191,7 @@ p4
 nba$Nationality = NA
 nba[nba$Country == 'USA',]$Nationality = 'US player'
 nba[nba$Country != 'USA',]$Nationality = 'Foreign player'
-nba$US <- as.factor(nba$US)
+nba$Nationality <- as.factor(nba$Nationality)
 
 
 
