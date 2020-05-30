@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Assignment 03 - D3 programming</title>
+  <style>
+    div.tooltip {
+      position: absolute;
+      text-align: left;
+      width: 120px;
+      height: 50px;
+      padding: 2px;
+      font: 12px sans-serif;
+      background: lightsteelblue;
+      border: 0px;
+      border-radius: 8px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Programming exercise - D3</h1>
+
+  <svg id="canvas"></svg>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <script>
+    var width = 1000;
+    var height = 600;
+
+    var svg = d3.select("#canvas")
+      .attr("width", width)
+      .attr("height", height)
+      .style("border", "1px solid");
+
+  
+
+    // load data
+    d3.json("https://raw.githubusercontent.com/xtfocus/VSmonash/master/asm/d3/data.json", function(data) {
+      // console.log(data);
+      // console.log(data.nodes);
+      // console.log(data.links);
+      // alert(data.links.length);
+
+      // d3.keys
+      // d3.values
+      // d3.entries
+
+      // var arrKey = d3.keys(data);
+      // console.log(arrKey);
+
+      // extract nodes
+      var arrNodes = d3.values(data.nodes);
+      // console.log(arrNodes);
+
+      // extract links
+      var arrLinks = d3.values(data.links);
+      // console.log(arrLinks);
+
+      // get to entries
+      arrTrade_From = d3.nest()
+        .key(function(d) {
+          return d.node01
+        })
+        .rollup(function(v) {
+          return {
+            // return d.amount
+            count: v.length,
+            total: d3.sum(v, function(d) {
+              return d.amount;
+            })
+          };
+        })
+        .entries(arrLinks)
+
+      // console.log(JSON.stringify(arrTrade_From));
+      // console.log(arrTrade_From);
+
+      arrTrade_To = d3.nest()
+        .key(function(d) {
+          return d.node02
+        })
+        .rollup(function(v) {
+          return {
+            // return d.amount
+            count: v.length,
+            total: d3.sum(v, function(d) {
+              return d.amount;
+            })
+          };
+        })
+        .entries(arrLinks)
+
+      // console.log(JSON.stringify(arrTrade_From));
+      // console.log(arrTrade_To);
+
+      var arrTotal = d3.merge([
+        arrTrade_From,
+        arrTrade_To
+      ]);
+
+      // console.log(arrTotal);
+
+      var arrTotal_aggregated = d3.nest()
+        .key(function(d) {
+          return d.key;
+        })
+        .rollup(function(v) {
+          return {
+            total_connection: d3.sum(v, function(d) {
+              return d.value["count"];
+            }),
+            total_trade: d3.sum(v, function(d) {
+              return d.value["total"];
+            })
+          };
+        })
+        .entries(arrTotal)
+
+      // console.log(arrTotal_aggregated);
+
+      // console.log(d3.values(arrTotal_aggregated.filter(function(d) {
+      //     return d.key == "site01";
+      // })));
+
+      // console.log(d3.values(arrTotal_aggregated.filter(function(d) {
+      //     return d.key == "site01";
+      // }))[0].value["total_trade"]);
+      var div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
+      // initiate nodes on canvas
+      // var cNodes = d3.select("svg")
+      //   .selectAll("g")
+      //   .data(arrNodes)
+      //   .enter()
+      //   .append("g")
+      //   .attr("class", "shots")
+      //   .attr("name", function(d) {
+      //     return "group_" + d.id;
+      //   })
+      //   .attr("id", function(d) {
+      //     return d.id;
+      //   })
+      //   .attr("transform", function(d) {
+      //     return "translate(" + d.x + "," + d.y + ")";
+      //   })
+      //   .on("mouseover", function(d) {
+      //     // tooltip
+      //     div.transition()
+      //       .duration(200)
+      //       .style("opacity", .9);
+      //     div.html(function(v) {
+      //         return d.id;
+      //       })
+      //       .style("left", (d3.event.pageX) + "px")
+      //       .style("top", (d3.event.pageY - 28) + "px");
+      //   })
+      //   .append("circle")
+      //   .attr("r",  50)
+      //   .attr("fill", "blue")
+      d3.select("svg").selectAll("g")
+        .data(data.nodes)
+        .enter()
+        .append("g")
+        .attr("transform", function(d) {
+          return "translate(" + (d.x) + "," + (d.y) + ")";
+        })
+        .on("mouseover", function(d) {
+          // tooltip
+          div.transition()
+            .duration(200)
+            .style("opacity", .9);
+          div.html(function(v) {
+              return d.id;
+            })
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .append("circle")
+        .attr("r",  50)
+      //   .attr("fill", "blue");
+
+
+
+      var cLines = d3.select("svg")
+        .selectAll("lines")
+        .data(arrLinks)
+        .enter().append("line")
+        .attr("name", function(d) {
+          return "group_" + d.node01;
+        })
+        .attr("class", "shots")
+        // from
+        .attr("x1", function(d) {
+          return d3.values(arrNodes.filter(function(v) {
+            return v.id == d.node01;
+          }))[0].x;
+        })
+        .attr("y1", function(d) {
+          return d3.values(arrNodes.filter(function(v) {
+            return v.id == d.node01;
+          }))[0].y;
+        })
+        // to
+        .attr("x2", function(d) {
+          return d3.values(arrNodes.filter(function(v) {
+            return v.id == d.node02;
+          }))[0].x;
+        })
+        .attr("y2", function(d) {
+          return d3.values(arrNodes.filter(function(v) {
+            return v.id == d.node02;
+          }))[0].y;
+        })
+        //amount
+        .attr("stroke-width", function(d) {
+          return d.amount / 50;
+        })
+        .attr("stroke", "gray")
+        .lower() // cirles on top
+    });
+  </script>
+</body>
+
+</html>

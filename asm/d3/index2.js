@@ -1,6 +1,6 @@
 window.onload = function() {
-  var width = 1200;
-  var height = 800;
+  var width = 1000;
+  var height = 600;
 
   // Create a SVG canvas
   var thisCanvas = d3.select("svg")
@@ -40,47 +40,30 @@ window.onload = function() {
 
     var Tooltip = d3.select("body").append("div")
       .attr("class", "tooltip")
-      .style("opacity", .4);
+      .style("opacity", 0);
     var mouseover = function(d) {
       Tooltip
-        .style("opacity", .8);
+        .style("opacity", 1)
       d3.select(this)
         .style("stroke", "black")
-        .style("opacity", 1);
+        .style("opacity", 1)
       Tooltip
-        .html(d.id +
-          "</br>" + "traded amount: " +
-          totalTradejs.filter(function(thisNode) {
-            return thisNode.id == d.id;
-          })[0].amount +
-          "</br>" + "traded with: " +
-          totalTradejs.filter(function(thisNode) {
-            return thisNode.id == d.id;
-          })[0].count)
-        .style("top", (event.pageY) + "px")
-        .style("left", (event.pageX) + "px");
-
-      data.links.forEach(function(link) {
-        if (link.node01 == d.id || link.node02 == d.id) {
-          d3.selectAll("line").filter(function(link) {
-            return link.node01 == d.id || link.node02 == d.id
-          }).style("opacity", 1.2);
-          d3.selectAll("circle").filter(function(node) {
-            return link.node01 == node.id || link.node02 == node.id;
-          }).style("opacity", 1);
-        }
-      });
+        .html(d.id)
+        .style("top", (d3.mouse(this)[1]) + "px")
+        .style("left", (d3.mouse(this)[0]) + "px")
     };
-
-    var mouseleave = function(d) {
+    // var mousemove = function(d) {
+    //   Tooltip
+    //     .html(d.id)
+    //     .style("left", (d3.mouse(this)) + "px")
+    //     .style("top", (d3.mouse(this)) + "px")
+    // };
+    var mouseout = function(d) {
       Tooltip
-        .style("opacity", 0);
-      d3.selectAll("line")
-        .style("stroke", "black")
-        .style("opacity", 0.3);
-      d3.selectAll("circle")
-        .style("stroke", "black")
-        .style("opacity", 0.3);
+        .style("opacity", 0)
+      d3.select(this)
+        .style("stroke", "none")
+        .style("opacity", 0.8)
     };
 
 
@@ -96,14 +79,12 @@ window.onload = function() {
     // compute total trade
     var totalTrade = {};
     data.nodes.forEach(function(node) {
-      totalTrade[node.id] = [0, 0]
+      totalTrade[node.id] = 0
     });
     //update this array
     data.links.forEach(function(link) {
-      totalTrade[link.node01][0] += link.amount;
-      totalTrade[link.node02][0] += link.amount;
-      totalTrade[link.node01][1] += 1;
-      totalTrade[link.node02][1] += 1;
+      totalTrade[link.node01] += link.amount
+      totalTrade[link.node02] += link.amount;
     });
     //convert to key-value named
     var totalTradejs = [];
@@ -111,12 +92,9 @@ window.onload = function() {
 
       totalTradejs.push({
         id: i,
-        amount: totalTrade[i][0],
-        count: totalTrade[i][1]
+        amount: totalTrade[i]
       });
     };
-
-
 
     totalTradejs.forEach(function(node) {
       rMin = Math.min(rMin, Math.log(node.amount));
@@ -136,26 +114,55 @@ window.onload = function() {
       .range([10, 30]);
 
 
-
-
-    var node = netWorkArea.append("g").selectAll("circle")
+    var node = netWorkArea.selectAll("circle")
       .data(data.nodes)
       .enter()
       .append("circle")
-
-      .attr("transform", function(d) {
-        return "translate(" + scaledX(d.x) + "," + scaledY(d.y) + ")";
+      // do I need index here?
+      .attr("cx", function(thisNode, index) {
+        return scaledX(thisNode["x"]);
+      })
+      .attr("cy", function(thisNode, index) {
+        return scaledY(thisNode["y"]);
       })
       .attr("r", 20)
       .attr("fill", "black")
-      .style("opacity", .3)
-      .on("mouseover", mouseover)
-      .on("mouseleave", mouseleave);
+      .on("mouseover", function(d) {
+        d3.selectAll(".shots")
+          .attr("opacity", 0.2);
+
+        d3.selectAll(".shots")
+          .filter(function(z) {
+            // console.log(z.id == "site01");
+            return ((z.id == d.id) || (z.node01 == d.id) || (z.node02 == d.id));
+          })
+          .attr("opacity", 1);
+
+
+        div.transition()
+          .duration(200)
+          .style("opacity", .9);
+        div.html(function(v) {
+            return d.id;
+          })
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", (d3.event.pageY - 28) + "px");
+      })
+      .on("mouseout", function(d) {
+        div.transition()
+          .duration(500)
+          .style("opacity", 0);
+        d3.selectAll(".shots")
+          .attr("opacity", 1);
+      })
+      .append("circle")
+      .attr("r", 40)
+      .attr("fill", "blue")
 
 
     node.data(totalTradejs)
-      .attr("r", function(d) {
-        return scaledR(Math.log(d["amount"]));
+      .attr("r", function(thisNode, index) {
+        return scaledR(Math.log(thisNode["amount"]));
       })
       .attr("fill", "lightblue");
 
@@ -164,7 +171,6 @@ window.onload = function() {
       .data(data.links)
       .enter()
       .append("line")
-      .style("opacity", .6)
       .attr("x1", function(thisLink) {
         return scaledX(
           data.nodes.filter(function(node) {
@@ -190,7 +196,7 @@ window.onload = function() {
       .attr("stroke-width", function(thisLink) {
         return thisLink.amount / 50;
       })
-      .attr("stroke-opacity", 0.3)
+      .attr("stroke-opacity", "0.5")
       .lower();
 
 
