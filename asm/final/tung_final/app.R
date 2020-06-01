@@ -14,19 +14,27 @@ library(ggplot2)
 ui <- fluidPage(
     sidebarLayout(
         sidebarPanel(
-            sliderInput("bins",
-                        "Number of bins:",
-                        min = 1,
-                        max = 50,
-                        value = 30),
+            sliderInput("height_slider",
+                        label = h3("Height range"),
+                        min = 170,
+                        max = 230,
+                        value = c(170, 230)),
+
+            sliderInput("per_slider",
+                        label = h3("PER range"),
+                        min = 170,
+                        max = 230,
+                        value = c(170, 230)),
             
             selectInput("nationality", "Nationality:", 
                         c("USA" = "US player", 
-                          "Others" = "Foreign player"
+                          "Others" = "Foreign player",
+                          "All" = "all"
                         )),
             selectInput("period", "Draft period:", 
                         c("before 2002" = "before 2002", 
-                          "after 2002" = "after 2002"
+                          "after 2002" = "after 2002",
+                          "All" = "all"
                         ))
         ),
         
@@ -85,10 +93,28 @@ server <- function(input, output) {
         paste("Showing ", input$nationality, 's', ' drafted ', input$period, sep='')
     })
     
+    prepare_data <- function(){
+        if (input$period == 'all' & input$nationality == 'all'){
+            return(nba)
+        }
+        else if (input$period == 'all'){
+            return(nba[nba$Nationality == input$nationality,])
+        }
+        else if (input$nationality == 'all'){
+            return(myData <- nba[nba$period == input$period,])
+        }
+        else {
+            myData <- nba[nba$period == input$period,]
+            return(myData[myData$Nationality == input$nationality,])
+        }
+    }
+    
     output$nba_all <- reactivePlot(function() {
-        myData <- nba[nba$period == input$period,]
-        myData <- myData[myData$Nationality == input$nationality,]
-        p1<-ggplot(myData, aes(Height_cm, Weight)) + geom_point(color='gray', size = 2)
+        myData <- prepare_data()
+        # 
+        # myData <- nba[nba$period == input$period,]
+        # myData <- myData[myData$Nationality == input$nationality,]
+        p1<-ggplot(myData, aes(Height_cm, Weight)) + geom_point(color='orange', size = 2, alpha=.5)
         outliers <- c('Tyler Ulis', 'Dee Brown')
         p2 <- p1 + geom_text(aes(label=Player), hjust='inward',
                              data=myData[myData$Player %in% outliers, ]) + geom_point(data=myData[myData$Player %in% outliers, ], color='green')
@@ -99,7 +125,7 @@ server <- function(input, output) {
                         formula = y~ poly(x, 2),
                         se = T)
 
-        p4 <- p3 + theme_bw() +
+        p4 <- p3  +
             scale_x_continuous("Height in cm") +
             scale_y_continuous("Weight in lbs") +
             theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradientn(colours = rainbow(5))
@@ -111,8 +137,9 @@ server <- function(input, output) {
     
     
     output$hover_info <- renderPrint({
-        myData <- nba[nba$period == input$period,]
-        myData <- myData[myData$Nationality == input$nationality,]
+        # myData <- nba[nba$period == input$period,]
+        # myData <- myData[myData$Nationality == input$nationality,]
+        myData <- prepare_data()
         if(!is.null(input$plot_hover)){
             hover <- input$plot_hover
             dist=sqrt((hover$x-myData$Height_cm)^2+(hover$y-myData$Weight)^2)

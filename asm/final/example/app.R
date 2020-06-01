@@ -1,4 +1,5 @@
 library(ggplot2)
+library(scatterD3)
 setwd('~/units/VSmonash/asm/EDA/meat/')
 nba <- read.csv('phythro_nba.csv')
 nba[nba$Draft_Round=='Undrafted',]$Draft_Round <- NA
@@ -56,22 +57,20 @@ ui <- fluidPage(
 server <- function(input, output) {
     
     
-    output$plot1 <- renderPlot({
-        
-        ggplot(nba, aes(x=Height_cm,y=Weight)) + geom_point()
-        
+    output$plot1 <- renderScatterD3({
+        scatterD3(data = nba , x = Height_cm, y = Weight, tooltip_text = nba$Player)
     })
-    
-    output$hover_info <- renderPrint({
-        if(!is.null(input$plot_hover)){
-            hover=input$plot_hover
-            dist=sqrt((hover$x-nba$Height_cm)^2+(hover$y-nba$Weight)^2)
-            cat("Weight (lb/1000)\n")
-            if(min(dist) < 3)
-                nba$Player[which.min(dist)]
-        }
-        
-        
-    })
+    # 
+    # output$hover_info <- renderPrint({
+    #     if(!is.null(input$plot_hover)){
+    #         hover=input$plot_hover
+    #         dist=sqrt((hover$x-nba$Height_cm)^2+(hover$y-nba$Weight)^2)
+    #         cat("Weight (lb/1000)\n")
+    #         if(min(dist) < 3)
+    #             nba$Player[which.min(dist)]
+    #     }
+    #     
+    #     
+    # })
 }
 shinyApp(ui, server)
