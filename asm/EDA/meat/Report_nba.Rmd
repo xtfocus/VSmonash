@@ -242,7 +242,7 @@ data <- per
 
 outliers <- c('LeBron James', 'Giannis Antetokounmpo', 'Stephen Curry', 'Draymond Green', 'Kevin Durant', 'Kristaps Porzingis', 'Paul George', 'Rudy Gobert', 'Marcus Smart', 'Anthony Davis', 'Patrick Beverley', 'Jimmy Butler', 'Kawhi Leonard', 'Jrue Holiday', 'James Harden', 'Nikola Jokic', 'Joel Embiid', 'Kyrie Irving')
 
-p1<-ggplot(data, aes(Height_cm, PER, color=Height_cm)) + geom_point(alpha = .4)
+p1<-ggplot(data, aes(Height_cm, PER, colour=TEAM)) + geom_point(alpha = .4)
 
 p2 <- p1 + geom_text(aes(label=PLAYER), hjust='inward', position=position_jitter(width=2,height=3), fontface='bold',
                      data=data[data$PLAYER %in% outliers, ]) + geom_point(data=data[data$PLAYER %in% outliers, ], color='green')
@@ -258,9 +258,9 @@ p4 <- p3 + theme_bw() +
   scale_x_continuous('Height (cm)') + 
   theme(legend.position = "top", legend.direction = "horizontal") + scale_color_gradient(low = "#0091ff", high = "#f0650e") 
 
-  
+p3
 
-p4 + geom_hline(yintercept=15, linetype="dashed", color = "red")
+# p4 + geom_hline(yintercept=15, linetype="dashed", color = "red")
 
 
 
@@ -274,7 +274,7 @@ data <- per
 
 outliers <- c('LeBron James', 'Dirk Nowitzki', 'Kobe Bryant,', '	Dwyane Wade', 'Kevin Garnett', 'Allen Iverson', 'Yao Ming', "Shaquille O'Neal", 'Ray Allen', 	"Manu Ginobili", "Ben Wallace", "Tim Duncan")
 
-p1<-ggplot(data, aes(Height_cm, PER, color=Height_cm)) + geom_point(alpha = .4,  show.legend = FALSE)
+p1<-ggplot(data, aes(Height_cm, PER)) + geom_point(alpha = .4,  show.legend = FALSE)
 
 p2 <- p1 + geom_text(aes(label=PLAYER), hjust='inward', position=position_jitter(width=3,height=3), fontface='bold',
                      data=data[data$PLAYER %in% outliers, ]) + geom_point(data=data[data$PLAYER %in% outliers, ], color='green')
@@ -319,5 +319,11 @@ p3 <- p1 +
         p4 <- p4 + xlim(170, 230) + ylim(165, 325)
         p4
 myData
+```
+```{r}
+library(ggplot2)
+IrisPlot <- ggplot(iris, aes(Petal.Length, Sepal.Length, colour = Species)) + geom_point()
+IrisPlot
+
 ```
 

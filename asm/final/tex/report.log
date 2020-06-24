@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2020.2.3)  3 JUN 2020 19:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.2.3)  3 JUN 2020 23:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**reportnba.tex
-(./reportnba.tex
+**report.tex
+(./report.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -59,10 +59,18 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvips.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
-File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
@@ -89,25 +97,24 @@ ex
 \pgf@yc=\dimen114
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count87
-\c@pgf@countb=\count88
-\c@pgf@countc=\count89
-\c@pgf@countd=\count90
+\c@pgf@counta=\count88
+\c@pgf@countb=\count89
+\c@pgf@countc=\count90
+\c@pgf@countd=\count91
 \t@pgf@toka=\toks19
 \t@pgf@tokb=\toks20
 \t@pgf@tokc=\toks21
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-dvips.def
+Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
-File: pgfsys-dvips.def 2014/07/09  (rcs-revision 1.25)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postsc
-ript.def
-File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
-\pgf@objectcount=\count91
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
@@ -124,8 +131,9 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -382,7 +390,7 @@ fshading.code.tex
 \c@pgfplotslibrarysurf@no=\count112
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
-shading.pgfsys-dvips.def)))
+shading.pgfsys-pdftex.def)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
 tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
@@ -555,7 +563,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
@@ -968,35 +976,123 @@ Now handling font encoding U ...
 \f@ncyO@olf=\skip60
 \f@ncyO@orf=\skip61
 )
-(./reportnba.aux)
-\openout1 = `reportnba.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count141
+\lst@gtempboxa=\box40
+\lst@token=\toks43
+\lst@length=\count142
+\lst@currlwidth=\dimen259
+\lst@column=\count143
+\lst@pos=\count144
+\lst@lostspace=\dimen260
+\lst@width=\dimen261
+\lst@newlines=\count145
+\lst@lineno=\count146
+\lst@maxwidth=\dimen262
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
- ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count147
+\lst@skipnumbers=\count148
+\lst@framebox=\box41
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+
+ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count149
+\scratchdimen=\dimen263
+\scratchbox=\box42
+\nofMPsegments=\count150
+\nofMParguments=\count151
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count152
+\MPscratchDim=\dimen264
+\MPnumerator=\count153
+\makeMPintoPDFobject=\count154
+\everyMPtoPDFconversion=\toks45
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.13} (current compat level: 1.10).
 
-\c@maskedRefs=\count141
+\c@maskedRefs=\count155
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1027,236 +1123,158 @@ LaTeX Info: Redefining \BHBI on input line 130.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+\c@lstlisting=\count156
+LaTeX Font Info:    Try loading font information for U+msa on input line 68.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./reportnba.toc)
+) (./report.toc
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write5
-\openout5 = `reportnba.toc'.
+\openout5 = `report.toc'.
 
-
-(./reportnba.lof [1
-
-])
+ (./report.lof)
 \tf@lof=\write6
-\openout6 = `reportnba.lof'.
+\openout6 = `report.lof'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ [2]
+<op11.jpg, id=15, 588.1975pt x 123.46124pt>
+File: op11.jpg Graphic file (type jpg)
+ <use op11.jpg>
+Package pdftex.def Info: op11.jpg used on input line 105.
+(pdftex.def)             Requested size: 205.87221pt x 43.21207pt.
+
+<op12.jpg, id=16, 729.72626pt x 436.63126pt>
+File: op12.jpg Graphic file (type jpg)
+ <use op12.jpg>
+Package pdftex.def Info: op12.jpg used on input line 110.
+(pdftex.def)             Requested size: 255.40802pt x 152.82323pt.
+ [3 <./op11.jpg>]
+<box.jpg, id=20, 618.31pt x 395.4775pt>
+File: box.jpg Graphic file (type jpg)
+ <use box.jpg>
+Package pdftex.def Info: box.jpg used on input line 118.
+(pdftex.def)             Requested size: 216.41174pt x 138.41919pt.
+
+<op1.jpg, id=21, 1244.65pt x 1018.80624pt>
+File: op1.jpg Graphic file (type jpg)
+ <use op1.jpg>
+Package pdftex.def Info: op1.jpg used on input line 127.
+(pdftex.def)             Requested size: 435.63402pt x 356.58752pt.
+
+Overfull \hbox (17.38034pt too wide) in paragraph at lines 127--129
+ [][] 
+ []
+
+<op2.jpg, id=22, 938.50626pt x 852.18375pt>
+File: op2.jpg Graphic file (type jpg)
+ <use op2.jpg>
+Package pdftex.def Info: op2.jpg used on input line 132.
+(pdftex.def)             Requested size: 328.48212pt x 298.26877pt.
+
+<op21.jpg, id=23, 945.5325pt x 860.21375pt>
+File: op21.jpg Graphic file (type jpg)
+ <use op21.jpg>
+Package pdftex.def Info: op21.jpg used on input line 137.
+(pdftex.def)             Requested size: 330.94133pt x 301.07932pt.
+ [4 <./op12.jpg> <./box.jpg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./op1.jpg>] [6 <./op2.jpg>] [7 <./op21.jpg>] [8]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 200.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
-
-[2]
-
-! LaTeX Error: Cannot determine size of graphic in hop.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.94 \includegraphics[scale=0.3]{hop.jpg}
-                                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: hop.jpg Graphic file (type eps)
-<hop.jpg> [3]
-
-! LaTeX Error: Cannot determine size of graphic in nba_ap.jpg (no BoundingBox).
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108 \includegraphics[scale=0.34]{nba_ap.jpg}
-                                              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: nba_ap.jpg Graphic file (type eps)
-<nba_ap.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in dsoh.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 \includegraphics[scale=0.3]{dsoh.jpg}
-                                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: dsoh.jpg Graphic file (type eps)
-<dsoh.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in hebf02.jpg (no BoundingBox).
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 \includegraphics[scale=0.32]{hebf02.jpg}
-                                              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: hebf02.jpg Graphic file (type eps)
-<hebf02.jpg>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 200.
+ [9]
+<o1.jpg, id=44, 2387.92125pt x 3226.0525pt>
+File: o1.jpg Graphic file (type jpg)
+ <use o1.jpg>
+Package pdftex.def Info: o1.jpg used on input line 228.
+(pdftex.def)             Requested size: 358.17273pt x 483.88701pt.
+ [10]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4]
+<o5.jpg, id=49, 2513.39pt x 3606.47375pt>
+File: o5.jpg Graphic file (type jpg)
+ <use o5.jpg>
+Package pdftex.def Info: o5.jpg used on input line 234.
+(pdftex.def)             Requested size: 376.99223pt x 540.94772pt.
 
-! LaTeX Error: Cannot determine size of graphic in dsow.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141 \includegraphics[scale=0.3]{dsow.jpg}
-                                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: dsow.jpg Graphic file (type eps)
-<dsow.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in webf02.jpg (no BoundingBox).
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 \includegraphics[scale=0.32]{webf02.jpg}
-                                              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: webf02.jpg Graphic file (type eps)
-<webf02.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in hvw.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 \includegraphics[scale=0.35]{hvw.jpg}
-                                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: hvw.jpg Graphic file (type eps)
-<hvw.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<o3.jpg, id=50, 2796.4475pt x 3901.57625pt>
+File: o3.jpg Graphic file (type jpg)
+ <use o3.jpg>
+Package pdftex.def Info: o3.jpg used on input line 240.
+(pdftex.def)             Requested size: 419.44904pt x 585.2112pt.
 
-! LaTeX Error: Cannot determine size of graphic in hvdrf.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 \includegraphics[scale=0.3]{hvdrf.jpg}
-                                            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: hvdrf.jpg Graphic file (type eps)
-<hvdrf.jpg> [5]
-
-! LaTeX Error: Cannot determine size of graphic in fush.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.177 \includegraphics[scale=0.33]{fush.jpg}
-                                            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: fush.jpg Graphic file (type eps)
-<fush.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in fusw.jpg (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.183 \includegraphics[scale=0.33]{fusw.jpg}
-                                            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: fusw.jpg Graphic file (type eps)
-<fusw.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-! LaTeX Error: Cannot determine size of graphic in hvsper06.jpg (no BoundingBox
-).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.195 \includegraphics[scale=0.4]{hvsper06.jpg}
-                                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: hvsper06.jpg Graphic file (type eps)
-<hvsper06.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-! LaTeX Error: Cannot determine size of graphic in hvsper.jpg (no BoundingBox).
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.200 \includegraphics[scale=0.4]{hvsper.jpg}
-                                             
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: hvsper.jpg Graphic file (type eps)
-<hvsper.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6] (./reportnba.bbl
-Underfull \hbox (badness 1436) in paragraph at lines 14--29
-\OT1/cmr/m/it/12 en-cy-clo-pe-dia.  $\OT1/cmtt/m/n/12 https :// en [] .wikipedi
-a [] .org / w / index [] .php [] ?title = Player []
+Overfull \hbox (1.19536pt too wide) in paragraph at lines 240--242
+ [][] 
  []
 
-[7]) [8] (./reportnba.aux) ) 
-Here is how much of TeX's memory you used:
- 23577 strings out of 493030
- 586622 string characters out of 6136261
- 729395 words of memory out of 5000000
- 26646 multiletter control sequences out of 15000+600000
- 18171 words of font info for 68 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,12n,84p,2859b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on reportnba.dvi (8 pages, 31328 bytes).
+LaTeX Warning: Float too large for page by 15.34763pt on input line 242.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<o4.jpg, id=51, 2857.67625pt x 3792.1675pt>
+File: o4.jpg Graphic file (type jpg)
+ <use o4.jpg>
+Package pdftex.def Info: o4.jpg used on input line 246.
+(pdftex.def)             Requested size: 428.63295pt x 568.8006pt.
+
+Overfull \hbox (10.37927pt too wide) in paragraph at lines 246--248
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<o2.jpg, id=52, 2634.84375pt x 3276.24pt>
+File: o2.jpg Graphic file (type jpg)
+ <use o2.jpg>
+Package pdftex.def Info: o2.jpg used on input line 252.
+(pdftex.def)             Requested size: 395.20952pt x 491.41481pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11] [12 <./o1.jpg>] [13 <./o5.jpg>] [14 <./o3.jpg>] [15 <./o4.jpg>] [16 <./o2.
+jpg>] (./report.aux) ) 
+Here is how much of TeX's memory you used:
+ 26265 strings out of 493029
+ 624407 string characters out of 6136235
+ 784474 words of memory out of 5000000
+ 29282 multiletter control sequences out of 15000+600000
+ 17787 words of font info for 66 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,12n,84p,1270b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on report.pdf (16 pages, 1943437 bytes).
+PDF statistics:
+ 90 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,24 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Design}{3}
+\contentsline {subsection}{\numberline {2.1}Thought process}{3}
+\contentsline {subsection}{\numberline {2.2}Tuning ideas}{3}
+\contentsline {subsection}{\numberline {2.3}Final design}{4}
+\contentsline {section}{\numberline {3}Implementation}{5}
+\contentsline {subsection}{\numberline {3.1}The distribution of Height and Weight}{5}
+\contentsline {subsection}{\numberline {3.2}PER and Height, Weight}{7}
+\contentsline {section}{\numberline {4}User guide}{8}
+\contentsline {subsection}{\numberline {4.1}The distribution of Height and Weight}{8}
+\contentsline {subsubsection}{\numberline {4.1.1}Launching}{8}
+\contentsline {subsubsection}{\numberline {4.1.2}Filtering}{8}
+\contentsline {subsubsection}{\numberline {4.1.3}T-test}{9}
+\contentsline {subsubsection}{\numberline {4.1.4}Exit}{9}
+\contentsline {subsection}{\numberline {4.2}PER and Height, Weight}{9}
+\contentsline {subsubsection}{\numberline {4.2.1}Launching}{9}
+\contentsline {subsubsection}{\numberline {4.2.2}Filtering}{9}
+\contentsline {subsubsection}{\numberline {4.2.3}Exit}{9}
+\contentsline {section}{\numberline {5}Conclusion}{10}
+\contentsline {subsection}{\numberline {5.1}Findings Summarization}{10}
+\contentsline {subsection}{\numberline {5.2}Achievement}{10}
+\contentsline {subsection}{\numberline {5.3}New things I learnt}{10}
+\contentsline {section}{\numberline {6}Appendix}{11}
